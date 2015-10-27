@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.21)  23 OCT 2015 10:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.21)  27 OCT 2015 14:10
 entering extended mode
 **RASD.tex
 (RASD.tex
@@ -197,135 +197,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip43
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathtools\mathtools.sty"
-Package: mathtools 2015/06/17 v1.17 mathematical typesetting tools
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
-Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count102
-\calc@Bcount=\count103
-\calc@Adimen=\dimen117
-\calc@Bdimen=\dimen118
-\calc@Askip=\skip44
-\calc@Bskip=\skip45
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count104
-\calc@Cskip=\skip46
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathtools\mhsetup.sty"
-Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip47
-
-For additional information on amsmath, use the `?' option.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
-Package: amstext 2000/06/29 v2.01
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
-File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks16
-\ex@=\dimen119
-))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
-Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen120
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
-Package: amsopn 1999/12/14 v2.01 operator names
-)
-\inf@bad=\count105
-LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count106
-\leftroot@=\count107
-LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count108
-\DOTSCASE@=\count109
-LaTeX Info: Redefining \ldots on input line 378.
-LaTeX Info: Redefining \dots on input line 381.
-LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box26
-\strutbox@=\box27
-\big@size=\dimen121
-LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count110
-\c@MaxMatrixCols=\count111
-\dotsspace@=\muskip11
-\c@parentequation=\count112
-\dspbrk@lvl=\count113
-\tag@help=\toks17
-\row@=\count114
-\column@=\count115
-\maxfields@=\count116
-\andhelp@=\toks18
-\eqnshift@=\dimen122
-\alignsep@=\dimen123
-\tagshift@=\dimen124
-\tagwidth@=\dimen125
-\totwidth@=\dimen126
-\lineht@=\dimen127
-\@envbody=\toks19
-\multlinegap=\skip48
-\multlinetaggap=\skip49
-\mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2665.
-LaTeX Info: Redefining \] on input line 2666.
-)
-LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
-LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
-LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
-LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count117
-\l_MT_multwidth_dim=\dimen128
-\origjot=\skip50
-\l_MT_shortvdotswithinadjustabove_dim=\dimen129
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen130
-\l_MT_above_intertext_sep=\dimen131
-\l_MT_below_intertext_sep=\dimen132
-\l_MT_above_shortintertext_sep=\dimen133
-\l_MT_below_shortintertext_sep=\dimen134
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithms\algorithm.sty"
-Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
-nment
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count118
-\float@exts=\toks21
-\float@box=\box28
-\@float@everytoks=\toks22
-\@floatcapt=\box29
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-\@float@every@algorithm=\toks23
-\c@algorithm=\count119
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithmicx\algpseudocode.sty"
-Package: algpseudocode 
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithmicx\algorithmicx.sty"
-Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
-
-Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count120
-\c@ALG@rem=\count121
-\c@ALG@nested=\count122
-\ALG@tlm=\skip51
-\ALG@thistlm=\skip52
-\c@ALG@Lnr=\count123
-\c@ALG@blocknr=\count124
-\c@ALG@storecount=\count125
-\c@ALG@tmpcounter=\count126
-\ALG@tmplength=\skip53
-)
-Document Style - pseudocode environments for use with the `algorithmicx' style
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
@@ -334,8 +206,8 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks24
-\inpenc@posthook=\toks25
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latin1.def"
 File: latin1.def 2015/03/17 v1.2c Input encoding file
@@ -349,36 +221,32 @@ Package: babel 2015/08/03 3.9m The Babel package
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\babel-italian\italian.ldf"
-Language: italian 2015/03/26 v1.3n Italian support from the babel system
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
+Language: english 2012/08/20 v3.3p English support from the babel system
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2015/08/03 3.9m Babel common definitions
-\babel@savecnt=\count127
-\U@D=\dimen135
+\babel@savecnt=\count102
+\U@D=\dimen117
 )
-\it@lettering=\count128
-\it@doublequoteactive=\count129
-\it@ISOcompliance=\count130
-))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
-Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count131
-) (RASD.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)) (RASD.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -416,123 +284,124 @@ LaTeX Font Info:    ... okay on input line 44.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count132
-\scratchdimen=\dimen136
-\scratchbox=\box30
-\nofMPsegments=\count133
-\nofMParguments=\count134
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count135
-\MPscratchDim=\dimen137
-\MPnumerator=\count136
-\makeMPintoPDFobject=\count137
-\everyMPtoPDFconversion=\toks27
+\scratchcounter=\count103
+\scratchdimen=\dimen118
+\scratchbox=\box26
+\nofMPsegments=\count104
+\nofMParguments=\count105
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count106
+\MPscratchDim=\dimen119
+\MPnumerator=\count107
+\makeMPintoPDFobject=\count108
+\everyMPtoPDFconversion=\toks19
 )
-\AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring OFF on input line 44.
+\AtBeginShipoutBox=\box27
+Package hyperref Info: Link coloring OFF on input line 35.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count138
+\c@section@level=\count109
 )
-LaTeX Info: Redefining \ref on input line 44.
-LaTeX Info: Redefining \pageref on input line 44.
-LaTeX Info: Redefining \nameref on input line 44.
+LaTeX Info: Redefining \ref on input line 35.
+LaTeX Info: Redefining \pageref on input line 35.
+LaTeX Info: Redefining \nameref on input line 35.
 
 (RASD.out) (RASD.out)
 \@outlinefile=\write3
-LaTeX Info: Redefining \it@ocap on input line 44.
-LaTeX Info: Redefining \it@ccap on input line 44.
- <cpt/img/polimi.jpg, id=83, 225.84375pt x 225.84375pt>
+ <cpt/img/polimi.jpg, id=183, 225.84375pt x 225.84375pt>
 File: cpt/img/polimi.jpg Graphic file (type jpg)
 
 <use cpt/img/polimi.jpg>
-Package pdftex.def Info: cpt/img/polimi.jpg used on input line 61.
+Package pdftex.def Info: cpt/img/polimi.jpg used on input line 52.
 (pdftex.def)             Requested size: 85.35826pt x 85.35973pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 68.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 68.
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 77--80
+Overfull \hbox (12.0pt too wide) in paragraph at lines 68--71
  [] 
  []
 
 
-Overfull \hbox (123.58464pt too wide) in paragraph at lines 85--91
+Overfull \hbox (123.58464pt too wide) in paragraph at lines 76--82
  [] 
  []
 
 [1
 
 {C:/Users/Mattia Crippa/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./c
-pt/img/polimi.jpg>] (RASD.toc)
-\tf@toc=\write4
+pt/img/polimi.jpg>] (RASD.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 3.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.103 \clearpage
-                 [1
+l.27 ...cal Database Requirements}{8}{section.3.4}
+                                                   [1
 
 
-] (RASD.lof)
+])
+\tf@toc=\write4
+ [2] (RASD.lof)
 \tf@lof=\write5
- [2
+ [3
 
 
-] (cpt/Introduction.tex
-Capitolo 1.
-) [3
-
-
-] (cpt/ActorsIdentyfing.tex
-Capitolo 2.
+]
+(cpt/Introduction.tex
+Chapter 1.
 ) [4
 
 
-] (cpt/SpecificRequirements.tex
-Capitolo 3.
+] (cpt/OverallDescription.tex
+Chapter 2.
 ) [5
 
 
-] (cpt/ScenarioIdentifying.tex
-Capitolo 4.
-) [6
+]
+Overfull \vbox (49.5502pt too high) has occurred while \output is active []
 
 
-] (cpt/UMLModels.tex
-Capitolo 5.
+[6] (cpt/SpecificRequirements.tex
+Chapter 3.
 ) [7
 
 
-] (cpt/AlloyModelling.tex
-Capitolo 6.
-) [8
+]
+Overfull \vbox (282.89285pt too high) has occurred while \output is active []
 
 
-] (cpt/UsedTools.tex
-Capitolo 7.
+[8] (cpt/SupportingInformation.tex
+Chapter 4.
 ) [9
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 130.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 130.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
  (RASD.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 130.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 130.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 112.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
 Package rerunfilecheck Info: File `RASD.out' has not changed.
-(rerunfilecheck)             Checksum: 616CEE5DBED7073EA1C585BC143D6FD2;1248.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 130.
+(rerunfilecheck)             Checksum: BACF0B8638C971716A215174D55F52DD;2997.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
  ) 
 Here is how much of TeX's memory you used:
- 8275 strings out of 493673
- 118538 string characters out of 3141503
- 223374 words of memory out of 3000000
- 11456 multiletter control sequences out of 15000+200000
- 15912 words of font info for 40 fonts, out of 3000000 for 9000
+ 6239 strings out of 493673
+ 90399 string characters out of 3141503
+ 184208 words of memory out of 3000000
+ 9455 multiletter control sequences out of 15000+200000
+ 15014 words of font info for 36 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 33i,8n,28p,885b,380s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,8n,28p,246b,416s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Mattia Crippa\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
 \dpi600\ecbx1440.pk> <C:\Users\Mattia Crippa\AppData\Local\MiKTeX\2.9\fonts\pk\
 ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Mattia Crippa\AppData\Local\Mi
@@ -542,9 +411,9 @@ Users\Mattia Crippa\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
 \ecbx2074.pk> <C:\Users\Mattia Crippa\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\
 jknappen\ec\dpi600\ecrm1728.pk> <C:\Users\Mattia Crippa\AppData\Local\MiKTeX\2.
 9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk>
-Output written on RASD.pdf (10 pages, 141644 bytes).
+Output written on RASD.pdf (10 pages, 163901 bytes).
 PDF statistics:
- 447 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
- 166 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 600 PDF objects out of 1000 (max. 8388607)
+ 57 named destinations out of 1000 (max. 500000)
+ 366 words of extra memory for PDF output out of 10000 (max. 10000000)
 
