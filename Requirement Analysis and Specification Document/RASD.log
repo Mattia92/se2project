@@ -1,7 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.21)  27 OCT 2015 14:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.23)  30 OCT 2015 16:18
 entering extended mode
-**RASD.tex
-(RASD.tex
+**"C:/Users/Francesca/Desktop/GITSE2/Requirement Analysis and Specification Doc
+ument/RASD.tex"
+
+("C:/Users/Francesca/Desktop/GITSE2/Requirement Analysis and Specification Docu
+ment/RASD.tex"
 LaTeX2e <2015/01/01> patch level 2
 Babel <3.9m> and hyphenation patterns for 69 languages loaded.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\report.cls"
@@ -312,7 +315,7 @@ LaTeX Info: Redefining \nameref on input line 35.
 
 (RASD.out) (RASD.out)
 \@outlinefile=\write3
- <cpt/img/polimi.jpg, id=183, 225.84375pt x 225.84375pt>
+ <cpt/img/polimi.jpg, id=203, 225.84375pt x 225.84375pt>
 File: cpt/img/polimi.jpg Graphic file (type jpg)
 
 <use cpt/img/polimi.jpg>
@@ -334,8 +337,8 @@ Overfull \hbox (123.58464pt too wide) in paragraph at lines 76--82
 
 [1
 
-{C:/Users/Mattia Crippa/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./c
-pt/img/polimi.jpg>] (RASD.toc
+{C:/Users/Francesca/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./cpt/i
+mg/polimi.jpg>] (RASD.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -344,7 +347,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.27 ...cal Database Requirements}{8}{section.3.4}
+l.28 ...e {3}Specific Requirements}{12}{chapter.3}
                                                    [1
 
 
@@ -358,30 +361,48 @@ l.27 ...cal Database Requirements}{8}{section.3.4}
 ]
 (cpt/Introduction.tex
 Chapter 1.
-) [4
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--13
+
+ []
 
 
-] (cpt/OverallDescription.tex
+Underfull \hbox (badness 10000) in paragraph at lines 7--13
+
+ []
+
+[4
+
+
+]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 17.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 17.
+ [5] [6]
+[7] [8]) [9] (cpt/OverallDescription.tex
 Chapter 2.
-) [5
+) [10
 
 
 ]
 Overfull \vbox (49.5502pt too high) has occurred while \output is active []
 
 
-[6] (cpt/SpecificRequirements.tex
+[11] (cpt/SpecificRequirements.tex
 Chapter 3.
-) [7
+) [12
 
 
 ]
 Overfull \vbox (282.89285pt too high) has occurred while \output is active []
 
 
-[8] (cpt/SupportingInformation.tex
+[13] (cpt/SupportingInformation.tex
 Chapter 4.
-) [9
+) [14
 
 
 ]
@@ -391,29 +412,30 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 112.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
 Package rerunfilecheck Info: File `RASD.out' has not changed.
-(rerunfilecheck)             Checksum: BACF0B8638C971716A215174D55F52DD;2997.
+(rerunfilecheck)             Checksum: 8ECB29B02C72F6C13FDC2E96070D1B67;3352.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
  ) 
 Here is how much of TeX's memory you used:
- 6239 strings out of 493673
- 90399 string characters out of 3141503
- 184208 words of memory out of 3000000
- 9455 multiletter control sequences out of 15000+200000
+ 6272 strings out of 493673
+ 91103 string characters out of 3141517
+ 185208 words of memory out of 3000000
+ 9474 multiletter control sequences out of 15000+200000
  15014 words of font info for 36 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 29i,8n,28p,246b,416s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Mattia Crippa\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
-\dpi600\ecbx1440.pk> <C:\Users\Mattia Crippa\AppData\Local\MiKTeX\2.9\fonts\pk\
-ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Mattia Crippa\AppData\Local\Mi
-KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Mattia Cripp
-a\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\
-Users\Mattia Crippa\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ecbx2074.pk> <C:\Users\Mattia Crippa\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\
-jknappen\ec\dpi600\ecrm1728.pk> <C:\Users\Mattia Crippa\AppData\Local\MiKTeX\2.
-9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk>
-Output written on RASD.pdf (10 pages, 163901 bytes).
+ 29i,8n,28p,1399b,398s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Francesca\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi
+600\ecbx1440.pk> <C:\Users\Francesca\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\j
+knappen\ec\dpi600\ecrm1200.pk> <C:\Users\Francesca\AppData\Local\MiKTeX\2.9\fon
+ts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Francesca\AppData\Local\
+MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\Francesca\
+AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Us
+ers\Francesca\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1
+728.pk> <C:\Users\Francesca\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\e
+c\dpi600\ecbx1728.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb>
+Output written on RASD.pdf (15 pages, 194064 bytes).
 PDF statistics:
- 600 PDF objects out of 1000 (max. 8388607)
- 57 named destinations out of 1000 (max. 500000)
- 366 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 681 PDF objects out of 1000 (max. 8388607)
+ 67 named destinations out of 1000 (max. 500000)
+ 406 words of extra memory for PDF output out of 10000 (max. 10000000)
 
