@@ -1,43 +1,112 @@
 \chapter{Specific Requirements} \label{chap3}
 
-\section{External Interfaces}
+\section{Functional Requirements}
+Functional requirements should define the fundamental actions that must take place in the software in accepting and processing the inputs and in processing and generating the outputs.
 
-\section{Functions}
+\begin{itemize}
+	\item [\textbf{G1}] $\rightarrow$ To allow a visitor to sign up, the system has to:
+	\begin{itemize}
+		\item check that the personal information and email provided by the visitor when filling in the 			registration form does not correspond to any other existing user
+		\item check that the username chosen by the visitor has not been already taken
+		\item provide a sign up functionality including a registration form 
+	\end{itemize}
+	
+	\item [\textbf{G2}] $\rightarrow$ To allow a visitor to login, the system has to:
+	\begin{itemize}
+		\item check if username and password provided by the visitor correspond to an existing user
+		\item provide a login functionality 
+	\end{itemize}
+	
+	\item [\textbf{G3}] $\rightarrow$ To allow a passenger to request a taxi, the system has to:
+	\begin{itemize}
+		\item
+	\end{itemize}
+	
+	\item [\textbf{G4}] $\rightarrow$ To allow a passenger to receive information about the incoming taxi the system has to:
+	\begin{itemize}
+		\item check the position of the taxi driver, calculate the expected waiting time and show this information to the passenger
+	\end{itemize}
+	
+	\item [\textbf{G5}] $\rightarrow$ To allow a passenger to reserve a taxi, the system has to:
+	\begin{itemize}
+		\item provide a reservation functionality
+		\item check if the information provided by the passenger (origin, destination, time) are consistent and complete (locations do exist inside the area in which the service is allocated and the time specified does not exceeds the limit of two hours)
+	\end{itemize}
+	
+	\item [\textbf{G6}] $\rightarrow$ To allow a passenger to share a ride, the system has to:
+	\begin{itemize}
+		\item provide a sharing functionality
+	\end{itemize}
+
+	\item [\textbf{G7}] $\rightarrow$ To allow a passenger to receive receipts after each completed ride, the system has to:
+	\begin{itemize}
+		\item
+	\end{itemize}
+	
+	\item [\textbf{G8}] $\rightarrow$ To allow a taxi driver to signal whether he is available or not, the system has to:
+	\begin{itemize}
+		\item provide an available functionality through with the taxi driver could be put in the taxi queue
+	\end{itemize}
+	
+	\item [\textbf{G9}] $\rightarrow$ To allow a taxi driver to receive incoming requests, the system has to:
+	\begin{itemize}
+		\item
+	\end{itemize}
+	
+	\item [\textbf{G10}] $\rightarrow$ To allow a taxi driver to accept incoming requests, the system has to:
+	\begin{itemize}
+		\item provide an accept/decline functionality through with the taxi driver is able to accept or decline the incoming request
+	\end{itemize}		
+	
+	\item [\textbf{G11}] $\rightarrow$ To allow a taxi driver to visualize information about the optimal route, the system has to:
+	\begin{itemize}
+		\item check the position of the passenger, check the destination, calculate the optimal route between the origin and the destination and show this information to the taxi driver
+	\end{itemize}
+	
+	\item [\textbf{G12}] $\rightarrow$ To allow a developer to access a specific interface of the system, the system has to:
+	\begin{itemize}
+		\item
+	\end{itemize}
+
+	\item [\textbf{G13}] $\rightarrow$ To allow a developer to add new features, the system has to:
+	\begin{itemize}
+		\item
+	\end{itemize}
+\end{itemize}
+
+\section{External Interfaces}
+\textit{\textbf{Hardware Interface:}}\\
+Device should be enabled with Internet and GPS receiver.\\
+\textit{\textbf{Software interface:}}\\
+The user's browser should be HTML5 compatible and the resolution should be at least 1280x720 for a satisfactory user experience.\\
+\\
+Here are presented some mockup that represent an idea of the structure of the application pages:
 
 \section{Performance Requirements}
-
-\section{Logical Database Requirements}
-
-\section{Design Constraints}
-
-\subsection{Standards Compliance}
+The system must be interactive and the delays involved must be less. So in every action-response of the system, there are no immediate delays. We assume the response time of the system is close to zero, so the performance are essentially bounded by users internet connection.
 
 \section{Software System Attributes}
 
 \subsection{Reliability}
 
 \subsection{Availability}
+If the internet service gets disrupted while sending information to the server, the information can be send again for verification.
 
 \subsection{Security}
+The main security concern is for users account hence proper login mechanism should be used to avoid hacking. Information transmission should be securely transmitted without any changes in information.
 
-\subsection{Maintainability}
+\subsection{Usability}
+As the system is easy to handle and navigates in the most expected way with no delays. In that case the system program reacts accordingly and transverses quickly between its states.
 
-\subsection{Portability}
+\section{Scenarios Identification}
+Here are some possible scenarios for the application:
+\begin{enumerate}
+	\item Visitor V wants to sign up into the system 
+	\item Passenger A requires ride R and first taxi driver D of the queue accepts
+	\item Passenger A reserves ride R at time T. The first taxi driver D1 of the queue refuses the request but second taxi driver D2 of the queue accepts
+	\item Passenger A1 requires ride R enabling sharing option and another passenger A2 willing to share a ride is added by the system to the same ride R. The first taxi driver D of the queue accepts the ride.
+	\item After a ride, a passenger wants to see the receipt
+	\item Passenger A1 requires a ride R and the queue is empty. The system starts exploring the queues of all the 8 adjacent zones starting from the one positioned right above and proceeding clockwise. The first taxi driver D of the first explored zone, accepts the request.
+\end{enumerate}
 
-\section{Organizing the Specific Requirements}
-
-\subsection{System mode}
-
-\subsection{User class}
-
-\subsection{Objects}
-
-\subsection{Feature}
-
-\subsection{Stimulus}
-
-\subsection{Response}
-
-\subsection{Functional Hierarchy}
-
-\section{Additional Comments}
+\section{UML Models}
