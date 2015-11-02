@@ -1,28 +1,12 @@
 \chapter{Overall Description} \label{chap2}
 
-\section{Product Perspective}
-
-\subsection{System Interfaces}
-
-\subsection{User Interfaces}
-
-\subsection{Hardware Interfaces}
-
-\subsection{Software Interfaces}
-
-\subsection{Communications Interfaces}
-
-\subsection{Memory}
-
-\subsection{Operations}
-
-\subsection{Site Adaptation Requirements}
-
-\section{Product Functions}
-
-\section{User Characteristics}
-
 \section{Constraints}
+\subsection{Regulatory Policies}
+The system should only collects and process raw location information for the scopes related to the specific service provided (creating routes, monitor the distribution of the taxicabs, estimate arriving times, calculating fees). All the personal information should be automatically managed by the system and not shown to any developer or system administrator. All data about location should be aggregated by the system only for statistical purposes. 
+Any other relevant data needed for the optimal behavior of the entire system should be collected, used and managed automatically by the system itself according to all the existing privacy laws and regulations.  
+
+\subsection{Hardware Limitations}
+The application should be able to receive data from the GPS receiver using its specific communication protocol via Bluetooth interface. 
 
 \section{Assumptions and Dependencies} \label{assump}
 \begin{itemize}
@@ -32,5 +16,3 @@
 	\item \textbf{A4}: We assume that the taxi driver will correctly follow the optimal route suggested by the system.
 \end{itemize}
 
-
-\section{Apportioning of Requirements}
