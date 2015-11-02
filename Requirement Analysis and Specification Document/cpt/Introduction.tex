@@ -14,12 +14,12 @@ A user can enable the taxi sharing option. This means that he/she is ready to sh
 \section{Domain Properties}
 \noindent We suppose that the following properties hold in the analyzed domain:
 \begin{itemize}
-	\item Accurate taxicabs positions are known by the GPS
-	\item Taxi drivers correctly signal their availability
-	\item If a passenger requests or reserves a taxi, he will then take the ride from the specified origin to the specified destination
-	\item A passenger doesn't change the origin or the destination of a ride after the reservation
-	\item If a taxi driver confirms a ride, then he will reach the passenger location on time according to the reservation hour or the waiting time calculated by the system
-	\item If a taxi driver confirms a ride, he will complete it
+	\item [\textbf{D01}] : Accurate taxicabs positions are known by the GPS
+	\item [\textbf{D02}] : Taxi drivers correctly signal their availability
+	\item [\textbf{D03}] : If a passenger requests or reserves a taxi, he will then take the ride from the specified origin to the specified destination
+	\item [\textbf{D04}] : A passenger doesn't change the origin or the destination of a ride after the reservation
+	\item [\textbf{D05}] : If a taxi driver confirms a ride, then he will reach the passenger location on time according to the reservation hour or the waiting time calculated by the system
+	\item [\textbf{D06}] : If a taxi driver confirms a ride, he will complete it
 \end{itemize}
 
 \section{Proposed System}
@@ -37,30 +37,30 @@ The actors of our system are:
 \section{Goals}
 \noindent \textbf{Visitors} should be able to:
 \begin{itemize}
-	\item Sign up
-	\item Log in
+	\item [\textbf{G01}] : Sign up
+	\item [\textbf{G02}] : Log in
 \end{itemize}
 
 \noindent \textbf{Passengers} should be able to:
 \begin{itemize}
-	\item Request a taxi
-	\item Receive information about the incoming taxi (confirmation, taxi code, waiting time)
-	\item Reserve a taxi
-	\item Share the ride
-	\item Receive receipts after each completed ride
+	\item [\textbf{G03}] : Request a taxi
+	\item [\textbf{G04}] : Receive information about the incoming taxi (confirmation, taxi code, waiting time)
+	\item [\textbf{G05}] : Reserve a taxi
+	\item [\textbf{G06}] : Share the ride
+	\item [\textbf{G07}] : Receive receipts after each completed ride
 \end{itemize}
 
 \noindent \textbf{Taxi drivers} should be able to:
 \begin{itemize}
-	\item Signal whether they are available or not
-	\item Receive incoming requests
-	\item Accept or decline incoming requests
-	\item Visualize information about the optimal route
+	\item [\textbf{G08}] : Signal whether they are available or not
+	\item [\textbf{G09}] : Receive incoming requests
+	\item [\textbf{G10}] : Accept or decline incoming requests
+	\item [\textbf{G11}] : Visualize information about the optimal route
 \end{itemize}
 
 \noindent \textbf{Developers} should be able to:
 \begin{itemize}
-	\item Access a specific interface of the system to add new features
+	\item [\textbf{G12}] : Access a specific interface of the system to add new features
 \end{itemize}
 
 \section{Stakeholders Identification}
