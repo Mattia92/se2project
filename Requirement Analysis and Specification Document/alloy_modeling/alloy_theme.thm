@@ -11,7 +11,7 @@
    <type name="AvailableTaxiDriver"/>
    <type name="BusyTaxiDriver"/>
    <type name="Int"/>
-   <type name="Ride"/>
+   <type name="PassengerOnRide"/>
    <type name="String"/>
    <type name="TaxiDriver"/>
    <type name="univ"/>
@@ -20,6 +20,10 @@
 
 <node color="Red">
    <type name="Passenger"/>
+</node>
+
+<node shape="Ellipse" color="Green">
+   <type name="Ride"/>
 </node>
 
 <node shape="Parallelogram" color="Blue">
