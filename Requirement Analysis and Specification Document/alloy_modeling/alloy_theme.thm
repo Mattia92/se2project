@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<alloy>
+
+<view>
+
+<defaultnode/>
+
+<defaultedge/>
+
+<node>
+   <type name="AvailableTaxiDriver"/>
+   <type name="BusyTaxiDriver"/>
+   <type name="Int"/>
+   <type name="PassengerOnRide"/>
+   <type name="String"/>
+   <type name="TaxiDriver"/>
+   <type name="univ"/>
+   <type name="seq/Int"/>
+</node>
+
+<node color="Red">
+   <type name="Passenger"/>
+</node>
+
+<node shape="Ellipse" color="Green">
+   <type name="Ride"/>
+</node>
+
+<node shape="Parallelogram" color="Blue">
+   <type name="Queue"/>
+</node>
+
+</view>
+
+</alloy>
