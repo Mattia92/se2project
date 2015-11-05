@@ -4,109 +4,135 @@
 Functional requirements should define the fundamental actions that must take place in the software in accepting and processing the inputs and in processing and generating the outputs.
 
 \begin{itemize}
-	\item [\textbf{G1}] $\rightarrow$ To allow a visitor to sign up, the system has to:
+	\item [\textbf{G01}] $\rightarrow$ To allow a visitor to sign up, the system shall provide functionalities to:
 	\begin{itemize}
-		\item check that the personal information and email provided by the visitor when filling in the 			registration form does not correspond to any other existing user
-		\item check that the username chosen by the visitor has not been already taken
-		\item provide a sign up functionality including a registration form 
+		\item [\textbf{R01}] Check the validity and correctness of the information provided by the visitor (personal information, password, payment information)
+		\item [\textbf{R02}] Check if the user is already registered into the system 
 	\end{itemize}
 	
-	\item [\textbf{G2}] $\rightarrow$ To allow a visitor to login, the system has to:
+	\item [\textbf{G02}] $\rightarrow$ To allow a visitor to login, the system shall provide functionalities to:
 	\begin{itemize}
-		\item check if username and password provided by the visitor correspond to an existing user
-		\item provide a login functionality 
+		\item [\textbf{R03}] Check if username and password provided by the visitor correspond to an existing user, authorized to use the system
+		\item [\textbf{R04}] Prevent unauthorized or banned users from accessing the system 
 	\end{itemize}
 	
-	\item [\textbf{G3}] $\rightarrow$ To allow a passenger to request a taxi, the system has to:
+	\item [\textbf{G03}] \& [\textbf{G04}] $\rightarrow$ To allow a passenger to request and to reserve a taxi, the system shall provide functionalities to:
 	\begin{itemize}
-		\item
+		\item [\textbf{R05}] Obtain the passenger location
+		\item [\textbf{R06}] Access the queue associated to the right taxi zone
+		\item [\textbf{R07}] Check the availability of the taxi drivers
+		\item [\textbf{R08}] Iteratively contact all the taxi drivers of the queue starting from the first one until one of them accepts the call
+		\item [\textbf{R09}] Iteratively search for an available taxi driver inside adjacent zones in the case that the right zone has an empty queue or all the contacted taxi drivers had declined the request
 	\end{itemize}
 	
-	\item [\textbf{G4}] $\rightarrow$ To allow a passenger to receive information about the incoming taxi the system has to:
+	\item [\textbf{G05}] $\rightarrow$ To allow a passenger to receive information about the incoming taxi the system shall provide functionalities to:
 	\begin{itemize}
-		\item check the position of the taxi driver, calculate the expected waiting time and show this information to the passenger
+		\item [\textbf{R10}] Obtain the taxi driver position and the passenger position and estimate the time needed by the taxi driver to reach the passenger
+		\item [\textbf{R11}] Obtain the taxicab unique identifier from the taxi drivers database
 	\end{itemize}
 	
-	\item [\textbf{G5}] $\rightarrow$ To allow a passenger to reserve a taxi, the system has to:
+	\item [\textbf{G06}] $\rightarrow$ To allow a passenger to share a ride, the system shall provide functionalities to:
 	\begin{itemize}
-		\item provide a reservation functionality
-		\item check if the information provided by the passenger (origin, destination, time) are consistent and complete (locations do exist inside the area in which the service is allocated and the time specified does not exceeds the limit of two hours)
-	\end{itemize}
-	
-	\item [\textbf{G6}] $\rightarrow$ To allow a passenger to share a ride, the system has to:
-	\begin{itemize}
-		\item provide a sharing functionality
+		\item [\textbf{R12}] Check for each request or reservation if the passenger had selected the sharing function
+		\item [\textbf{R13}] Compare routes that start from the same taxi zone and determine whether or not they can be merged into one, according to specific rules of comparison
+		\item [\textbf{R14}] Calculate the correct distribution of the fee according to specific rules based on the percentage of the kilometers shared with others or traveled alone
+		\item [\textbf{R15}] Elaborate an optimal route for taking every passenger to the right destination and show it to the taxi driver
 	\end{itemize}
 
-	\item [\textbf{G7}] $\rightarrow$ To allow a passenger to receive receipts after each completed ride, the system has to:
+	\item [\textbf{G07}] $\rightarrow$ To allow a passenger to receive receipts after each completed ride, the system shall provide functionalities to:
 	\begin{itemize}
-		\item
+		\item [\textbf{R16}] Keep track of the actual route followed by the taxi driver and keep track of the actual duration of the ride
 	\end{itemize}
 	
-	\item [\textbf{G8}] $\rightarrow$ To allow a taxi driver to signal whether he is available or not, the system has to:
+	\item [\textbf{G08}] \& [\textbf{G10}] $\rightarrow$ To allow a taxi driver to signal whether he is available or not, and to accept/decline an incoming request, the system shall provide functionalities to:
 	\begin{itemize}
-		\item provide an available functionality through with the taxi driver could be put in the taxi queue
+		\item [\textbf{R17}] Monitor and collect inputs from taxi drivers
 	\end{itemize}
 	
-	\item [\textbf{G9}] $\rightarrow$ To allow a taxi driver to receive incoming requests, the system has to:
+	\item [\textbf{G09}] $\rightarrow$ To allow a taxi driver to receive incoming requests, the system shall provide functionalities to:
 	\begin{itemize}
-		\item
-	\end{itemize}
-	
-	\item [\textbf{G10}] $\rightarrow$ To allow a taxi driver to accept incoming requests, the system has to:
-	\begin{itemize}
-		\item provide an accept/decline functionality through with the taxi driver is able to accept or decline the incoming request
+		\item [\textbf{R18}] Contact taxi drivers and forward them all the information about the proposed request (position of the passenger, destination of the passenger, sharing option enabled or not)
 	\end{itemize}		
 	
-	\item [\textbf{G11}] $\rightarrow$ To allow a taxi driver to visualize information about the optimal route, the system has to:
+	\item [\textbf{G11}] $\rightarrow$ To allow a taxi driver to visualize information about the optimal route for the ongoing ride, the system shall provide functionalities to:
 	\begin{itemize}
-		\item check the position of the passenger, check the destination, calculate the optimal route between the origin and the destination and show this information to the taxi driver
+		\item [\textbf{R19}] Retrieve the taxi location and the locations of all the passengers of the ride
+		\item [\textbf{R20}] Access and query the map provider service to obtain an updated map with information about traffic, smashes, road construction sites
 	\end{itemize}
 	
-	\item [\textbf{G12}] $\rightarrow$ To allow a developer to access a specific interface of the system, the system has to:
+	\item [\textbf{G12}] $\rightarrow$ To allow a developer to add new features, the system shall provide functionalities to:
 	\begin{itemize}
-		\item
-	\end{itemize}
-
-	\item [\textbf{G13}] $\rightarrow$ To allow a developer to add new features, the system has to:
-	\begin{itemize}
-		\item
+		\item [\textbf{R21}] 
 	\end{itemize}
 \end{itemize}
 
-\section{External Interfaces}
+\section{Non Functional Requirements}
+
+\subsection{External Interfaces}
 \textit{\textbf{Hardware Interface:}}\\
 Device should be enabled with Internet and GPS receiver.\\
 \textit{\textbf{Software interface:}}\\
 The user's browser should be HTML5 compatible and the resolution should be at least 1280x720 for a satisfactory user experience.\\
-\\
-Here are presented some mockup that represent an idea of the structure of the application pages:
 
-\section{Performance Requirements}
-The system must be interactive and the delays involved must be less. So in every action-response of the system, there are no immediate delays. We assume the response time of the system is close to zero, so the performance are essentially bounded by users internet connection.
+\subsection{User Interfaces}
+Here are presented some mockups that represent an idea of the structure of the application pages:
 
-\section{Software System Attributes}
+\subsubsection{Login}
+The mockup in Figure \ref{fig:login} shows the Login Page of MyTaxiService. Here users can log in to the application.
 
-\subsection{Reliability}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{cpt/img/Login}
+\caption{Login Page mockup}
+\label{fig:login}
+\end{figure}
 
-\subsection{Availability}
-If the internet service gets disrupted while sending information to the server, the information can be send again for verification.
+\subsubsection{Registration Form}
+The mockup in Figure \ref{fig:regform} shows the Registration Form Page that visitors can access.
 
-\subsection{Security}
-The main security concern is for users account hence proper login mechanism should be used to avoid hacking. Information transmission should be securely transmitted without any changes in information.
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{cpt/img/RegForm}
+\caption{Registration Form mockup}
+\label{fig:regform}
+\end{figure}
 
-\subsection{Usability}
-As the system is easy to handle and navigates in the most expected way with no delays. In that case the system program reacts accordingly and transverses quickly between its states.
+\subsubsection{Passenger Home Page}
+The mockup in Figure \ref{fig:passhome} shows the Home Page for a Passenger user.
 
-\section{Scenarios Identification}
-Here are some possible scenarios for the application:
-\begin{enumerate}
-	\item Visitor V wants to sign up into the system 
-	\item Passenger A requires ride R and first taxi driver D of the queue accepts
-	\item Passenger A reserves ride R at time T. The first taxi driver D1 of the queue refuses the request but second taxi driver D2 of the queue accepts
-	\item Passenger A1 requires ride R enabling sharing option and another passenger A2 willing to share a ride is added by the system to the same ride R. The first taxi driver D of the queue accepts the ride.
-	\item After a ride, a passenger wants to see the receipt
-	\item Passenger A1 requires a ride R and the queue is empty. The system starts exploring the queues of all the 8 adjacent zones starting from the one positioned right above and proceeding clockwise. The first taxi driver D of the first explored zone, accepts the request.
-\end{enumerate}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{cpt/img/PassHome}
+\caption{Passenger Home Page mockup}
+\label{fig:passhome}
+\end{figure}
 
-\section{UML Models}
+\subsubsection{Passenger Request Page and Reservation Page}
+The mockups in Figure \ref{fig:reqres} shows the Request and the Reservation Pages for a Passenger.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{cpt/img/PassReqRes}
+\caption{Passenger Request Page \& Reservation Page mockups}
+\label{fig:reqres}
+\end{figure}
+
+\subsubsection{Taxi Driver Home Page}
+The mockup in Figure \ref{fig:drivhome} shows the Home Page for a Taxi Driver user.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{cpt/img/DriverHome}
+\caption{Taxi Driver Home Page mockup}
+\label{fig:drivhome}
+\end{figure}
+
+\subsubsection{Taxi Driver Accepted Call Page}
+The mockup in Figure \ref{fig:accpage} shows the Page for a Taxi Driver user that accepts a call.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{cpt/img/AccPage}
+\caption{Taxi Driver Accepted Call Page mockup}
+\label{fig:accpage}
+\end{figure}

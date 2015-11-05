@@ -4,12 +4,8 @@
 This document represent the \textit{Requirement Analysis and Specification Document} (RASD). The main goal of this document is to completely describe the system in terms of functional and non functional requirements, analyze the real need of the customer to modeling the system, show the constraints and the limits of the software and simulate the typical use cases that will occur after the development. This document is intended to all developers and programmers who have to implement the requirements, to system analysts who want to integrate other systems with this one, and could be used as a contractual basis between the customer and the developer.
 
 \section{Scope}
-The aim of the project is to optimize a taxi service in order to simplify the access of passengers to the service and guarantee a fair management of taxi queues. Passengers can request a taxi either through a web application or a mobile app. The system answers to the request by informing the passenger about the code of the incoming taxi and the waiting time. Taxi drivers use a mobile application to inform the system about their availability and to confirm that they are going to take care of a certain call. The system guarantees a fair management of taxi queues. In particular, the city is divided in taxi zones (approximately 2 km\textsuperscript{2} each). Each zone is associated to a queue of taxis. The system automatically computes the distribution of taxis in the various zones based on the GPS information it receives from each taxi. When a taxi is available, its identifier is stored in the queue of taxis in the corresponding zone. When a request arrives from a certain zone, the system forwards it to the first taxi queuing in that zone. If the taxi confirms, then the system will send a confirmation to the passenger. If not, then the system will forward the request to the second in the queue and will, at the same time, move the first taxi in the last position in the queue.
-Besides the specific user interfaces for passengers and taxi drivers, the system offers also programmatic interfaces to enable the development of additional services (e.g. taxi sharing) on top of the basic one.
-\\ \\
-A user can reserve a taxi by specifying the origin and the destination of the ride. The reservation has to occur at least two hours before the ride. In this case, the system confirms the reservation to the user and allocates a taxi to the request 10 minutes before the meeting time with the user.
-\\ \\
-A user can enable the taxi sharing option. This means that he/she is ready to share a taxi with others if possible, thus sharing the cost of the ride. In this case the user is required to specify the destination of all rides which he/she wants to share with others. If others are willing to start a shared ride from the same zone going in the same direction, then the system arranges the route for the taxi driver, defines the fee for all people sharing the taxi and informs the passengers and the taxi driver.
+The aim of the project is to optimize the taxi service of a city using modern techniques and technologies to better manage the distribution and the availability of the taxicabs, to shorten the waiting time for passengers and to reduce costs for passengers and traffic in the entire city using taxi sharing. 
+The system is implemented as a mobile application associated to an external, high precision GPS receiver for the taxi drivers and as a mobile application or a web interface for the passengers.
 
 \section{Domain Properties}
 \noindent We suppose that the following properties hold in the analyzed domain:
@@ -25,29 +21,20 @@ A user can enable the taxi sharing option. This means that he/she is ready to sh
 \section{Proposed System}
 The system will be composed by a server running all the business logic, generating dynamic web pages and managing all the accesses to the data sources, and by a number of clients implemented as mobile application deployed on Android or a web application using the JEE platform. GPS raw data will be provided by a specific GPS receiver, installed in every taxicab and provided by a specialized company.
 
-\section{Actors}
-The actors of our system are:
-\begin{itemize}
-	\item \textbf{\textit{Visitor}}: unregistered user that access the application interface in order to sign up or Log In as passenger, taxi driver or developer and start interacting with the system.
-	\item \textbf{\textit{Passenger}}: this user, after successful Log In, depending on his/her needs, access the request interface or the reservation interface. He/she has also access to an information page about all his/her accepted reservations or requests and has access to a page with the chronology of his/her receipts.
-	\item \textbf{\textit{Taxi driver}}: this user, after successful Log In, is enabled to receive reservations or requests from passengers and can decide whether to accept them or not. He/she can access at any time after the acceptance a summary page about the specific ride. This user is also able to signal at any moment his/her availability to accept new reservations or requests.
-	\item \textbf{\textit{Developer}}: this user, after successful Log In, can access a specific interface through which he/she can introduce modifications to the system or access privileged information about the system for maintenance scopes.
-\end{itemize}
-
 \section{Goals}
 \noindent \textbf{Visitors} should be able to:
 \begin{itemize}
-	\item [\textbf{G01}] : Sign up
-	\item [\textbf{G02}] : Log in
+	\item [\textbf{G01}] : Sign up 
+	\item [\textbf{G02}] : Log in\\
 \end{itemize}
 
 \noindent \textbf{Passengers} should be able to:
 \begin{itemize}
 	\item [\textbf{G03}] : Request a taxi
-	\item [\textbf{G04}] : Receive information about the incoming taxi (confirmation, taxi code, waiting time)
-	\item [\textbf{G05}] : Reserve a taxi
+	\item [\textbf{G04}] : Reserve a taxi
+	\item [\textbf{G05}] : Receive information about the incoming taxi (confirmation, taxi ID, waiting time)
 	\item [\textbf{G06}] : Share the ride
-	\item [\textbf{G07}] : Receive receipts after each completed ride
+	\item [\textbf{G07}] : Receive receipts after each completed ride\\
 \end{itemize}
 
 \noindent \textbf{Taxi drivers} should be able to:
@@ -55,13 +42,20 @@ The actors of our system are:
 	\item [\textbf{G08}] : Signal whether they are available or not
 	\item [\textbf{G09}] : Receive incoming requests
 	\item [\textbf{G10}] : Accept or decline incoming requests
-	\item [\textbf{G11}] : Visualize information about the optimal route
+	\item [\textbf{G11}] : Visualize information about the optimal route\\
 \end{itemize}
 
 \noindent \textbf{Developers} should be able to:
 \begin{itemize}
-	\item [\textbf{G12}] : Access a specific interface of the system 
-	\item [\textbf{G13}] : Add new features to the system
+	\item [\textbf{G12}] : Add new features
+\end{itemize}
+
+\section{Assumptions} \label{assump}
+\begin{itemize}
+	\item [\textbf{A01}]: Given the collected data about the distribution and the total number of the taxicabs, we assume that the coverage of the taxicabs among the zones is almost uniform; therefore the probability of having an empty queue is reasonably low.
+	\item [\textbf{A02}]: Given the collected data about the acceptance rate of the taxi drivers, we assume that the probability of reaching the end of the queue without any acceptance is reasonably low.
+	\item [\textbf{A03}]: We assume that the maximum number of people sharing the same ride is 3.
+	\item [\textbf{A04}]: We assume that the taxi driver will correctly follow the optimal route suggested by the system.
 \end{itemize}
 
 \section{Stakeholders Identification}
@@ -92,8 +86,11 @@ The actors of our system are:
 \section{Overview}
 This document is essentially structured in eight parts:
 \begin{itemize}
-	\item \textbf{Section \ref{chap1}} $\rightarrow$ Introduction: it gives a description of document and gives general information about the software product.
-	\item \textbf{Section \ref{chap2}} $\rightarrow$ Overall Description: it gives a description of the software product with more focus about constraints and assumptions.
-	\item \textbf{Section \ref{chap3}} $\rightarrow$ Specific Requirements: this part lists all the functional and non functional requirements that are part of the system, typical scenarios and use cases. To give an easy way to understand all functionality of this software, this section is filled with UML diagrams.
-	\item \textbf{Section \ref{chap4}} $\rightarrow$ Supporting Information: this part contains some information about the attached .als file and some described screen-shot of software used to generate it.
+	\item \textbf{Section \ref{chap1}} $\rightarrow$ Introduction: it gives a description of document and gives general information about the software product with more focus about constraints and assumptions.
+	\item \textbf{Section \ref{chap2}} $\rightarrow$ Actors Identification: it gives a description of all actors of the system.
+	\item \textbf{Section \ref{chap3}} $\rightarrow$ Specific Requirements: this part lists all the functional and non functional requirements that are part of the system.
+	\item \textbf{Section \ref{chap4}} $\rightarrow$ Scenarios Identification: it gives a description of typical scenarios.
+	\item \textbf{Section \ref{chap5}} $\rightarrow$ UML Models: to give an easy way to understand all functionality of this software, this section is filled with UML diagrams and it contains also some use cases.
+	\item \textbf{Section \ref{chap6}} $\rightarrow$ Alloy Modeling: this part contains the code used for the analysis of consistency of the Class Diagram and words generated by Alloy Analyzer in order to understand that the model is consistent.
+	\item \textbf{Section \ref{chap7}} $\rightarrow$ Used Tools: this part contains some information about the software used to realize this document.
 \end{itemize}
