@@ -52,7 +52,7 @@ sig Request_Reservation {
 	associatedQueue : one Queue
 }
 
-//ride.origin in ride.passenger.lastCall.associatedQueue.associatedArea.locations
+
 /*************** CONSTRAINTS ***************/
 
 // ensures that no taxi driver is the subsequent of himself inside a queue
@@ -154,8 +154,6 @@ assert OriginsAndDestinationsAreConsistent {
 }
 check OriginsAndDestinationsAreConsistent
 
-//
-
 
 /*************** PREDICATES ***************/
 pred show() {
@@ -166,6 +164,7 @@ pred show() {
 }
 
 run show for 6
+
 
 pred showRides() {
 	#Passenger>1 &&
