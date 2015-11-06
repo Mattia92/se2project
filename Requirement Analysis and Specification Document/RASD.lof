@@ -20,4 +20,6 @@
 \contentsline {figure}{\numberline {5.7}{\ignorespaces State Chart Diagram for Passengers}}{43}{figure.5.7}
 \contentsline {figure}{\numberline {5.8}{\ignorespaces State Chart Diagram for Taxi Drivers}}{44}{figure.5.8}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces World generated from the execution of predicate show()}}{49}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces World generated from the execution of predicate showRides()}}{50}{figure.6.2}
 \addvspace {10\p@ }

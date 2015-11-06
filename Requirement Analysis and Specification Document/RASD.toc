@@ -55,7 +55,7 @@
 \contentsline {subsubsection}{State Chart Diagram for Taxi Drivers}{44}{section*.27}
 \contentsline {chapter}{\numberline {6}Alloy Modeling}{45}{chapter.6}
 \contentsline {section}{\numberline {6.1}Alloy Code}{45}{section.6.1}
-\contentsline {section}{\numberline {6.2}World generated}{48}{section.6.2}
-\contentsline {chapter}{\numberline {7}Other Information}{49}{chapter.7}
-\contentsline {section}{\numberline {7.1}Used Tools}{49}{section.7.1}
-\contentsline {section}{\numberline {7.2}Working Hours}{49}{section.7.2}
+\contentsline {section}{\numberline {6.2}Worlds generated}{48}{section.6.2}
+\contentsline {chapter}{\numberline {7}Other Information}{51}{chapter.7}
+\contentsline {section}{\numberline {7.1}Used Tools}{51}{section.7.1}
+\contentsline {section}{\numberline {7.2}Working Hours}{51}{section.7.2}
