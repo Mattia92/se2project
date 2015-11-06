@@ -2,7 +2,7 @@
 
 sig Queue { 
 	first: one AvailableTaxiDriver,
-	cityArea : one Location 
+	associatedArea : one TaxiArea 
 }
 
 abstract sig TaxiDriver {}
@@ -15,22 +15,33 @@ sig BusyTaxiDriver extends TaxiDriver {}
 
 sig Passenger {} 
 
-sig Ride {
+abstract sig Ride {
 	driver : one BusyTaxiDriver,
-	passenger : some Passenger,
 	origin : one Location,
-	destination : one Location
-
+	passengers : some Passenger,
+	destinations : some Location
 } {
-	#passenger < 4 && 
-	#passenger > 1 &&
-	origin != destination // <------- Be careful!
+	origin not in destinations
+}
+
+sig SharedRide extends Ride {
+} {
+	#passengers < 4 &&
+	#passengers > 1 &&
+	#passengers = #destinations
+}
+
+sig SingleRide extends Ride {
+}{
+	#passengers = 1 &&
+	#destinations = 1
 }
 
 sig Location {}
-	
 
-	
+sig TaxiArea {
+	locations : some Location
+}
 
 /*************** CONSTRAINTS ***************/
 
@@ -54,8 +65,26 @@ fact AllBusyTaxiDriverAreInARide {
 
 // ensures that all passengers in a ride are in only one ride
 fact OnlyOneRidePerTimePerPassenger {
-	all disj r1, r2:Ride | disj[r1.passenger, r2.passenger]
+	all disj r1, r2:Ride | disj[r1.passengers, r2.passengers]
 }
+
+// ensures that every area has an associated queue
+fact OneQueuePerLocationandViceversa {
+	all disj q1, q2 : Queue | q1.associatedArea != q2.associatedArea
+}
+
+//ensures that every area contains different locations and a location is inside only one area
+fact DisjointAreasContainsDifferentLocations {
+	all disj a1, a2 : TaxiArea | disj[a1.locations, a2.locations]
+}
+
+// ensures that exists one and only one queue for every taxi area
+fact OneQueuePerArea {
+	all a:TaxiArea | one q: Queue | a = q.associatedArea
+	all disj q1, q2 : Queue | q1.associatedArea != q2.associatedArea
+}
+
+
 
 /*************** ASSERTIONS ***************/
 
@@ -67,24 +96,45 @@ check UniqueQueuePerTaxiDriver
 
 // check that every busy taxi driver is making only one ride
 assert OnlyOneRidePerTaxiDriver {
-	no disj r1, r2 : Ride | r1.driver != r2.driver
+	no disj r1, r2 : Ride | r1.driver = r2.driver
 }
 check OnlyOneRidePerTaxiDriver
 
 // check that every passenger in a ride is in only one ride
 assert OnlyOneRidePerPassenger {
-	no disj r1, r2 : Ride | not disj[r1.passenger, r2.passenger]
+	no disj r1, r2 : Ride | not disj[r1.passengers, r2.passengers]
 }
 check OnlyOneRidePerPassenger
 
+// check that an area corresponds to only one queue
+assert OneAreaPerQueue {
+	no disj q1,q2 : Queue | q1.associatedArea = q2.associatedArea
+}
+check OneAreaPerQueue
+
+// check that disjoint areas involves different locations
+assert OneAreaPerLocation {
+	no disj a1,a2 : TaxiArea | not disj[a1.locations, a2.locations]
+}
+check OneAreaPerLocation
+
+//check the corrispondency between taxi areas and queues
+assert OneQueuePerArea {
+	no a:TaxiArea | all q : Queue | a != q.associatedArea
+}
+check OneQueuePerArea
 
 /*************** PREDICATES ***************/
-pred show() {}
+pred show() {
+	#Queue > 1 &&
+	#Ride > 1
+}
 
 run show for 7
 
 pred showRides() {
-	#Passenger>4
+	#Passenger>1
+
 }
 
-run showRides for 7 but exactly 2 Ride
+run showRides for 9 but exactly 2 SharedRide, exactly 2 SingleRide
