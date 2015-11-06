@@ -13,28 +13,31 @@ sig AvailableTaxiDriver extends TaxiDriver {
 
 sig BusyTaxiDriver extends TaxiDriver {}
 
-sig Passenger {} 
+sig Passenger {
+} 
 
 abstract sig Ride {
 	driver : one BusyTaxiDriver,
-	origin : one Location,
+	origins : some Location,
 	passengers : some Passenger,
 	destinations : some Location
 } {
-	origin not in destinations
+	origins not in destinations
 }
 
 sig SharedRide extends Ride {
 } {
 	#passengers < 4 &&
 	#passengers > 1 &&
-	#passengers = #destinations
+	#passengers = #destinations &&
+	#passengers = #origins
 }
 
 sig SingleRide extends Ride {
 }{
 	#passengers = 1 &&
-	#destinations = 1
+	#destinations = 1 &&
+	#origins = 1
 }
 
 sig Location {}
@@ -44,9 +47,12 @@ sig TaxiArea {
 }
 
 sig Request_Reservation {
-	req : Passenger -> one Queue
+	requester : one Passenger,
+	requesterArea : one TaxiArea,	
+	associatedQueue : one Queue
 }
 
+//ride.origin in ride.passenger.lastCall.associatedQueue.associatedArea.locations
 /*************** CONSTRAINTS ***************/
 
 // ensures that no taxi driver is the subsequent of himself inside a queue
@@ -88,6 +94,20 @@ fact OneQueuePerArea {
 	all disj q1, q2 : Queue | q1.associatedArea != q2.associatedArea
 }
 
+// ensures that in a shared ride all origins belong to the same area and all destinations belong to the same area
+fact OriginAndDestinationConsistency {
+	all r: SharedRide | one a: TaxiArea | r.origins in a.locations
+	all r: SharedRide | one a: TaxiArea | r.destinations in a.locations
+}
+// ensures that every passenger is associated to at most one active request or reservation
+fact AtMostOneRequest_ReservationPerPassenger {
+	no disj re1, re2 : Request_Reservation | re1.requester = re2.requester
+}
+
+//ensures that every request or reservation is associated to the queue belonging to the requester area
+fact RightQueueForRequest_Reservation {
+	all re:Request_Reservation | re.requesterArea = re.associatedQueue.associatedArea 
+}
 
 
 /*************** ASSERTIONS ***************/
@@ -128,17 +148,28 @@ assert OneQueuePerArea {
 }
 check OneQueuePerArea
 
+// check that for every shared ride, all the origins and destinations belong to the same 2 taxi zones
+assert OriginsAndDestinationsAreConsistent {
+	no disj a1, a2 : TaxiArea | one r:SharedRide | r.origins in (a1 + a2).locations
+}
+check OriginsAndDestinationsAreConsistent
+
+//
+
+
 /*************** PREDICATES ***************/
 pred show() {
 	#Queue > 1 &&
-	#Ride > 1
+	#SharedRide > 1 &&
+	#SingleRide > 1 &&
+	#Request_Reservation > 1
 }
 
-run show for 7
+run show for 6
 
 pred showRides() {
-	#Passenger>1
-
+	#Passenger>1 &&
+	#TaxiArea > 1
 }
 
-run showRides for 9 but exactly 2 SharedRide, exactly 2 SingleRide
+run showRides for 9 but exactly 2 SharedRide
