@@ -43,6 +43,10 @@ sig TaxiArea {
 	locations : some Location
 }
 
+sig Request_Reservation {
+	req : Passenger -> one Queue
+}
+
 /*************** CONSTRAINTS ***************/
 
 // ensures that no taxi driver is the subsequent of himself inside a queue
