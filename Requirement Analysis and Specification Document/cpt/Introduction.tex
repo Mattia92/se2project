@@ -1,7 +1,7 @@
 \chapter{Introduction} \label{chap1}
 
 \section{Purpose}
-This document represent the \textit{Requirement Analysis and Specification Document} (RASD). The main goal of this document is to completely describe the system in terms of functional and non functional requirements, analyze the real need of the customer to modeling the system, show the constraints and the limits of the software and simulate the typical use cases that will occur after the development. This document is intended to all developers and programmers who have to implement the requirements, to system analysts who want to integrate other systems with this one, and could be used as a contractual basis between the customer and the developer.
+This document represents the \textit{Requirement Analysis and Specification Document} (RASD). The main goal of this document is to completely describe the system in terms of functional and non functional requirements, analyze the real need of the customer to modeling the system, show the constraints and the limits of the software and simulate the typical use cases that will occur after the development. This document is intended to all developers and programmers who have to implement the requirements, to system analysts who want to integrate other systems with this one, and could be used as a contractual basis between the customer and the developer.
 
 \section{Scope}
 The aim of the project is to optimize the taxi service of a city using modern techniques and technologies to better manage the distribution and the availability of the taxicabs, to shorten the waiting time for passengers and to reduce costs for passengers and traffic in the entire city using taxi sharing. 
@@ -14,8 +14,8 @@ The system is implemented as a mobile application associated to an external, hig
 	\item [\textbf{D02}] : Taxi drivers correctly signal their availability
 	\item [\textbf{D03}] : If a passenger requests or reserves a taxi, he will then take the ride from the specified origin to the specified destination
 	\item [\textbf{D04}] : A passenger doesn't change the origin or the destination of a ride after the reservation
-	\item [\textbf{D05}] : If a taxi driver confirms a ride, then he will reach the passenger location on time according to the reservation hour or the waiting time calculated by the system
-	\item [\textbf{D06}] : If a taxi driver confirms a ride, he will complete it
+	\item [\textbf{D05}] : If a taxi driver confirms a ride, then he/she will reach the passenger location on time according to the reservation hour or the waiting time calculated by the system
+	\item [\textbf{D06}] : If a taxi driver confirms a ride, he/she will complete it
 \end{itemize}
 
 \section{Proposed System}
@@ -34,7 +34,7 @@ The system will be composed by a server running all the business logic, generati
 	\item [\textbf{G04}] : Reserve a taxi
 	\item [\textbf{G05}] : Receive information about the incoming taxi (confirmation, taxi ID, waiting time)
 	\item [\textbf{G06}] : Share the ride
-	\item [\textbf{G07}] : Receive receipts after each completed ride\\
+	\item [\textbf{G07}] : Receive a receipt after each completed ride\\
 \end{itemize}
 
 \noindent \textbf{Taxi drivers} should be able to:
@@ -63,7 +63,7 @@ The system will be composed by a server running all the business logic, generati
 	\item The government of the city in which the system will be used
 	\item The citizens of the city in which the system will be used
 	\item The taxi drivers of the city in which the system will be used
-	\item A specific IT company which provides all the technology (GPS receivers, smartphones for taxi drivers, mainframes and computational power) in exchange of raw GPS data provided by the receiver used for data mining purposes
+	\item A specific IT company which provides all the technology (GPS receivers, smartphones for taxi drivers, mainframes and computational power) in exchange of raw GPS data provided by the receiver that will be used for data mining purposes
 \end{itemize}
 
 \section{Definitions, acronyms and abbreviations}
@@ -86,11 +86,11 @@ The system will be composed by a server running all the business logic, generati
 \section{Overview}
 This document is essentially structured in seven parts:
 \begin{itemize}
-	\item \textbf{Section \ref{chap1}} $\rightarrow$ Introduction: it gives a description of document and gives general information about the software product with more focus about constraints and assumptions.
+	\item \textbf{Section \ref{chap1}} $\rightarrow$ Introduction: it gives a description of the document and gives general information about the software product with more focus about constraints and assumptions.
 	\item \textbf{Section \ref{chap2}} $\rightarrow$ Actors Identification: it gives a description of all actors of the system.
 	\item \textbf{Section \ref{chap3}} $\rightarrow$ Specific Requirements: this part lists all the functional and non functional requirements that are part of the system.
-	\item \textbf{Section \ref{chap4}} $\rightarrow$ Scenarios Identification: it gives a description of typical scenarios.
+	\item \textbf{Section \ref{chap4}} $\rightarrow$ Scenario Identifying: it gives a description of typical scenarios.
 	\item \textbf{Section \ref{chap5}} $\rightarrow$ UML Models: to give an easy way to understand all functionality of this software, this section is filled with UML diagrams and it contains also some Use Cases.
-	\item \textbf{Section \ref{chap6}} $\rightarrow$ Alloy Modeling: this part contains the code used for the analysis of consistency of the Class Diagram and words generated by Alloy Analyzer in order to understand that the model is consistent.
-	\item \textbf{Section \ref{chap7}} $\rightarrow$ Used Tools: this part contains some information about the software used to realize this document.
+	\item \textbf{Section \ref{chap6}} $\rightarrow$ Alloy Modeling: this part contains the code used for the analysis of consistency of the Class Diagram and the worlds generated by Alloy Analyzer in order to understand if the model is consistent.
+	\item \textbf{Section \ref{chap7}} $\rightarrow$ Other Information: this part contains some information about the software used to realize this document and the total working hours of each group member.
 \end{itemize}
