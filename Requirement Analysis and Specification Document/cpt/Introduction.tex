@@ -10,12 +10,15 @@ The system is implemented as a mobile application associated to an external, hig
 \section{Domain Properties}
 \noindent We suppose that the following properties hold in the analyzed domain:
 \begin{itemize}
-	\item [\textbf{D01}] : Accurate taxicabs positions are known by the GPS
-	\item [\textbf{D02}] : Taxi drivers correctly signal their availability
-	\item [\textbf{D03}] : If a passenger requests or reserves a taxi, he will then take the ride from the specified origin to the specified destination
-	\item [\textbf{D04}] : A passenger doesn't change the origin or the destination of a ride after the reservation
-	\item [\textbf{D05}] : If a taxi driver confirms a ride, then he/she will reach the passenger location on time according to the reservation hour or the waiting time calculated by the system
-	\item [\textbf{D06}] : If a taxi driver confirms a ride, he/she will complete it
+	\item [\textbf{D01}] : Taxicabs are all equals. They have a maximum of 3 passenger seats and they are all owned by a specific company.
+	\item [\textbf{D02}] : Every taxi driver uses always the same taxicab
+	\item [\textbf{D03}] : Accurate taxicabs positions are known by the GPS
+	\item [\textbf{D04}] : Taxi drivers correctly signal their availability
+	\item [\textbf{D05}] : If a passenger requests or reserves a taxi, he will then take the ride from the specified origin to the specified destination
+	\item [\textbf{D06}] : A passenger doesn't change the origin or the destination of a ride after the reservation
+	\item [\textbf{D07}] : If a taxi driver confirms a ride, then he/she will reach the passenger location on time according to the reservation hour or the waiting time calculated by the system
+	\item [\textbf{D08}] : If a taxi driver confirms a ride, he/she will complete it
+	\item [\textbf{D09}] : The total fee of a ride is calculated considering only the total kilometers of the ride, given a specific fee per km
 \end{itemize}
 
 \section{Proposed System}
@@ -34,20 +37,22 @@ The system will be composed by a server running all the business logic, generati
 	\item [\textbf{G04}] : Reserve a taxi
 	\item [\textbf{G05}] : Receive information about the incoming taxi (confirmation, taxi ID, waiting time)
 	\item [\textbf{G06}] : Share the ride
-	\item [\textbf{G07}] : Receive a receipt after each completed ride\\
+	\item [\textbf{G07}] : Receive a receipt after each completed ride
+	\item [\textbf{G08}] : Update personal account \\
 \end{itemize}
 
 \noindent \textbf{Taxi drivers} should be able to:
 \begin{itemize}
-	\item [\textbf{G08}] : Signal whether they are available or not
-	\item [\textbf{G09}] : Receive incoming requests
-	\item [\textbf{G10}] : Accept or decline incoming requests
-	\item [\textbf{G11}] : Visualize information about the optimal route\\
+	\item [\textbf{G09}] : Signal whether they are available or not
+	\item [\textbf{G10}] : Receive incoming requests
+	\item [\textbf{G11}] : Accept or decline incoming requests
+	\item [\textbf{G12}] : Visualize information about the optimal route
+	\item [\textbf{G13}] : Update personal account \\
 \end{itemize}
 
 \noindent \textbf{Developers} should be able to:
 \begin{itemize}
-	\item [\textbf{G12}] : Add new features
+	\item [\textbf{G14}] : Add new features
 \end{itemize}
 
 \section{Assumptions} \label{assump}
@@ -64,6 +69,7 @@ The system will be composed by a server running all the business logic, generati
 	\item The citizens of the city in which the system will be used
 	\item The taxi drivers of the city in which the system will be used
 	\item A specific IT company which provides all the technology (GPS receivers, smartphones for taxi drivers, mainframes and computational power) in exchange of raw GPS data provided by the receiver that will be used for data mining purposes
+	\item A specific company that loans the taxicabs
 \end{itemize}
 
 \section{Definitions, acronyms and abbreviations}

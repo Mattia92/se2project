@@ -132,7 +132,7 @@ Actor & Passenger \\
 \hline
 Related Requirements & [R05], [R06], [R07], [R08], [R09] \\
 \hline
-Goal in context & [G04] \\
+Goal in context & [G04], [G05] \\
 \hline
 Precondition & the Passenger must be logged in \\
 \hline
@@ -228,6 +228,40 @@ Extensions & \textbf{3.1} the Passenger saves the receipt on his/her device \\
 \end{table}
 \clearpage
 
+\subsubsection{Update Account}
+
+\begin{table}[htbp]
+\begin{center}
+\begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
+
+\hline
+Actor & Passenger, Taxi Driver \\
+\hline
+Related Requirements & [R17] \\
+\hline
+Goal in context & [G08], [G13] \\
+\hline
+Precondition & the Passenger/Taxi Driver must be logged in \\
+\hline
+Successful end condition & the Passenger/Taxi Driver updates the account information \\
+\hline
+Failed end condition & a System error occurs. An error message is shown to the Passenger/Taxi Driver  \\
+\hline
+Trigger & --- \\
+\hline
+Main Flow & \textbf{1.} the Passenger/Taxi Driver selects the ''My Account'' tab from the home page of the application \\
+& \textbf{2.} the Passenger/Taxi Driver inserts the updated data \\
+& \textbf{3.} the Passenger/Taxi Driver clicks on the ''Update Account'' button \\
+\hline
+Extensions & --- \\
+\hline
+
+\end{tabular}
+\end{center}
+\caption{Update Account Use Case}
+\end{table}
+\clearpage
+
 \subsubsection{Accept Incoming Requests}
 
 \begin{table}[htbp]
@@ -237,9 +271,9 @@ Extensions & \textbf{3.1} the Passenger saves the receipt on his/her device \\
 \hline
 Actor & Taxi Driver \\
 \hline
-Related Requirements & [R17] \\
+Related Requirements & [R18] \\
 \hline
-Goal in context & [G10] \\
+Goal in context & [G11] \\
 \hline
 Precondition & the Taxi Driver has received an incoming request or reservation \\
 \hline
@@ -270,9 +304,9 @@ Extensions & --- \\
 \hline
 Actor & Taxi Driver \\
 \hline
-Related Requirements & [R17] \\
+Related Requirements & [R18] \\
 \hline
-Goal in context & [G10] \\
+Goal in context & [G11] \\
 \hline
 Precondition & the Taxi Driver has received an incoming request or reservation \\
 \hline
@@ -303,9 +337,9 @@ Extensions & --- \\
 \hline
 Actor & Taxi Driver \\
 \hline
-Related Requirements & [R18] \\
+Related Requirements & [R19] \\
 \hline
-Goal in context & [G09] \\
+Goal in context & [G10] \\
 \hline
 Precondition & the Taxi Driver must be logged in \\
 \hline
@@ -336,9 +370,9 @@ Extensions & --- \\
 \hline
 Actor & Taxi Driver \\
 \hline
-Related Requirements & [R19], [R20] \\
+Related Requirements & [R20], [R21] \\
 \hline
-Goal in context & [G11] \\
+Goal in context & [G12] \\
 \hline
 Precondition & --- \\
 \hline
@@ -369,9 +403,9 @@ Extensions & --- \\
 \hline
 Actor & Developer \\
 \hline
-Related Requirements & [R21] \\
+Related Requirements & [R22] \\
 \hline
-Goal in context & [G12] \\
+Goal in context & [G14] \\
 \hline
 Precondition & the Developer must be logged in \\
 \hline
@@ -403,9 +437,9 @@ Extensions & --- \\
 \hline
 Actor & Developer \\
 \hline
-Related Requirements & [R21] \\
+Related Requirements & [R22] \\
 \hline
-Goal in context & [G12] \\
+Goal in context & [G14] \\
 \hline
 Precondition & the Developer must be logged in \\
 \hline

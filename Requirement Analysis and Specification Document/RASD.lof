@@ -2,24 +2,24 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Log In Page mockup}}{14}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Registration Form mockup}}{15}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Passenger Home Page mockup}}{16}{figure.3.3}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Passenger Request Page mockup}}{17}{figure.3.4}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Passenger Reservation Page mockup}}{18}{figure.3.5}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Taxi Driver Home Page mockup}}{19}{figure.3.6}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Taxi Driver Accepted Call Page mockup}}{20}{figure.3.7}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Log In Page mockup}}{15}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Registration Form mockup}}{16}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Passenger Home Page mockup}}{17}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Passenger Request Page mockup}}{18}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Passenger Reservation Page mockup}}{19}{figure.3.5}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Taxi Driver Home Page mockup}}{20}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Taxi Driver Accepted Call Page mockup}}{21}{figure.3.7}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Use Case Diagram}}{24}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Class Diagram}}{38}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Sequence Diagram for Log In}}{39}{figure.5.3}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Sequence Diagram for Request a Taxi Ride }}{40}{figure.5.4}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Sequence Diagram for Reserve a Taxi Ride}}{41}{figure.5.5}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Sequence Diagram for Introducing Modifications}}{42}{figure.5.6}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces State Chart Diagram for Passengers}}{43}{figure.5.7}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces State Chart Diagram for Taxi Drivers}}{44}{figure.5.8}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Use Case Diagram}}{25}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Class Diagram}}{40}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Sequence Diagram for Log In}}{41}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Sequence Diagram for Request a Taxi Ride }}{42}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Sequence Diagram for Reserve a Taxi Ride}}{43}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Sequence Diagram for Introducing Modifications}}{44}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces State Chart Diagram for Passengers}}{45}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces State Chart Diagram for Taxi Drivers}}{46}{figure.5.8}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces World generated from the execution of predicate show()}}{49}{figure.6.1}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces World generated from the execution of predicate showRides()}}{50}{figure.6.2}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces World generated from the execution of predicate show()}}{51}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces World generated from the execution of predicate showRides()}}{52}{figure.6.2}
 \addvspace {10\p@ }
