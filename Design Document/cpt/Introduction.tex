@@ -1,11 +1,48 @@
 \chapter{Introduction} \label{chap1}
+The \textit{Design Document} is a document meant to provide documentation which will be used to help developers in implementing the entire system by providing a general description of the architecture and the design of the system to be built. Within the Design Document are narrative and graphical documentation of the software design for the project including user experience diagrams, sequence diagrams, entity-relation diagrams, component diagrams, and other supporting requirement information.
 
 \section{Purpose}
+The purpose of the Design Document is to provide a description of the system specified in the \textit{RASD} complete and detailed enough to allow the proceeding of the software development with a good understanding of which are the components of the system, how they interact, which is their architecture and how they will be deployed.
 
 \section{Scope}
+This document refers to the developing of an application called \textit{MyTaxiService}, which is aimed to improve the quality and the efficiency of the taxi service of a large city by using localization, smartphones and IT technologies.
 
 \section{Definitions, Acronyms, Abbreviations}
+\subsubsection{Definitions}
+\begin{itemize}
+	\item \underline{Session Bean}: is a component of the application logic used to model business functions.
+	\item \underline{Stateless Session Bean}: no state is maintained with the client.
+	\item \underline{Stateful Session Bean}: the state of an object consists in the values of its instance variables. They represent the state of a unique client/bean session. When the client terminates, the bean is no longer associated with the client.
+	\item \underline{Singleton Session Bean}: is instantiated once per application and exists for the whole application lifecycle. A single bean instance is shared across and concurrently accessed by clients.
+	\item \underline{Java Server Faces}: a component-based MVC framework built on top of the Servlet API.
+\end{itemize}
+
+\subsubsection{Acronyms and Abbreviations}
+\begin{itemize}
+	\item \underline{RASD}: Requirements Analysis and Specification Document
+	\item \underline{Java EE}: Java Enterprise Edition.
+	\item \underline{JSF}: Java Server Faces.
+	\item \underline{REST}: Representational State Transfer.
+	\item \underline{XHTML}: Extensible HyperText Markup Language.
+	\item \underline{EJB}: Enterprise Java Beans.
+	\item \underline{UX Diagram}: User Experience Diagram.
+\end{itemize}
 
 \section{Reference Documents}
+\begin{itemize}
+	\item Specification Document: MyTaxiService Project AA 2015-2016.pdf.
+	\item IEEE Std 1016tm-2009 Standard for Information Technology - System Design - Software Design Descriptions.
+	\item RASD v2.0 - CrippaGalluzziLattarulo.pdf
+\end{itemize}
 
 \section{Document Structure}
+While the RASD is written for a more general audience, this document is intended for individuals directly involved in the development of MyTaxiService application. This includes software developers, project consultants, and team managers. This document is not meant to be read sequentially; users are encouraged to jump to any section they find relevant. Below is a brief overview of each part of the document.
+
+\begin{itemize}
+	\item \textbf{Section \ref{chap1}} $\rightarrow$ Introduction: This section gives general information about the Design Document of the MyTaxiService project.
+	\item \textbf{Section \ref{chap2}} $\rightarrow$ Architectural Design: This section contains an overall view of the system, describing from different points of view all the components that are part of the system and their interaction. This Section also contains a short explanation about the selected architectural system and the pattern that have been chosen.
+	\item \textbf{Section \ref{chap3}} $\rightarrow$ Algorithm Design: This section contains the definition of any algorithm that is important to describe the system.
+	\item \textbf{Section \ref{chap4}} $\rightarrow$ User Interface Design: This section covers all of the details related to the structure of the graphical user interface (GUI). Readers can view this section for a tentative glimpse of what the final product will look like.
+	\item \textbf{Section \ref{chap5}} $\rightarrow$ Requirements Traceability: This section explain how the requirements defined in the RASD map into the design elements that have defined in this document.
+	\item \textbf{Section \ref{chap6}} $\rightarrow$ References: This section includes any additional information which may be helpful to readers.
+\end{itemize}

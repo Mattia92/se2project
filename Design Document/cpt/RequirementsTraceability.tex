@@ -1,1 +1,80 @@
 \chapter{Requirements Traceability} \label{chap5}
+\begin{itemize}
+	\item [\textbf{R01}] check the validity and correctness of the information provided by the visitor (personal information, password)
+	\begin{itemize}
+		\item This requirement is satisfied by the validity and correctness controls inside the Visitor Manager
+	\end{itemize}
+
+	\item [\textbf{R02}] check if the user is already registered into the system
+	\item [\textbf{R03}] check if username and password provided by the visitor correspond to an existing user, authorized to use the system
+	\item [\textbf{R04}] prevent unauthorized or banned users from accessing the system
+	\begin{itemize}
+		\item These requirements are satisfied by allowing the Visitor Manager to query the Database
+	\end{itemize}
+	
+	\item [\textbf{R05}] obtain the passenger location
+	\begin{itemize}
+		\item This requirement is satisfied in a Request by retrieving data from the GPS embedded in the passenger's smartphone and in a Reservation by allowing the Passenger to manually insert through the application interface his/her location (refer to UX Diagram - Passenger Application Interface)
+	\end{itemize}
+
+	\item [\textbf{R06}] access the queue associated to the right taxi zone
+	\item [\textbf{R07}] check the availability of the taxi drivers 
+	\item [\textbf{R08}] iteratively contact all the taxi drivers of the queue starting from the first one until one of them accepts the call
+	\item [\textbf{R09}] iteratively search for an available taxi driver inside adjacent zones in the case that the right zone has an empty queue or all the contacted taxi drivers had declined the request
+	\begin{itemize}
+		\item These requirements are satisfied within the algorithm "Research of a Taxi Driver in the queue zone or in an adjacent queue zone"
+	\end{itemize}
+
+	\item [\textbf{R10}] obtain the taxi driver position and estimate the time needed by the taxi driver to reach the passenger
+	\begin{itemize}
+		\item This requirement is satisfied by retrieving data from the taxicab GPS locator 
+	\end{itemize}
+	
+	\item [\textbf{R11}] obtain the taxicab unique identifier from the taxi drivers database
+	\begin{itemize}
+		\item This requirement is satisfied by allowing the Ride Manager to query the Database
+	\end{itemize}
+	
+	\item [\textbf{R12}] check for each request or reservation if the passenger had selected the sharing function
+	\item [\textbf{R13}] compare routes that start from the same taxi zone and determine whether or not they can be merged into one, according to specific rules of comparison
+	\item [\textbf{R15}] elaborate an optimal route for taking every passenger to the right destination and show it to the taxi driver
+	\begin{itemize}
+		\item These requirements are satisfied within the algorithm "Shared Ride Management"
+	\end{itemize}
+	
+	\item [\textbf{R14}] calculate the correct distribution of the fee according to specific rules based on the percentage of the kilometers shared with others or traveled alone
+	\begin{itemize}
+		\item This requirement is satisfied within the algorithm "Fee Calculation Function"
+	\end{itemize}
+	
+	\item [\textbf{R16}] keep track of the actual route followed by the taxi driver and keep track of the actual duration of the ride
+	\begin{itemize}
+		\item This requirement is satisfied by retrieving data from the taxicab GPS locator
+	\end{itemize}
+	
+	\item [\textbf{R17}] update the database information for each user
+	\begin{itemize}
+		\item This requirement is satisfied by allowing the Passenger Manager and the Taxi Driver Manager to query and update the Database and by allowing the users to insert through the application interface the new data (refer to UX Diagram - Passenger Application Interface and UX Diagram - Taxi Driver Application Interface)
+	\end{itemize}
+
+	\item [\textbf{R18}] monitor and collect inputs from taxi drivers
+	\begin{itemize}
+		\item This requirement is satisfied by allowing Taxi Drivers to interact with the system through an appropriate application interface (refer to UX Diagram - Taxi Driver Application Interface)
+	\end{itemize}
+
+	\item [\textbf{R19}] contact taxi drivers and forward them all the information about the proposed request (position of the passenger, destination of the passenger, sharing option enabled or not)
+	\item [\textbf{R20}] retrieve the taxi location and the locations of all the passengers of the ride
+	\begin{itemize}
+		\item This requirement is satisfied within the algorithm "Research of a Taxi Driver in the queue zone or in an adjacent queue zone"
+	\end{itemize}
+	
+	\item [\textbf{R21}] Access and query the map provider service to obtain an updated map with information about traffic, smashes, road construction sites
+	\begin{itemize}
+		\item This requirement is satisfied by exploiting the Google Maps API
+	\end{itemize}
+	
+	\item [\textbf{R22}] Update the system code and architecture
+	\begin{itemize}
+		\item MANCA QUESTO
+	\end{itemize}
+\end{itemize}
