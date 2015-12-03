@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.21)  3 DEC 2015 14:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.21)  3 DEC 2015 19:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -229,31 +229,60 @@ File: babel.def 2014/09/25 3.9l Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/pdflscape.sty
-Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/lscape.sty
-Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count103
+\float@exts=\toks18
+\float@box=\box26
+\@float@everytoks=\toks19
+\@floatcapt=\box27
 )
-Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(./DesignDocument.aux)
+\@float@every@algorithm=\toks20
+\c@algorithm=\count104
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count105
+\c@ALG@rem=\count106
+\c@ALG@nested=\count107
+\ALG@tlm=\skip44
+\ALG@thistlm=\skip45
+\c@ALG@Lnr=\count108
+\c@ALG@blocknr=\count109
+\c@ALG@storecount=\count110
+\c@ALG@tmpcounter=\count111
+\ALG@tmplength=\skip46
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (./DesignDocument.aux)
 \openout1 = `DesignDocument.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -291,17 +320,17 @@ LaTeX Font Info:    ... okay on input line 35.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count103
+\scratchcounter=\count112
 \scratchdimen=\dimen118
-\scratchbox=\box26
-\nofMPsegments=\count104
-\nofMParguments=\count105
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count106
+\scratchbox=\box28
+\nofMPsegments=\count113
+\nofMParguments=\count114
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count115
 \MPscratchDim=\dimen119
-\MPnumerator=\count107
-\makeMPintoPDFobject=\count108
-\everyMPtoPDFconversion=\toks19
+\MPnumerator=\count116
+\makeMPintoPDFobject=\count117
+\everyMPtoPDFconversion=\toks22
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -317,8 +346,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box27
-Package hyperref Info: Link coloring OFF on input line 35.
+\AtBeginShipoutBox=\box29
+Package hyperref Info: Link coloring OFF on input line 38.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -326,34 +355,34 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count109
+\c@section@level=\count118
 )
-LaTeX Info: Redefining \ref on input line 35.
-LaTeX Info: Redefining \pageref on input line 35.
-LaTeX Info: Redefining \nameref on input line 35.
+LaTeX Info: Redefining \ref on input line 38.
+LaTeX Info: Redefining \pageref on input line 38.
+LaTeX Info: Redefining \nameref on input line 38.
 
 (./DesignDocument.out) (./DesignDocument.out)
 \@outlinefile=\write3
 \openout3 = `DesignDocument.out'.
 
 
-<cpt/img/polimi.jpg, id=104, 225.84375pt x 225.84375pt>
+<cpt/img/polimi.jpg, id=100, 225.84375pt x 225.84375pt>
 File: cpt/img/polimi.jpg Graphic file (type jpg)
 
 <use cpt/img/polimi.jpg>
-Package pdftex.def Info: cpt/img/polimi.jpg used on input line 52.
+Package pdftex.def Info: cpt/img/polimi.jpg used on input line 55.
 (pdftex.def)             Requested size: 85.35826pt x 85.35973pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 68.
+(Font)              <17.28> on input line 71.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 68.
+(Font)              <12> on input line 71.
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 68--71
+Overfull \hbox (12.0pt too wide) in paragraph at lines 71--74
  [] 
  []
 
 
-Overfull \hbox (103.67258pt too wide) in paragraph at lines 76--82
+Overfull \hbox (103.67258pt too wide) in paragraph at lines 79--85
  [] 
  []
 
@@ -365,31 +394,31 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 3.
+)
+\tf@toc=\write4
+\openout4 = `DesignDocument.toc'.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.28 ... {6.2}RASD Modifications}{34}{section.6.2}
-                                                   [1
+l.97 \clearpage
+                [1
 
 
-])
-\tf@toc=\write4
-\openout4 = `DesignDocument.toc'.
-
- [2]
-(./DesignDocument.lof)
+] [2] (./DesignDocument.lof)
 \tf@lof=\write5
 \openout5 = `DesignDocument.lof'.
 
  [3
 
 
-] (./DesignDocument.lot)
-\tf@lot=\write6
-\openout6 = `DesignDocument.lot'.
+] (./DesignDocument.loa)
+\tf@loa=\write6
+\openout6 = `DesignDocument.loa'.
 
- [4
+
+[4
 
 
 ] (./cpt/Introduction.tex
@@ -409,173 +438,301 @@ Chapter 2.
 [8
 
 
-] <cpt/img/JavaEEOverview.png, id=219, 427.5975pt x 474.77374pt>
+] <cpt/img/JavaEEOverview.png, id=226, 427.5975pt x 474.77374pt>
 File: cpt/img/JavaEEOverview.png Graphic file (type png)
 
 <use cpt/img/JavaEEOverview.png>
 Package pdftex.def Info: cpt/img/JavaEEOverview.png used on input line 19.
 (pdftex.def)             Requested size: 398.3386pt x 442.28844pt.
- [9] [10 <./cpt/img/JavaEEOverview.png>]
-<cpt/img/HighLevelComponentView.png, id=230, 1910.63812pt x 2037.11063pt>
+ [9] [10pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.2.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.22 \clearpage
+                <./cpt/img/JavaEEOverview.png>]
+<cpt/img/HighLevelComponentView.png, id=237, 1910.63812pt x 2037.11063pt>
 File: cpt/img/HighLevelComponentView.png Graphic file (type png)
 
 <use cpt/img/HighLevelComponentView.png>
 Package pdftex.def Info: cpt/img/HighLevelComponentView.png used on input line 
-33.
+29.
 (pdftex.def)             Requested size: 398.3386pt x 424.69748pt.
  [11
 
-] [12 <./cpt/img/HighLevelComponentView.png>] <cpt/img/ClientInterfaces.png, id
-=242, 614.295pt x 271.0125pt>
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.33 \clearpage
+                <./cpt/img/HighLevelComponentView.png>]
+<cpt/img/ClientInterfaces.png, id=244, 614.295pt x 271.0125pt>
 File: cpt/img/ClientInterfaces.png Graphic file (type png)
 
 <use cpt/img/ClientInterfaces.png>
-Package pdftex.def Info: cpt/img/ClientInterfaces.png used on input line 45.
+Package pdftex.def Info: cpt/img/ClientInterfaces.png used on input line 41.
 (pdftex.def)             Requested size: 398.3386pt x 175.73836pt.
- [13
+ [12
 
- <./cpt/img/ClientInterfaces.png>]
-<cpt/img/WebInterfaces.png, id=249, 614.295pt x 271.0125pt>
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.44 \clearpage
+                <./cpt/img/ClientInterfaces.png>]
+<cpt/img/WebInterfaces.png, id=252, 614.295pt x 271.0125pt>
 File: cpt/img/WebInterfaces.png Graphic file (type png)
 
 <use cpt/img/WebInterfaces.png>
-Package pdftex.def Info: cpt/img/WebInterfaces.png used on input line 57.
+Package pdftex.def Info: cpt/img/WebInterfaces.png used on input line 52.
 (pdftex.def)             Requested size: 398.3386pt x 175.73836pt.
- [14
+ [13
 
- <./cpt/img/WebInterfaces.png>]
-<cpt/img/ServerInterfaces.png, id=255, 605.3817pt x 225.4824pt>
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.55 \clearpage
+                <./cpt/img/WebInterfaces.png>]
+<cpt/img/ServerInterfaces.png, id=258, 605.3817pt x 225.4824pt>
 File: cpt/img/ServerInterfaces.png Graphic file (type png)
 
 <use cpt/img/ServerInterfaces.png>
-Package pdftex.def Info: cpt/img/ServerInterfaces.png used on input line 86.
+Package pdftex.def Info: cpt/img/ServerInterfaces.png used on input line 81.
 (pdftex.def)             Requested size: 398.3386pt x 148.36467pt.
- [15
+ [14
 
-] [16 <./cpt/img/ServerInterfaces.png>]
-<cpt/img/Database.png, id=265, 574.5465pt x 506.1309pt>
+] [15pdfTeX warning (ext4): destination with the same identifier (name{figure.2
+.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.84 \clearpage
+                <./cpt/img/ServerInterfaces.png>]
+<cpt/img/Database.png, id=268, 574.5465pt x 506.1309pt>
 File: cpt/img/Database.png Graphic file (type png)
 
 <use cpt/img/Database.png>
-Package pdftex.def Info: cpt/img/Database.png used on input line 96.
+Package pdftex.def Info: cpt/img/Database.png used on input line 91.
 (pdftex.def)             Requested size: 398.3386pt x 350.90657pt.
- [17
+ [16
 
- <./cpt/img/Database.png>]
-<cpt/img/RuntimeDeploymentView.png, id=271, 588.2778pt x 659.5842pt>
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.94 \clearpage
+                <./cpt/img/Database.png>]
+<cpt/img/RuntimeDeploymentView.png, id=274, 588.2778pt x 659.5842pt>
 File: cpt/img/RuntimeDeploymentView.png Graphic file (type png)
 
 <use cpt/img/RuntimeDeploymentView.png>
 Package pdftex.def Info: cpt/img/RuntimeDeploymentView.png used on input line 1
-06.
+01.
 (pdftex.def)             Requested size: 398.3386pt x 446.63933pt.
- [18
+ [17
 
- <./cpt/img/RuntimeDeploymentView.png>] <cpt/img/RuntimeReqResView.png, id=277,
- 598.3956pt x 307.1475pt>
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.7}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.105 \clearpage
+                 <./cpt/img/RuntimeDeploymentView.png>]
+<cpt/img/RuntimeReqResView.png, id=279, 598.3956pt x 307.1475pt>
 File: cpt/img/RuntimeReqResView.png Graphic file (type png)
 
 <use cpt/img/RuntimeReqResView.png>
-Package pdftex.def Info: cpt/img/RuntimeReqResView.png used on input line 119.
+Package pdftex.def Info: cpt/img/RuntimeReqResView.png used on input line 114.
 (pdftex.def)             Requested size: 398.3386pt x 204.4661pt.
- [19
+ [18
 
- <./cpt/img/RuntimeReqResView.png>]
-<cpt/img/RuntimeReceiptsView.png, id=282, 492.3996pt x 316.3017pt>
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.8}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.117 	\clearpage
+                  <./cpt/img/RuntimeReqResView.png>]
+<cpt/img/RuntimeReceiptsView.png, id=285, 492.3996pt x 316.3017pt>
 File: cpt/img/RuntimeReceiptsView.png Graphic file (type png)
 
 <use cpt/img/RuntimeReceiptsView.png>
-Package pdftex.def Info: cpt/img/RuntimeReceiptsView.png used on input line 127
+Package pdftex.def Info: cpt/img/RuntimeReceiptsView.png used on input line 122
 .
 (pdftex.def)             Requested size: 398.3386pt x 255.88925pt.
- [20
+ [19
 
- <./cpt/img/RuntimeReceiptsView.png>]
-<cpt/img/RuntimeModifyPageView.png, id=287, 492.3996pt x 316.3017pt>
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.9}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.125 	\clearpage
+                  <./cpt/img/RuntimeReceiptsView.png>]
+<cpt/img/RuntimeModifyPageView.png, id=290, 492.3996pt x 316.3017pt>
 File: cpt/img/RuntimeModifyPageView.png Graphic file (type png)
 
 <use cpt/img/RuntimeModifyPageView.png>
 Package pdftex.def Info: cpt/img/RuntimeModifyPageView.png used on input line 1
-35.
+30.
 (pdftex.def)             Requested size: 398.3386pt x 255.88925pt.
- [21
+ [20
 
- <./cpt/img/RuntimeModifyPageView.png>]
-<cpt/img/RuntimeModifyPageTaxidriverView.png, id=292, 492.3996pt x 316.3017pt>
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.10})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.133 	\clearpage
+                  <./cpt/img/RuntimeModifyPageView.png>]
+<cpt/img/RuntimeModifyPageTaxidriverView.png, id=295, 492.3996pt x 316.3017pt>
 File: cpt/img/RuntimeModifyPageTaxidriverView.png Graphic file (type png)
 
 <use cpt/img/RuntimeModifyPageTaxidriverView.png>
 Package pdftex.def Info: cpt/img/RuntimeModifyPageTaxidriverView.png used on in
-put line 143.
+put line 138.
 (pdftex.def)             Requested size: 398.3386pt x 255.88925pt.
- [22
+ [21
 
- <./cpt/img/RuntimeModifyPageTaxidriverView.png>]
-<cpt/img/RuntimeLoginRegisterView.png, id=298, 492.3996pt x 316.3017pt>
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.11})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.141 	\clearpage
+                  <./cpt/img/RuntimeModifyPageTaxidriverView.png>]
+<cpt/img/RuntimeLoginRegisterView.png, id=301, 492.3996pt x 316.3017pt>
 File: cpt/img/RuntimeLoginRegisterView.png Graphic file (type png)
 
 <use cpt/img/RuntimeLoginRegisterView.png>
 Package pdftex.def Info: cpt/img/RuntimeLoginRegisterView.png used on input lin
-e 151.
+e 146.
 (pdftex.def)             Requested size: 398.3386pt x 255.88925pt.
- [23
+ [22
 
- <./cpt/img/RuntimeLoginRegisterView.png>]
-<cpt/img/RuntimeStartTaxiRideView.png, id=303, 600.3228pt x 305.2203pt>
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.12})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.149 	\clearpage
+                  <./cpt/img/RuntimeLoginRegisterView.png>]
+<cpt/img/RuntimeStartTaxiRideView.png, id=306, 600.3228pt x 305.2203pt>
 File: cpt/img/RuntimeStartTaxiRideView.png Graphic file (type png)
 
 <use cpt/img/RuntimeStartTaxiRideView.png>
 Package pdftex.def Info: cpt/img/RuntimeStartTaxiRideView.png used on input lin
-e 159.
+e 154.
 (pdftex.def)             Requested size: 398.3386pt x 202.5265pt.
- [24
+ [23
 
- <./cpt/img/RuntimeStartTaxiRideView.png>] <cpt/img/RuntimeSummaryView.png, id=
-309, 600.3228pt x 305.2203pt>
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.13})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.157 	\clearpage
+                  <./cpt/img/RuntimeStartTaxiRideView.png>]
+<cpt/img/RuntimeSummaryView.png, id=311, 600.3228pt x 305.2203pt>
 File: cpt/img/RuntimeSummaryView.png Graphic file (type png)
 
 <use cpt/img/RuntimeSummaryView.png>
-Package pdftex.def Info: cpt/img/RuntimeSummaryView.png used on input line 167.
+Package pdftex.def Info: cpt/img/RuntimeSummaryView.png used on input line 162.
 
 (pdftex.def)             Requested size: 398.3386pt x 202.5265pt.
- [25
+ [24
 
- <./cpt/img/RuntimeSummaryView.png>])
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.14})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.165 	\clearpage
+                  <./cpt/img/RuntimeSummaryView.png>]) [25
+
+]
+(./cpt/AlgorithmDesign.tex
+Chapter 3.
 [26
 
-] (./cpt/AlgorithmDesign.tex
-Chapter 3.
-) [27
+
+]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 15.
+ [27] <cpt/img/BufferQueue.png, id=338, 614.295pt x 795.2109pt>
+File: cpt/img/BufferQueue.png Graphic file (type png)
+
+<use cpt/img/BufferQueue.png>
+Package pdftex.def Info: cpt/img/BufferQueue.png used on input line 41.
+(pdftex.def)             Requested size: 398.3386pt x 515.65544pt.
+ [28] [29pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.3.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.45 \clearpage
+                <./cpt/img/BufferQueue.png>]
+<cpt/img/GenericAlgorithm.png, id=348, 615.4995pt x 797.1381pt>
+File: cpt/img/GenericAlgorithm.png Graphic file (type png)
+
+<use cpt/img/GenericAlgorithm.png>
+Package pdftex.def Info: cpt/img/GenericAlgorithm.png used on input line 49.
+(pdftex.def)             Requested size: 398.3386pt x 515.90775pt.
+ [30pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.53 \clearpage
+                <./cpt/img/GenericAlgorithm.png>]) [31
 
 
-] (./cpt/UserInterfaceDesign.tex
+] [32]
+(./cpt/UserInterfaceDesign.tex
 Chapter 4.
-<cpt/img/UXPassengerApp.png, id=322, 536.2434pt x 731.8542pt>
+<cpt/img/UXPassengerApp.png, id=363, 536.2434pt x 731.8542pt>
 File: cpt/img/UXPassengerApp.png Graphic file (type png)
 
 <use cpt/img/UXPassengerApp.png>
 Package pdftex.def Info: cpt/img/UXPassengerApp.png used on input line 6.
 (pdftex.def)             Requested size: 398.3386pt x 543.66307pt.
- [28
+ [33
 
 
-] [29 <./cpt/img/UXPassengerApp.png>]
-<cpt/img/UXTaxiDriverApp.png, id=331, 535.7616pt x 600.8046pt>
+] [34pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.9 \clearpage
+               <./cpt/img/UXPassengerApp.png>]
+<cpt/img/UXTaxiDriverApp.png, id=372, 535.7616pt x 600.8046pt>
 File: cpt/img/UXTaxiDriverApp.png Graphic file (type png)
 
 <use cpt/img/UXTaxiDriverApp.png>
 Package pdftex.def Info: cpt/img/UXTaxiDriverApp.png used on input line 13.
 (pdftex.def)             Requested size: 398.3386pt x 446.70613pt.
- [30
+ [35
 
- <./cpt/img/UXTaxiDriverApp.png>])
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.16 \clearpage
+                <./cpt/img/UXTaxiDriverApp.png>])
 (./cpt/RequirementsTraceability.tex
 Chapter 5.
-[31
+[36
 
 
 
-] [32]) [33] (./cpt/References.tex
+] [37]) [38] (./cpt/References.tex
 Chapter 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--9
@@ -587,41 +744,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--9
 
  []
 
-[34
+[39
 
 
-]) [35]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 120.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
+]) [40]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 124.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 124.
  (./DesignDocument.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 124.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
 Package rerunfilecheck Info: File `DesignDocument.out' has not changed.
-(rerunfilecheck)             Checksum: F8A3BD891C68A165793358BB0BC0104C;1601.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 120.
+(rerunfilecheck)             Checksum: 184921EFF92DB99E713A31835FAA49A6;1532.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 124.
  ) 
 Here is how much of TeX's memory you used:
- 6497 strings out of 493089
- 96062 string characters out of 6134841
- 187914 words of memory out of 5000000
- 9781 multiletter control sequences out of 15000+600000
- 15698 words of font info for 37 fonts, out of 8000000 for 9000
+ 7134 strings out of 493089
+ 105155 string characters out of 6134841
+ 198413 words of memory out of 5000000
+ 10389 multiletter control sequences out of 15000+600000
+ 17136 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,8n,28p,580b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,8n,28p,680b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local
-/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on DesignDocument.pdf (36 pages, 1543182 bytes).
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/20
+15/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on DesignDocument.pdf (41 pages, 1835217 bytes).
 PDF statistics:
- 416 PDF objects out of 1000 (max. 8388607)
- 343 compressed objects within 4 object streams
- 85 named destinations out of 1000 (max. 500000)
- 286 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 473 PDF objects out of 1000 (max. 8388607)
+ 387 compressed objects within 4 object streams
+ 98 named destinations out of 1000 (max. 500000)
+ 288 words of extra memory for PDF output out of 10000 (max. 10000000)
 

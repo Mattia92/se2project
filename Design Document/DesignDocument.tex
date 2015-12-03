@@ -22,7 +22,10 @@
 
 %It provides the internationalization of LaTeX. It has to be loaded in any document, and you have to give %as an option the main language you are going to use in the document
 \usepackage[english]{babel}
-\usepackage{pdflscape}
+
+%Allows to write algorithms
+\usepackage{algorithm}
+\usepackage{algpseudocode}
 
 \normalfont
 %Forza LaTeX ad una spaziatura uniforme, invece di lasciare più spazio
@@ -96,7 +99,8 @@ Academic Year 2015--2016
 \listoffigures
 \clearpage
 
-\listoftables
+\listofalgorithms
+\addtocontents{loa}{\def\string\figurename{Algorithm}}
 \clearpage
 
 \input{cpt/Introduction.tex}
