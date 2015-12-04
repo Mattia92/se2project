@@ -1,15 +1,6 @@
 \chapter{Algorithm Design} \label{chap3}
-\subsubsection{Queue Management:}
-It's possible to create a queue implementing the Java Interface Queue, which is a collection designed for holdings elements prior to processing. Besides basic Collection operations, queues provide additional insertion, extraction, and inspection operations. Queues typically order elements in a FIFO (first-in-first-out) manner. The \textit{head} of the queue is that element which would be removed by a call to \textbf{remove()} or \textbf{poll()}. In a FIFO queue, all new elements are inserted at the \textit{tail} of the queue.
-This Interface provides some methods to manage the queue:
-\begin{itemize}
-	\item \textbf{add(e)} $\rightarrow$ Method that allow to insert a new element e in the queue
-	\item \textbf{remove()} and \textbf{poll()} $\rightarrow$ Methods that remove and return the head of the queue. Methods differ only in their behavior when the queue is empty: the remove() method throws an exception, while the poll() method returns null.
-	\item \textbf{element()} and \textbf{peek()} $\rightarrow$ Methods that return, but do not remove, the head of the queue.
-\end{itemize}
-
 \subsubsection{Research of a Taxi Driver in the queue:}
-The system uses a FIFO queue to manage the requests to the taxi drivers. It will use the method element() in order to extract without removing the first taxi driver of the queue and it will send the request to him. If the first taxi driver accepts the request, this will be assigned to him and he will be dequeued, otherwise he will be dequeued and the system will use the new first element of the queue to detect the new taxi driver who will receive the request, and so on until a taxi driver accepts the request.
+This algorithm describes how the system manages the research of a taxi drivers. It will use the \textit{Dequeue} operation in order to extract the first taxi driver and the \textit{Call} function in order to propose him a ride. If the first taxi driver accepts the request, this will be assigned to him, otherwise he will be enqueued again using the \textit{Enqueue} operation and the system will use the new first element of the queue to detect the new taxi driver who will receive the request, and so on until a taxi driver accepts the request.
 
 \begin{algorithm}[H]
 \caption{Research of a Taxi Driver}
@@ -17,7 +8,7 @@ The system uses a FIFO queue to manage the requests to the taxi drivers. It will
 \Procedure{SearchTaxiDriver}{$Q$}
 \If{$(Q.head == Q.tail)$}\Comment{Queue is empty}
 	\Else
-	\For{$i:= 0$ \textbf{to} $Q.lenght$}
+	\For{$i:= 0$ \textbf{to} $Q.lenght$}\Comment{The system knows the length of the Queue, so it makes exactly \textit{Q.length} controls}
 		\State $x \gets Dequeue(Q)$\Comment{Classical operation for managing the extraction of an element from the Queue}
 		\State $acceptance \gets Call(x)$\Comment{Function that represent the call that the system makes to the driver in order to propose a ride. It \textbf{returns true} if the taxi driver accepts the call and is willing to make the ride, otherwise \textbf{returns false} if the taxi driver declines the call}
 		\If{$(acceptance == true)$}
@@ -86,7 +77,7 @@ The following algorithms describe in details the behavior of the list and how th
 \begin{algorithm}[H]
 \caption{Insert an element in List keeping the order}
 \begin{algorithmic}[1]
-\Procedure{InsertKeepengOrder}{$x, List$}
+\Procedure{InsertKeepingOrdering}{$x, List$}
 \For{$each \: element \: e \: \textbf{in} \: List$}
 	\If{$(e.startTime \geq x.startTime)$}
 		\State $e.prev.next \gets x$\Comment{\textit{e.prev.next} indicates the attribute next of the element pointed by \textit{e.prev}}

@@ -45,7 +45,7 @@ The first component inside the system is the Client component which is responsib
 
 \subsection{Web Component}
 The Web component generates dynamic web pages containing XHTML.
-Web components are developed with Java Server Faces technology, which is a common user interface component framework for web applications.
+Web components implements Java Server Faces technology, which is a common  user interface component framework for web applications. In this way every user input in all the client pages is managed by these beans, one per each group of pages. 
 
 \begin{figure}[htbp]
 \centering
@@ -55,7 +55,8 @@ Web components are developed with Java Server Faces technology, which is a commo
 \clearpage
 
 \subsection{Business Logic Component}
-Another component of the system is the Business Logic component, which coordinates the application, processes commands, makes logical decisions and evaluations, and performs calculations. It also moves and processes data between the Client and the Java Persistence, which holds the information of the system data model, and is in charge of storing and retrieving information from a database.
+The Business Logic component coordinates the application, processes commands, makes logical decisions and evaluations, and performs calculations. It also moves and processes data between the Client and the Java Persistence Entity, which holds the information of the system data model, and is in charge of storing and retrieving information from a database.
+In this first release of the Design Document we have focused only on a small number of fundamental elements (Java Beans) necessary to manage the basic functionalities offered to the users by the system. Further additions will be necessary during the development.
 More in detail:
 \begin{itemize}
 	\item Visitor Manager $\rightarrow$ Offers functionalities to:
@@ -66,8 +67,8 @@ More in detail:
 		\item Trigger the right user manager depending on the type of user that has logged in.
 	\end{itemize}
 	\item Passenger Manager $\rightarrow$ Manages the passenger requests (taxi requests, reservations), the passenger profile and his status.
-	\item Taxi Driver Manager $\rightarrow$ Manages all the operations made by taxi drivers, like accepting or rejecting incoming calls or ending rides
-	\item Developer Manager $\rightarrow$ Manage all the operations made by developers (add new features, update the system code and architecture)
+	\item Taxi Driver Manager $\rightarrow$ Manages all the operations made by taxi drivers, like accepting or rejecting incoming calls or ending rides.
+	\item Developer Manager $\rightarrow$ Manage all the operations made by developers (add new features, update the system code and architecture).
 	\item Ride Manager $\rightarrow$ Offers functionalities to:
 	\begin{itemize}
 		\item Create and manage the route for the ride;
@@ -84,7 +85,7 @@ More in detail:
 \clearpage
 
 \subsection{Database Component}
-The last component of the system is represented by the Database that contains all the data that are interesting for this application.
+The conceptual architecture of the database is depicted in this diagram using the notation of Entity - Relation Diagram which is useful to individuate all the entities of the system and their mutual relationship.
 
 \begin{figure}[htbp]
 \centering
@@ -94,7 +95,7 @@ The last component of the system is represented by the Database that contains al
 \clearpage
 
 \section{Deployment View}
-The diagram in Figure \ref{fig:Deploy} shows the deployment view of the software product.
+The diagram in Figure \ref{fig:Deploy} shows the deployment view of the software product. Because of the early stage of the developing of the system, this diagram is deliberately simple and only depicts the distinction between client machines, server machines and database machines at large. Further revisions will go deeper into the hardware architecture of the system and will identify more specific hardware components in which the software will be deployed.
 
 \begin{figure}[htbp]
 \centering
@@ -105,10 +106,10 @@ The diagram in Figure \ref{fig:Deploy} shows the deployment view of the software
 \clearpage
 
 \section{Runtime View}
-The following diagrams describes the runtime view of MyTaxiService project describing the way components behave in order to accomplish the most important activities of the system. The software product that will be released can be deployed in any JEE Application Server:
+The following diagrams depicts the runtime view of MyTaxiService project describing in a simple way how the various components defined until this point behave in order to accomplish some of the most important activities of the system.
 
 \begin{itemize}
-	\item This diagram represents the components that are interested in the taxi request and reservation activities, and their interaction.
+	\item This diagram represents the components that are involved in the taxi request and reservation activities, and their interaction
 	\begin{figure}[htbp]
 	\centering
 	\includegraphics[width=\textwidth]{cpt/img/RuntimeReqResView}
@@ -116,7 +117,7 @@ The following diagrams describes the runtime view of MyTaxiService project descr
 	\end{figure}
 	\clearpage
 	
-	\item This diagram represents the components that are interested in the get receipts activity, and their interaction.
+	\item This diagram represents the activity of showing the receipts to the user
 	\begin{figure}[htbp]
 	\centering
 	\includegraphics[width=\textwidth]{cpt/img/RuntimeReceiptsView}
@@ -124,7 +125,7 @@ The following diagrams describes the runtime view of MyTaxiService project descr
 	\end{figure}
 	\clearpage
 	
-	\item This diagram represents the components that are interested in the modify passenger's account activity, and their interaction.
+	\item This diagram represents the components that are involved in the modification of the passenger?s account, and their interaction
 	\begin{figure}[htbp]
 	\centering
 	\includegraphics[width=\textwidth]{cpt/img/RuntimeModifyPageView}
@@ -132,7 +133,7 @@ The following diagrams describes the runtime view of MyTaxiService project descr
 	\end{figure}
 	\clearpage
 	
-	\item This diagram represents the components that are interested in the modify taxi driver's account activity, and their interaction.
+	\item This diagram represents the activity done by the system to let a taxi driver modify his account
 	\begin{figure}[htbp]
 	\centering
 	\includegraphics[width=\textwidth]{cpt/img/RuntimeModifyPageTaxidriverView}
@@ -140,7 +141,7 @@ The following diagrams describes the runtime view of MyTaxiService project descr
 	\end{figure}
 	\clearpage
 	
-	\item This diagram represents the components that are interested in the login and registration activities, and their interaction.
+	\item This diagram represents the components that are involved in the login and registration activities, and their interaction
 	\begin{figure}[htbp]
 	\centering
 	\includegraphics[width=\textwidth]{cpt/img/RuntimeLoginRegisterView}
@@ -148,7 +149,7 @@ The following diagrams describes the runtime view of MyTaxiService project descr
 	\end{figure}
 	\clearpage
 	
-	\item This diagram represents the components that are interested in the start taxi ride activity, and their interaction.
+	\item This diagram represents the components that are needed during the process of starting a taxi ride, and their interaction
 	\begin{figure}[htbp]
 	\centering
 	\includegraphics[width=\textwidth]{cpt/img/RuntimeStartTaxiRideView}
@@ -156,7 +157,7 @@ The following diagrams describes the runtime view of MyTaxiService project descr
 	\end{figure}
 	\clearpage
 	
-	\item This diagram represents the components that are interested in the summary activity, and their interaction.
+	\item This diagram represents the components that are involved in the process of showing the summary of the ride to the taxi driver and their interaction
 	\begin{figure}[htbp]
 	\centering
 	\includegraphics[width=\textwidth]{cpt/img/RuntimeSummaryView}
@@ -167,5 +168,61 @@ The following diagrams describes the runtime view of MyTaxiService project descr
 \end{itemize}
 
 \section{Component Interfaces}
+Here are identified some functions offered by the Beans of the Business Tier:
+
+\subsubsection{Visitor Manager}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{cpt/img/ComponentInterfacesVisitorManager}
+\caption{\textbf{Visitor Manager Interface}: \textit{checkValidInfo} check the validity and correctness of the information provided by the user; \textit{createNewUser} allows the system to create new users and save them into the system; \textit{checkValidLogin} check if the Login is valid and authenticate users; \textit{triggerUserManager} allows the system to trigger the right user manager depending on the type of user that has logged in.
+}
+\end{figure}
+\clearpage
+
+\subsubsection{Passenger Manager}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{cpt/img/ComponentInterfacesPassengerManagerInterface}
+\caption{\textbf{Passenger Manager Interface}: \textit{myAccount, request, reservation, allReceipts, contacts, logout} allow the system to show the correct page; \textit{updateAccount} allows user to update some information about his account; \textit{makeRequest, makeReservation} allows user to make respectively a request and a reservation for a taxi; \textit{selectReceipt} allows user to see information about a specific receipt; \textit{sendMessage} allows user to send a message to the support staff.
+}
+\end{figure}
+\clearpage
+
+\subsubsection{Taxi Driver Manager}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{cpt/img/ComponentInterfacesTaxiDriverManagerInterface}
+\caption{\textbf{Taxi Driver Manager Interface}: \textit{myAccount, acceptedCall, logout} allow the system to show the correct page; \textit{updateAccount} allows user to update some information about his account; \textit{available} allows taxi driver to change his status; \textit{incomingCall} allows user to see information about an incoming call; \textit{rideInformation, suggestedRoad} allows taxi driver to see respectively information about a ride and the route to perform; \textit{declineCall} allows taxi driver to reject an incoming call.
+}
+\end{figure}
+\clearpage
+
+\subsubsection{Developer Manager}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{cpt/img/ComponentInterfacesDeveloperManagerInterface}
+\caption{\textbf{Developer Manager Interface}: \textit{myAccount, logout} allow the system to show the correct page; \textit{updateAccount} allows user to update some information about his account; \textit{codeInspector} allows developer to see system's code; \textit{addFeature, updateCode} allows developer to write code for a new system's feature and update the whole code.
+}
+\end{figure}
+\clearpage
+
+\subsubsection{Ride Manager}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{cpt/img/ComponentInterfacesRideManagerInterface}
+\caption{\textbf{Ride Manager Interface}: \textit{createRoute, updateRoute} allow the system to create and manage the route for the ride; \textit{displayRouteInfo} allows system to keep track of the passengers and the driver involved in the ride, and all the information: duration, distance, fee, route for the entire ride and for each passenger.
+}
+\end{figure}
+\clearpage
+
+\subsubsection{Call Manager}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{cpt/img/ComponentInterfacesCallManagerInterface}
+\caption{\textbf{Call Manager Interface}: \textit{getPassengerPosition} allow the system to obtain the location of a passenger; \textit{searchTaxiDriver, callTaxiDriver} allows system to manage the taxi queue, to search a taxi driver that is available in the reference zone and to call him in order to ask if he wants to take care of the ride; \textit{checkForCompatibility, mergeRides, insertKeepingOrdering} allow system to manage the Shared Ride case and the list of the passengers.
+}
+\end{figure}
+\clearpage
 
 \section{Selected Architectural Styles and Patterns}
+During the developing of this document and the construction of the system we have focused on keeping the architecture and the general behavior of the system as simple as possible, trying to adapt everything to the architecture of Java EE which is a very good starting point for a system like ours. In our mind this initial simplicity and modularity leaves the right amount of space for further improvements and strengthening of the system. Moreover, given the nature of the system (a taxi sharing application) we think that this 4-tier architecture that relies upon the Model - View - Controller pattern is the one that most fits the requirements and grants optimal performances in terms of reliability, availability and performances of the system.

@@ -1,5 +1,5 @@
 \def \figurename {Algorithm}
-\contentsline {algorithm}{\numberline {1}{\ignorespaces Research of a Taxi Driver}}{27}{algorithm.1}
-\contentsline {algorithm}{\numberline {2}{\ignorespaces Check for Compatibility}}{31}{algorithm.2}
-\contentsline {algorithm}{\numberline {3}{\ignorespaces Merge Rides}}{31}{algorithm.3}
-\contentsline {algorithm}{\numberline {4}{\ignorespaces Insert an element in List keeping the order}}{32}{algorithm.4}
+\contentsline {algorithm}{\numberline {1}{\ignorespaces Research of a Taxi Driver}}{36}{algorithm.1}
+\contentsline {algorithm}{\numberline {2}{\ignorespaces Check for Compatibility}}{39}{algorithm.2}
+\contentsline {algorithm}{\numberline {3}{\ignorespaces Merge Rides}}{39}{algorithm.3}
+\contentsline {algorithm}{\numberline {4}{\ignorespaces Insert an element in List keeping the order}}{40}{algorithm.4}
