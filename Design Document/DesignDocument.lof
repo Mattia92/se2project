@@ -1,31 +1,31 @@
 \select@language {english}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces JEE 4-tier architecture}}{12}{figure.2.1}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces High Level Components view and their interaction}}{13}{figure.2.2}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Client subcomponents}}{14}{figure.2.3}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Web subcomponents}}{15}{figure.2.4}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Business Logic subcomponents}}{17}{figure.2.5}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Database ER Diagram}}{18}{figure.2.6}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Deployment view}}{20}{figure.2.7}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Runtime Taxi Request and Reservation}}{21}{figure.2.8}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Runtime get receipts}}{22}{figure.2.9}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Runtime Modify Passenger's Account}}{23}{figure.2.10}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Runtime Modify Taxi Driver's Account}}{24}{figure.2.11}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Runtime Login and Registration}}{25}{figure.2.12}
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Runtime start Taxi Ride}}{26}{figure.2.13}
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Runtime Summary}}{27}{figure.2.14}
-\contentsline {figure}{\numberline {2.15}{\ignorespaces \textbf {Visitor Manager Interface}: \textit {checkValidInfo} check the validity and correctness of the information provided by the user; \textit {createNewUser} allows the system to create new users and save them into the system; \textit {checkValidLogin} check if the Login is valid and authenticate users; \textit {triggerUserManager} allows the system to trigger the right user manager depending on the type of user that has logged in. }}{28}{figure.2.15}
-\contentsline {figure}{\numberline {2.16}{\ignorespaces \textbf {Passenger Manager Interface}: \textit {myAccount, request, reservation, allReceipts, contacts, logout} allow the system to show the correct page; \textit {updateAccount} allows user to update some information about his account; \textit {makeRequest, makeReservation} allows user to make respectively a request and a reservation for a taxi; \textit {selectReceipt} allows user to see information about a specific receipt; \textit {sendMessage} allows user to send a message to the support staff. }}{29}{figure.2.16}
-\contentsline {figure}{\numberline {2.17}{\ignorespaces \textbf {Taxi Driver Manager Interface}: \textit {myAccount, acceptedCall, logout} allow the system to show the correct page; \textit {updateAccount} allows user to update some information about his account; \textit {available} allows taxi driver to change his status; \textit {incomingCall} allows user to see information about an incoming call; \textit {rideInformation, suggestedRoad} allows taxi driver to see respectively information about a ride and the route to perform; \textit {declineCall} allows taxi driver to reject an incoming call. }}{30}{figure.2.17}
-\contentsline {figure}{\numberline {2.18}{\ignorespaces \textbf {Developer Manager Interface}: \textit {myAccount, logout} allow the system to show the correct page; \textit {updateAccount} allows user to update some information about his account; \textit {codeInspector} allows developer to see system's code; \textit {addFeature, updateCode} allows developer to write code for a new system's feature and update the whole code. }}{31}{figure.2.18}
-\contentsline {figure}{\numberline {2.19}{\ignorespaces \textbf {Ride Manager Interface}: \textit {createRoute, updateRoute} allow the system to create and manage the route for the ride; \textit {displayRouteInfo} allows system to keep track of the passengers and the driver involved in the ride, and all the information: duration, distance, fee, route for the entire ride and for each passenger. }}{32}{figure.2.19}
-\contentsline {figure}{\numberline {2.20}{\ignorespaces \textbf {Call Manager Interface}: \textit {getPassengerPosition} allow the system to obtain the location of a passenger; \textit {searchTaxiDriver, callTaxiDriver} allows system to manage the taxi queue, to search a taxi driver that is available in the reference zone and to call him in order to ask if he wants to take care of the ride; \textit {checkForCompatibility, mergeRides, insertKeepingOrdering} allow system to manage the Shared Ride case and the list of the passengers. }}{33}{figure.2.20}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces JEE 4-tier architecture}}{10}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces High Level Components view and their interaction}}{11}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Client subcomponents}}{12}{figure.2.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Web subcomponents}}{13}{figure.2.4}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Business Logic subcomponents}}{15}{figure.2.5}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Database ER Diagram}}{16}{figure.2.6}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Deployment view}}{18}{figure.2.7}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Runtime Taxi Request and Reservation}}{19}{figure.2.8}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Runtime get receipts}}{20}{figure.2.9}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Runtime Modify Passenger's Account}}{21}{figure.2.10}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Runtime Modify Taxi Driver's Account}}{22}{figure.2.11}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Runtime Login and Registration}}{23}{figure.2.12}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Runtime start Taxi Ride}}{24}{figure.2.13}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Runtime Summary}}{25}{figure.2.14}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Visitor Manager Interface}}{26}{figure.2.15}
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Passenger Manager Interface}}{27}{figure.2.16}
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Taxi Driver Manager Interface}}{28}{figure.2.17}
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Developer Manager Interface}}{29}{figure.2.18}
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Calls Manager Interface}}{30}{figure.2.19}
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Ride Manager Interface}}{31}{figure.2.20}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Representation of interaction between Queue and Buffer}}{37}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Representation of the Shared Ride Management Algorithm}}{38}{figure.3.2}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Representation of interaction between Queue and Buffer}}{35}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Representation of the Shared Ride Management Algorithm}}{36}{figure.3.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces UX Diagram - Passenger Application Interface}}{42}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces UX Diagram - Taxi Driver Application Interface}}{43}{figure.4.2}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces UX Diagram - Passenger Application Interface}}{40}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces UX Diagram - Taxi Driver Application Interface}}{41}{figure.4.2}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

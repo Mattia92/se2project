@@ -171,56 +171,95 @@ The following diagrams depicts the runtime view of MyTaxiService project describ
 Here are identified some functions offered by the Beans of the Business Tier:
 
 \subsubsection{Visitor Manager}
+The Visitor Manager should expose some methods like:
+\begin{itemize}
+	\item \textit{createNewUser} to add a new user to the database 
+	\item \textit{verifyLogin} and \textit{verifyRegistration} to check if the information provided by the user in the Login or Registration Pages are correct
+\end{itemize}
+
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=\textwidth]{cpt/img/ComponentInterfacesVisitorManager}
-\caption{\textbf{Visitor Manager Interface}: \textit{checkValidInfo} check the validity and correctness of the information provided by the user; \textit{createNewUser} allows the system to create new users and save them into the system; \textit{checkValidLogin} check if the Login is valid and authenticate users; \textit{triggerUserManager} allows the system to trigger the right user manager depending on the type of user that has logged in.
-}
+\includegraphics[width=\textwidth]{cpt/img/ComponentInterfacesVisitorManagerInterface}
+\caption{Visitor Manager Interface}
 \end{figure}
 \clearpage
 
 \subsubsection{Passenger Manager}
+The Passenger Manager should expose some methods like:
+\begin{itemize}
+	\item \textit{getPassengerInformation} to retrieve all the information about a certain passenger stored in the database
+	\item \textit{getPassengerLocation} to retrieve the passenger position from it?s smartphone GPS
+	\item \textit{getPassengerState} to obtain the current state of the passenger
+	\item \textit{setPassengerState} to modify the current state of the passenger
+	\item \textit{updatePassengerInformation} to update the information about a passenger stored into the database
+\end{itemize}
+
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth]{cpt/img/ComponentInterfacesPassengerManagerInterface}
-\caption{\textbf{Passenger Manager Interface}: \textit{myAccount, request, reservation, allReceipts, contacts, logout} allow the system to show the correct page; \textit{updateAccount} allows user to update some information about his account; \textit{makeRequest, makeReservation} allows user to make respectively a request and a reservation for a taxi; \textit{selectReceipt} allows user to see information about a specific receipt; \textit{sendMessage} allows user to send a message to the support staff.
-}
+\caption{Passenger Manager Interface}
 \end{figure}
 \clearpage
 
 \subsubsection{Taxi Driver Manager}
+The Taxi Driver Manager should expose some methods like:
+\begin{itemize}
+	\item \textit{getTaxiDriverInformation} to retrieve all the needed information about a taxi driver stored into the database
+	\item \textit{getTaxiDriverLocation} to retrieve the taxi driver position from it?s GPS device
+	\item \textit{updateTaxiDriverInformation} to update the information about a taxi driver stored into the database
+	\item \textit{checkTaxiDriverAvailability} to check the current status of the taxi driver
+\end{itemize}
+
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth]{cpt/img/ComponentInterfacesTaxiDriverManagerInterface}
-\caption{\textbf{Taxi Driver Manager Interface}: \textit{myAccount, acceptedCall, logout} allow the system to show the correct page; \textit{updateAccount} allows user to update some information about his account; \textit{available} allows taxi driver to change his status; \textit{incomingCall} allows user to see information about an incoming call; \textit{rideInformation, suggestedRoad} allows taxi driver to see respectively information about a ride and the route to perform; \textit{declineCall} allows taxi driver to reject an incoming call.
-}
+\caption{Taxi Driver Manager Interface}
 \end{figure}
 \clearpage
 
 \subsubsection{Developer Manager}
+The Developer Manager should expose some methods like:
+\begin{itemize}
+	\item \textit{updateDeveloperInformation} to update the information about a developer stored into the database
+	\item \textit{codeInspector} to see the whole system's code
+	\item \textit{addFeature} to write code
+	\item \textit{updateCode} to update the whole system's code
+\end{itemize}
+
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth]{cpt/img/ComponentInterfacesDeveloperManagerInterface}
-\caption{\textbf{Developer Manager Interface}: \textit{myAccount, logout} allow the system to show the correct page; \textit{updateAccount} allows user to update some information about his account; \textit{codeInspector} allows developer to see system's code; \textit{addFeature, updateCode} allows developer to write code for a new system's feature and update the whole code.
-}
+\caption{Developer Manager Interface}
+\end{figure}
+\clearpage
+
+\subsubsection{Calls Manager}
+The Calls Manager should expose some methods like:
+\begin{itemize}
+	\item \textit{createNewCall} to elaborate an incoming request or reservation from the ManagedBeans of the web tier
+	\item \textit{updateCall} to modify the status of a pending call
+	\item \textit{searchForRide} to start the research of a feasible ride that fulfills the client?s request / reservation (origin, destination, sharing) and thus the research of an available taxi driver
+\end{itemize}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{cpt/img/ComponentInterfacesCallManagerInterface}
+\caption{Calls Manager Interface}
 \end{figure}
 \clearpage
 
 \subsubsection{Ride Manager}
+The Ride Manager should expose some methods like:
+\begin{itemize}
+	\item \textit{createNewRoute} to receive the information about the selected ride and elaborate the optimal route for the taxi driver
+	\item \textit{collectRideData} to collect and store all the useful data about the ride (i.e. durations, number of passengers, total fee, fee per passenger, taxi driver, length)
+	\item \textit{exportRideData} to share collected data with other component or systems
+\end{itemize}
+
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth]{cpt/img/ComponentInterfacesRideManagerInterface}
-\caption{\textbf{Ride Manager Interface}: \textit{createRoute, updateRoute} allow the system to create and manage the route for the ride; \textit{displayRouteInfo} allows system to keep track of the passengers and the driver involved in the ride, and all the information: duration, distance, fee, route for the entire ride and for each passenger.
-}
-\end{figure}
-\clearpage
-
-\subsubsection{Call Manager}
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=\textwidth]{cpt/img/ComponentInterfacesCallManagerInterface}
-\caption{\textbf{Call Manager Interface}: \textit{getPassengerPosition} allow the system to obtain the location of a passenger; \textit{searchTaxiDriver, callTaxiDriver} allows system to manage the taxi queue, to search a taxi driver that is available in the reference zone and to call him in order to ask if he wants to take care of the ride; \textit{checkForCompatibility, mergeRides, insertKeepingOrdering} allow system to manage the Shared Ride case and the list of the passengers.
-}
+\caption{Ride Manager Interface}
 \end{figure}
 \clearpage
 
