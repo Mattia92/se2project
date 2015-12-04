@@ -36,3 +36,4 @@
 \contentsline {subsubsection}{New Domain Properties:}{45}{section*.14}
 \contentsline {subsubsection}{Changes in Functional Requirements:}{46}{section*.15}
 \contentsline {subsubsection}{Add new functionality "Update Account":}{46}{section*.16}
+\contentsline {section}{\numberline {6.3}Working Hours}{46}{section.6.3}

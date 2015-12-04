@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.21)  4 DEC 2015 14:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.21)  4 DEC 2015 21:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -366,7 +366,7 @@ LaTeX Info: Redefining \nameref on input line 38.
 \openout3 = `DesignDocument.out'.
 
 
-<cpt/img/polimi.jpg, id=100, 225.84375pt x 225.84375pt>
+<cpt/img/polimi.jpg, id=104, 225.84375pt x 225.84375pt>
 File: cpt/img/polimi.jpg Graphic file (type jpg)
 
 <use cpt/img/polimi.jpg>
@@ -394,19 +394,20 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 3.
-)
-\tf@toc=\write4
-\openout4 = `DesignDocument.toc'.
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.97 \clearpage
-                [1
+l.39 ...rline {6.3}Working Hours}{46}{section.6.3}
+                                                   [1
 
 
-] [2] (./DesignDocument.lof)
+])
+\tf@toc=\write4
+\openout4 = `DesignDocument.toc'.
+
+ [2]
+(./DesignDocument.lof)
 \tf@lof=\write5
 \openout5 = `DesignDocument.lof'.
 
@@ -417,8 +418,7 @@ l.97 \clearpage
 \tf@loa=\write6
 \openout6 = `DesignDocument.loa'.
 
-
-[4
+ [4
 
 
 ] (./cpt/Introduction.tex
@@ -438,7 +438,7 @@ Chapter 2.
 [8
 
 
-] <cpt/img/JavaEEOverview.png, id=238, 427.5975pt x 474.77374pt>
+] <cpt/img/JavaEEOverview.png, id=243, 427.5975pt x 474.77374pt>
 File: cpt/img/JavaEEOverview.png Graphic file (type png)
 
 <use cpt/img/JavaEEOverview.png>
@@ -451,7 +451,7 @@ e.2.1}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.22 \clearpage
                 <./cpt/img/JavaEEOverview.png>]
-<cpt/img/HighLevelComponentView.png, id=249, 1910.63812pt x 2037.11063pt>
+<cpt/img/HighLevelComponentView.png, id=254, 1910.63812pt x 2037.11063pt>
 File: cpt/img/HighLevelComponentView.png Graphic file (type png)
 
 <use cpt/img/HighLevelComponentView.png>
@@ -467,7 +467,7 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.33 \clearpage
                 <./cpt/img/HighLevelComponentView.png>]
-<cpt/img/ClientInterfaces.png, id=256, 614.295pt x 271.0125pt>
+<cpt/img/ClientInterfaces.png, id=261, 614.295pt x 271.0125pt>
 File: cpt/img/ClientInterfaces.png Graphic file (type png)
 
 <use cpt/img/ClientInterfaces.png>
@@ -482,7 +482,7 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.44 \clearpage
                 <./cpt/img/ClientInterfaces.png>]
-<cpt/img/WebInterfaces.png, id=264, 614.295pt x 271.0125pt>
+<cpt/img/WebInterfaces.png, id=269, 614.295pt x 271.0125pt>
 File: cpt/img/WebInterfaces.png Graphic file (type png)
 
 <use cpt/img/WebInterfaces.png>
@@ -497,7 +497,7 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.55 \clearpage
                 <./cpt/img/WebInterfaces.png>]
-<cpt/img/ServerInterfaces.png, id=270, 605.3817pt x 225.4824pt>
+<cpt/img/ServerInterfaces.png, id=275, 605.3817pt x 225.4824pt>
 File: cpt/img/ServerInterfaces.png Graphic file (type png)
 
 <use cpt/img/ServerInterfaces.png>
@@ -512,7 +512,7 @@ Package pdftex.def Info: cpt/img/ServerInterfaces.png used on input line 82.
                                                   \fi \fi 
 l.85 \clearpage
                 <./cpt/img/ServerInterfaces.png>]
-<cpt/img/Database.png, id=280, 574.5465pt x 506.1309pt>
+<cpt/img/Database.png, id=285, 574.5465pt x 506.1309pt>
 File: cpt/img/Database.png Graphic file (type png)
 
 <use cpt/img/Database.png>
@@ -527,7 +527,7 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.95 \clearpage
                 <./cpt/img/Database.png>]
-<cpt/img/RuntimeDeploymentView.png, id=286, 588.2778pt x 659.5842pt>
+<cpt/img/RuntimeDeploymentView.png, id=291, 588.2778pt x 659.5842pt>
 File: cpt/img/RuntimeDeploymentView.png Graphic file (type png)
 
 <use cpt/img/RuntimeDeploymentView.png>
@@ -543,7 +543,7 @@ Package pdftex.def Info: cpt/img/RuntimeDeploymentView.png used on input line 1
                                                   \fi \fi 
 l.106 \clearpage
                  <./cpt/img/RuntimeDeploymentView.png>]
-<cpt/img/RuntimeReqResView.png, id=296, 598.3956pt x 307.1475pt>
+<cpt/img/RuntimeReqResView.png, id=301, 598.3956pt x 307.1475pt>
 File: cpt/img/RuntimeReqResView.png Graphic file (type png)
 
 <use cpt/img/RuntimeReqResView.png>
@@ -558,7 +558,7 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.118 	\clearpage
                   <./cpt/img/RuntimeReqResView.png>]
-<cpt/img/RuntimeReceiptsView.png, id=301, 492.3996pt x 316.3017pt>
+<cpt/img/RuntimeReceiptsView.png, id=307, 492.3996pt x 316.3017pt>
 File: cpt/img/RuntimeReceiptsView.png Graphic file (type png)
 
 <use cpt/img/RuntimeReceiptsView.png>
@@ -574,7 +574,7 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.126 	\clearpage
                   <./cpt/img/RuntimeReceiptsView.png>]
-<cpt/img/RuntimeModifyPageView.png, id=307, 492.3996pt x 316.3017pt>
+<cpt/img/RuntimeModifyPageView.png, id=312, 492.3996pt x 316.3017pt>
 File: cpt/img/RuntimeModifyPageView.png Graphic file (type png)
 
 <use cpt/img/RuntimeModifyPageView.png>
@@ -590,7 +590,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.10})
                                                   \fi \fi 
 l.134 	\clearpage
                   <./cpt/img/RuntimeModifyPageView.png>]
-<cpt/img/RuntimeModifyPageTaxidriverView.png, id=312, 492.3996pt x 316.3017pt>
+<cpt/img/RuntimeModifyPageTaxidriverView.png, id=317, 492.3996pt x 316.3017pt>
 File: cpt/img/RuntimeModifyPageTaxidriverView.png Graphic file (type png)
 
 <use cpt/img/RuntimeModifyPageTaxidriverView.png>
@@ -606,7 +606,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.11})
                                                   \fi \fi 
 l.142 	\clearpage
                   <./cpt/img/RuntimeModifyPageTaxidriverView.png>]
-<cpt/img/RuntimeLoginRegisterView.png, id=317, 492.3996pt x 316.3017pt>
+<cpt/img/RuntimeLoginRegisterView.png, id=322, 492.3996pt x 316.3017pt>
 File: cpt/img/RuntimeLoginRegisterView.png Graphic file (type png)
 
 <use cpt/img/RuntimeLoginRegisterView.png>
@@ -622,7 +622,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.12})
                                                   \fi \fi 
 l.150 	\clearpage
                   <./cpt/img/RuntimeLoginRegisterView.png>]
-<cpt/img/RuntimeStartTaxiRideView.png, id=322, 600.3228pt x 305.2203pt>
+<cpt/img/RuntimeStartTaxiRideView.png, id=327, 600.3228pt x 305.2203pt>
 File: cpt/img/RuntimeStartTaxiRideView.png Graphic file (type png)
 
 <use cpt/img/RuntimeStartTaxiRideView.png>
@@ -638,7 +638,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.13})
                                                   \fi \fi 
 l.158 	\clearpage
                   <./cpt/img/RuntimeStartTaxiRideView.png>]
-<cpt/img/RuntimeSummaryView.png, id=328, 600.3228pt x 305.2203pt>
+<cpt/img/RuntimeSummaryView.png, id=333, 600.3228pt x 305.2203pt>
 File: cpt/img/RuntimeSummaryView.png Graphic file (type png)
 
 <use cpt/img/RuntimeSummaryView.png>
@@ -654,7 +654,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.14})
                                                   \fi \fi 
 l.166 	\clearpage
                   <./cpt/img/RuntimeSummaryView.png>]
-<cpt/img/ComponentInterfacesVisitorManagerInterface.png, id=333, 597.1911pt x 1
+<cpt/img/ComponentInterfacesVisitorManagerInterface.png, id=338, 597.1911pt x 1
 42.8537pt>
 File: cpt/img/ComponentInterfacesVisitorManagerInterface.png Graphic file (type
  png)
@@ -672,7 +672,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.15})
                                                   \fi \fi 
 l.185 \clearpage
                  <./cpt/img/ComponentInterfacesVisitorManagerInterface.png>]
-<cpt/img/ComponentInterfacesPassengerManagerInterface.png, id=340, 595.2639pt x
+<cpt/img/ComponentInterfacesPassengerManagerInterface.png, id=345, 595.2639pt x
  259.4493pt>
 File: cpt/img/ComponentInterfacesPassengerManagerInterface.png Graphic file (ty
 pe png)
@@ -690,7 +690,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.16})
                                                   \fi \fi 
 l.202 \clearpage
                  <./cpt/img/ComponentInterfacesPassengerManagerInterface.png>]
-<cpt/img/ComponentInterfacesTaxiDriverManagerInterface.png, id=347, 597.9138pt 
+<cpt/img/ComponentInterfacesTaxiDriverManagerInterface.png, id=352, 597.9138pt 
 x 171.2799pt>
 File: cpt/img/ComponentInterfacesTaxiDriverManagerInterface.png Graphic file (t
 ype png)
@@ -709,7 +709,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.17})
 l.218 \clearpage
                  <./cpt/img/ComponentInterfacesTaxiDriverManagerInterface.png>]
 
-<cpt/img/ComponentInterfacesDeveloperManagerInterface.png, id=354, 598.3956pt x
+<cpt/img/ComponentInterfacesDeveloperManagerInterface.png, id=359, 598.3956pt x
  277.2759pt>
 File: cpt/img/ComponentInterfacesDeveloperManagerInterface.png Graphic file (ty
 pe png)
@@ -727,7 +727,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.18})
                                                   \fi \fi 
 l.234 \clearpage
                  <./cpt/img/ComponentInterfacesDeveloperManagerInterface.png>]
-<cpt/img/ComponentInterfacesCallManagerInterface.png, id=361, 608.0316pt x 307.
+<cpt/img/ComponentInterfacesCallManagerInterface.png, id=366, 608.0316pt x 307.
 1475pt>
 File: cpt/img/ComponentInterfacesCallManagerInterface.png Graphic file (type pn
 g)
@@ -744,7 +744,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.19})
                                                   \fi \fi 
 l.249 \clearpage
                  <./cpt/img/ComponentInterfacesCallManagerInterface.png>]
-<cpt/img/ComponentInterfacesRideManagerInterface.png, id=369, 605.8635pt x 382.
+<cpt/img/ComponentInterfacesRideManagerInterface.png, id=374, 605.8635pt x 382.
 3083pt>
 File: cpt/img/ComponentInterfacesRideManagerInterface.png Graphic file (type pn
 g)
@@ -770,7 +770,7 @@ put line 6.
 [33
 
 
-] <cpt/img/BufferQueue.png, id=387, 577.6782pt x 414.5889pt>
+] <cpt/img/BufferQueue.png, id=392, 577.6782pt x 414.5889pt>
 File: cpt/img/BufferQueue.png Graphic file (type png)
 
 <use cpt/img/BufferQueue.png>
@@ -783,7 +783,7 @@ re.3.1}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.36 \clearpage
                 <./cpt/img/BufferQueue.png>]
-<cpt/img/GenericAlgorithm.png, id=402, 615.4995pt x 797.1381pt>
+<cpt/img/GenericAlgorithm.png, id=407, 615.4995pt x 797.1381pt>
 File: cpt/img/GenericAlgorithm.png Graphic file (type png)
 
 <use cpt/img/GenericAlgorithm.png>
@@ -801,7 +801,7 @@ l.44 \clearpage
 ] [38]
 (./cpt/UserInterfaceDesign.tex
 Chapter 4.
-<cpt/img/UXPassengerApp.png, id=417, 536.2434pt x 731.8542pt>
+<cpt/img/UXPassengerApp.png, id=422, 536.2434pt x 731.8542pt>
 File: cpt/img/UXPassengerApp.png Graphic file (type png)
 
 <use cpt/img/UXPassengerApp.png>
@@ -817,7 +817,7 @@ Package pdftex.def Info: cpt/img/UXPassengerApp.png used on input line 6.
                                                   \fi \fi 
 l.9 \clearpage
                <./cpt/img/UXPassengerApp.png>]
-<cpt/img/UXTaxiDriverApp.png, id=426, 535.7616pt x 600.8046pt>
+<cpt/img/UXTaxiDriverApp.png, id=431, 535.7616pt x 600.8046pt>
 File: cpt/img/UXTaxiDriverApp.png Graphic file (type png)
 
 <use cpt/img/UXTaxiDriverApp.png>
@@ -865,14 +865,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 124.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 124.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
 Package rerunfilecheck Info: File `DesignDocument.out' has not changed.
-(rerunfilecheck)             Checksum: 184921EFF92DB99E713A31835FAA49A6;1532.
+(rerunfilecheck)             Checksum: 92D9E0F4BBDD9C88F8918FDF7D456307;1592.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 124.
  ) 
 Here is how much of TeX's memory you used:
- 7181 strings out of 493089
- 107009 string characters out of 6134841
+ 7183 strings out of 493089
+ 107033 string characters out of 6134841
  198413 words of memory out of 5000000
- 10413 multiletter control sequences out of 15000+600000
+ 10414 multiletter control sequences out of 15000+600000
  17136 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  29i,8n,28p,805b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -890,10 +890,10 @@ ive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texliv
 e/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/
 2015/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/20
 15/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on DesignDocument.pdf (47 pages, 2323724 bytes).
+Output written on DesignDocument.pdf (47 pages, 2324900 bytes).
 PDF statistics:
- 532 PDF objects out of 1000 (max. 8388607)
- 427 compressed objects within 5 object streams
- 115 named destinations out of 1000 (max. 500000)
- 318 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 537 PDF objects out of 1000 (max. 8388607)
+ 432 compressed objects within 5 object streams
+ 116 named destinations out of 1000 (max. 500000)
+ 326 words of extra memory for PDF output out of 10000 (max. 10000000)
 
