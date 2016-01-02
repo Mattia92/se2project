@@ -6,9 +6,13 @@
 \contentsline {section}{\numberline {1.4}References}{10}{section.1.4}
 \contentsline {section}{\numberline {1.5}Document Overview}{10}{section.1.5}
 \contentsline {chapter}{\numberline {2}Code Inspection Process}{11}{chapter.2}
-\contentsline {section}{\numberline {2.1}Assigned Classes}{11}{section.2.1}
-\contentsline {section}{\numberline {2.2}Functional Role of Classes}{11}{section.2.2}
-\contentsline {section}{\numberline {2.3}Defects}{11}{section.2.3}
-\contentsline {section}{\numberline {2.4}Other Problems}{11}{section.2.4}
-\contentsline {chapter}{\numberline {3}OtherInformation}{12}{chapter.3}
-\contentsline {section}{\numberline {3.1}Working Hours}{12}{section.3.1}
+\contentsline {section}{\numberline {2.1}Assigned Methods}{11}{section.2.1}
+\contentsline {section}{\numberline {2.2}Functional Role of Methods}{12}{section.2.2}
+\contentsline {section}{\numberline {2.3}Defects}{12}{section.2.3}
+\contentsline {subsubsection}{getResourceAsStream(String path)}{12}{section*.21}
+\contentsline {subsubsection}{getResource(String path)}{14}{section*.22}
+\contentsline {subsubsection}{getResourcePaths(String path)}{15}{section*.23}
+\contentsline {subsubsection}{getResourcePathsInternal(DirContext resources, String path)}{16}{section*.24}
+\contentsline {subsubsection}{getRequestDispatcher(String path)}{17}{section*.25}
+\contentsline {chapter}{\numberline {3}OtherInformation}{18}{chapter.3}
+\contentsline {section}{\numberline {3.1}Working Hours}{18}{section.3.1}

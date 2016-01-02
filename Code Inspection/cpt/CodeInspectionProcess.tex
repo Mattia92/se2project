@@ -1,9 +1,179 @@
 \chapter{Code Inspection Process} \label{chap2}
 
-\section{Assigned Classes}
+\section{Assigned Methods}
+This section contains the namespace pattern and the name of the methods that were assigned to us:
+\begin{itemize}
+	\item \textbf{Name}: \textit{getResourceAsStream(\textbf{String} path)}\\
+		\textbf{Location}: \textit{appserver/web/web-core/src/main/java/org/apache/\\catalina/core/StandardContext.java}
+	\item \textbf{Name}: \textit{getResource(\textbf{String} path)}\\
+		\textbf{Location}: \textit{appserver/web/web-core/src/main/java/org/apache/\\catalina/core/StandardContext.java}
+	\item \textbf{Name}: \textit{getResourcePaths(\textbf{String} path)}\\
+		\textbf{Location}: \textit{appserver/web/web-core/src/main/java/org/apache/\\catalina/core/StandardContext.java}
+	\item \textbf{Name}: \textit{getResourcePathsInternal(\textbf{DirContext} resources, \textbf{String} path)}\\
+		\textbf{Location}: \textit{appserver/web/web-core/src/main/java/org/apache/\\catalina/core/StandardContext.java}
+	\item \textbf{Name}: \textit{getRequestDispatcher(\textbf{String} path)}\\
+		\textbf{Location}: \textit{appserver/web/web-core/src/main/java/org/apache/\\catalina/core/StandardContext.java}
+\end{itemize}
 
-\section{Functional Role of Classes}
+\section{Functional Role of Methods}
+This section contains the functional role of the methods that were assigned to us:
+\begin{itemize}
+	\item \textbf{Name}: \textit{getResourceAsStream(\textbf{String} path)}\\
+		\textbf{Role}: Return the requested resource as an \textbf{InputStream}. The path must be specified according to the rules described under \textit{getResource}. If no such resource can be identified, return \textbf{null}.
+	\item \textbf{Name}: \textit{getResource(\textbf{String} path)}\\
+		\textbf{Role}: Return the URL to the resource that is mapped to a specified path. The path must begin with a "/" and is interpreted as relative to the current context root.
+	\item \textbf{Name}: \textit{getResourcePaths(\textbf{String} path)}\\
+		\textbf{Role}: Return a Set containing the resource paths of resources member of the specified collection. Each path will be a \textbf{String} starting with a "/" character. The returned set is immutable.
+	\item \textbf{Name}: \textit{getResourcePathsInternal(\textbf{DirContext} resources, \textbf{String} path)}\\
+		\textbf{Role}: Internal implementation of \textit{getResourcesPath()} logic.
+	\item \textbf{Name}: \textit{getRequestDispatcher(\textbf{String} path)}\\
+		\textbf{Role}: Return a \textbf{RequestDispatcher} instance that acts as a wrapper for the resource at the given path. The path must begin with a "/" and is interpreted as relative to the current context root.
+\end{itemize}
 
 \section{Defects}
+In this section are presented all the defects detected during our code inspection process for each method assigned to us:
 
-\section{Other Problems}
+\subsubsection{getResourceAsStream(String path)}
+\begin{table}[htbp]
+\begin{center}
+\begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
+
+\hline
+\textbf{Checklist Point} & \textbf{Defect} \\
+\hline
+.. & .. \\
+\hline
+.. & .. \\
+\hline
+.. & .. \\
+\hline
+.. & .. \\
+\hline
+.. & .. \\
+\hline
+.. & .. \\
+\hline
+.. & .. \\
+\hline
+
+\end{tabular}
+\end{center}
+\caption{Defects for \textit{getResourceAsStream(\textbf{String} path)}}
+\end{table}
+\clearpage
+
+\subsubsection{getResource(String path)}
+\begin{table}[htbp]
+\begin{center}
+\begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
+
+\hline
+\textbf{Checklist Point} & \textbf{Defect} \\
+\hline
+.. & .. \\
+\hline
+.. & .. \\
+\hline
+.. & .. \\
+\hline
+.. & .. \\
+\hline
+.. & .. \\
+\hline
+.. & .. \\
+\hline
+.. & .. \\
+\hline
+
+\end{tabular}
+\end{center}
+\caption{Defects for \textit{getResource(\textbf{String} path)}}
+\end{table}
+\clearpage
+
+\subsubsection{getResourcePaths(String path)}
+\begin{table}[htbp]
+\begin{center}
+\begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
+
+\hline
+\textbf{Checklist Point} & \textbf{Defect} \\
+\hline
+.. & .. \\
+\hline
+.. & .. \\
+\hline
+.. & .. \\
+\hline
+.. & .. \\
+\hline
+.. & .. \\
+\hline
+.. & .. \\
+\hline
+.. & .. \\
+\hline
+
+\end{tabular}
+\end{center}
+\caption{Defects for \textit{getPaths(\textbf{String} path)}}
+\end{table}
+\clearpage
+
+\subsubsection{getResourcePathsInternal(DirContext resources, String path)}
+\begin{table}[htbp]
+\begin{center}
+\begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
+
+\hline
+\textbf{Checklist Point} & \textbf{Defect} \\
+\hline
+.. & .. \\
+\hline
+.. & .. \\
+\hline
+.. & .. \\
+\hline
+.. & .. \\
+\hline
+.. & .. \\
+\hline
+.. & .. \\
+\hline
+.. & .. \\
+\hline
+
+\end{tabular}
+\end{center}
+\caption{Defects for \textit{getResourcePathsInternal(\textbf{DirContext} resources, \textbf{String} path)}}
+\end{table}
+\clearpage
+
+\subsubsection{getRequestDispatcher(String path)}
+\begin{table}[htbp]
+\begin{center}
+\begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
+
+\hline
+\textbf{Checklist Point} & \textbf{Defect} \\
+\hline
+.. & .. \\
+\hline
+.. & .. \\
+\hline
+.. & .. \\
+\hline
+.. & .. \\
+\hline
+.. & .. \\
+\hline
+.. & .. \\
+\hline
+.. & .. \\
+\hline
+
+\end{tabular}
+\end{center}
+\caption{Defects for \textit{getRequestDispatcher(\textbf{String} path)}}
+\end{table}
+\clearpage
