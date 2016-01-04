@@ -30,8 +30,8 @@ This section contains the functional role of the methods that were assigned to u
 		\textbf{Role}: Return a \textbf{RequestDispatcher} instance that acts as a wrapper for the resource at the given path. The path must begin with a "/" and is interpreted as relative to the current context root.
 \end{itemize}
 
-\section{Defects}
-In this section are presented all the defects detected during our code inspection process for each method assigned to us:
+\section{Issues}
+In this section are presented all the issues detected during our code inspection process for each method assigned to us:
 
 \subsubsection{getResourceAsStream(String path)}
 \begin{table}[htbp]
@@ -39,26 +39,26 @@ In this section are presented all the defects detected during our code inspectio
 \begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
 
 \hline
-\textbf{Checklist Point} & \textbf{Defect} \\
+\textbf{Checklist Point} & \textbf{Issue} \\
 \hline
-.. & .. \\
+11 & Every time an \textit{if} statements contains only a \textit{return()} statement in his body, this is not surrounded by braces \\
 \hline
-.. & .. \\
+15 & At line 7500 the line is broken before the OR operator \\
 \hline
-.. & .. \\
+18 & Even though all the main classes, methods and interfaces are well commented, there is a large number of blocks of code not commented at all  \\
 \hline
-.. & .. \\
+25 & The Constructor is placed between Static Variables and  Instance Variables. Private and protected Instance Variables alternates (i.e. line 630) \\
 \hline
-.. & .. \\
+27 & The entire class consists of more than 8000 lines of code, that are too many. There is not a fixed maximum size for a class, but 8000 lines are surely too many for every style convention commonly used \\
 \hline
-.. & .. \\
+42 & There is no error message associated with the only one exception present in the method \\
 \hline
-.. & .. \\
+53 & The only one exception present in the method has an empty body \\
 \hline
 
 \end{tabular}
 \end{center}
-\caption{Defects for \textit{getResourceAsStream(\textbf{String} path)}}
+\caption{Issues for \textit{getResourceAsStream(\textbf{String} path)}}
 \end{table}
 \clearpage
 
@@ -68,26 +68,32 @@ In this section are presented all the defects detected during our code inspectio
 \begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
 
 \hline
-\textbf{Checklist Point} & \textbf{Defect} \\
+\textbf{Checklist Point} & \textbf{Issue} \\
 \hline
-.. & .. \\
+09 & At line 7586, two tabs are used  \\
 \hline
-.. & .. \\
+11 & Every time an \textit{if} statements contains only a \textit{return()} statement in his body, this is not surrounded by braces \\
 \hline
-.. & .. \\
+13 & At lines 7535 and 7567 line length exceeds 80 characters \\
 \hline
-.. & .. \\
+15 & At lines 7560 and 7579 the line is broken respectively before the OR operator and before the bracket \\
 \hline
-.. & .. \\
+18 & Even though all the main classes, methods and interfaces are well commented, there is a large number of blocks of code not commented at all \\
 \hline
-.. & .. \\
+19 & The commented out code at lines from 7580 to 7582 does not contains the reason for being commented out and does not contain the date it can be removed \\
 \hline
-.. & .. \\
+25 & The Constructor is placed between Static Variables and  Instance Variables. Private and protected Instance Variables alternates (i.e. line 630)  \\
+\hline
+27 & The entire class consists of more than 8000 lines of code, that are too many. There is not a fixed maximum size for a class, but 8000 lines are surely too many for every style convention commonly used \\
+\hline
+42 & There is no error message associated with the exception at line 7587 \\
+\hline
+53 & The exception at line 7587 has an empty body \\
 \hline
 
 \end{tabular}
 \end{center}
-\caption{Defects for \textit{getResource(\textbf{String} path)}}
+\caption{Issues for \textit{getResource(\textbf{String} path)}}
 \end{table}
 \clearpage
 
@@ -97,26 +103,24 @@ In this section are presented all the defects detected during our code inspectio
 \begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
 
 \hline
-\textbf{Checklist Point} & \textbf{Defect} \\
+\textbf{Checklist Point} & \textbf{Issue} \\
 \hline
-.. & .. \\
+11 & Every time an \textit{if} statements contains only a \textit{return()} statement in his body, this is not surrounded by braces \\
 \hline
-.. & .. \\
+13 & At line 7607 line length exceeds 80 characters \\
 \hline
-.. & .. \\
+15 & At line 7617 the line is broken before the OR operator \\
 \hline
-.. & .. \\
+18 & Even though all the main classes, methods and interfaces are well commented, there is a large number of blocks of code not commented at all \\
 \hline
-.. & .. \\
+25 & The Constructor is placed between Static Variables and  Instance Variables. Private and protected Instance Variables alternates (i.e. line 630) \\
 \hline
-.. & .. \\
-\hline
-.. & .. \\
+27 & The entire class consists of more than 8000 lines of code, that are too many. There is not a fixed maximum size for a class, but 8000 lines are surely too many for every style convention commonly used \\
 \hline
 
 \end{tabular}
 \end{center}
-\caption{Defects for \textit{getPaths(\textbf{String} path)}}
+\caption{Issues for \textit{getPaths(\textbf{String} path)}}
 \end{table}
 \clearpage
 
@@ -126,26 +130,24 @@ In this section are presented all the defects detected during our code inspectio
 \begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
 
 \hline
-\textbf{Checklist Point} & \textbf{Defect} \\
+\textbf{Checklist Point} & \textbf{Issue} \\
 \hline
-.. & .. \\
+23 & This method is not present at all in the Javadoc \\
 \hline
-.. & .. \\
+25 & The Constructor is placed between Static Variables and  Instance Variables. Private and protected Instance Variables alternates (i.e. line 630) \\
 \hline
-.. & .. \\
+27 & The entire class consists of more than 8000 lines of code, that are too many. There is not a fixed maximum size for a class, but 8000 lines are surely too many for every style convention commonly used \\
 \hline
-.. & .. \\
+39 & At line 7657 the array \textit{File[]} is filled without the use of a constructor  \\
 \hline
-.. & .. \\
+42 & Both the exceptions at lines 7649 and 7671 do not contain error messages \\
 \hline
-.. & .. \\
-\hline
-.. & .. \\
+53 & Both the exceptions at lines 7649 and 7671 have an empty body and thus they do nothing \\
 \hline
 
 \end{tabular}
 \end{center}
-\caption{Defects for \textit{getResourcePathsInternal(\textbf{DirContext} resources, \textbf{String} path)}}
+\caption{Issues for \textit{getResourcePathsInternal(\textbf{DirContext} resources, \textbf{String} path)}}
 \end{table}
 \clearpage
 
@@ -155,25 +157,21 @@ In this section are presented all the defects detected during our code inspectio
 \begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
 
 \hline
-\textbf{Checklist Point} & \textbf{Defect} \\
+\textbf{Checklist Point} & \textbf{Issue} \\
 \hline
-.. & .. \\
+11 & Every time an \textit{if} statements contains only a \textit{return()} statement in his body, this is not surrounded by braces \\
 \hline
-.. & .. \\
+13 & At line 7690 line length exceeds 80 characters \\
 \hline
-.. & .. \\
+15 & At line 7759 the line is broken before the bracket \\
 \hline
-.. & .. \\
+25 & The Constructor is placed between Static Variables and  Instance Variables. Private and protected Instance Variables alternates (i.e. line 630) \\
 \hline
-.. & .. \\
-\hline
-.. & .. \\
-\hline
-.. & .. \\
+27 & The entire class consists of more than 8000 lines of code, that are too many. There is not a fixed maximum size for a class, but 8000 lines are surely too many for every style convention commonly used \\
 \hline
 
 \end{tabular}
 \end{center}
-\caption{Defects for \textit{getRequestDispatcher(\textbf{String} path)}}
+\caption{Issues for \textit{getRequestDispatcher(\textbf{String} path)}}
 \end{table}
 \clearpage
