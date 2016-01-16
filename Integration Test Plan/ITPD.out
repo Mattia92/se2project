@@ -13,5 +13,7 @@
 \BOOKMARK [2][-]{subsection.2.4.1}{Software Integration Sequence}{section.2.4}% 13
 \BOOKMARK [2][-]{subsection.2.4.2}{Subsystem Integration Sequence}{section.2.4}% 14
 \BOOKMARK [0][-]{chapter.3}{Individual Steps \046 Test Description}{}% 15
-\BOOKMARK [0][-]{chapter.4}{Tools \046 Test Equipment Required}{}% 16
-\BOOKMARK [0][-]{chapter.5}{Program Stubs \046 Test Data Required}{}% 17
+\BOOKMARK [1][-]{section.3.1}{Test case specifications}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.2}{Test procedures}{chapter.3}% 17
+\BOOKMARK [0][-]{chapter.4}{Tools \046 Test Equipment Required}{}% 18
+\BOOKMARK [0][-]{chapter.5}{Program Stubs \046 Test Data Required}{}% 19

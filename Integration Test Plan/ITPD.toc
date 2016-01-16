@@ -14,5 +14,10 @@
 \contentsline {subsection}{\numberline {2.4.1}Software Integration Sequence}{5}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Subsystem Integration Sequence}{5}{subsection.2.4.2}
 \contentsline {chapter}{\numberline {3}Individual Steps \& Test Description}{6}{chapter.3}
-\contentsline {chapter}{\numberline {4}Tools \& Test Equipment Required}{7}{chapter.4}
-\contentsline {chapter}{\numberline {5}Program Stubs \& Test Data Required}{8}{chapter.5}
+\contentsline {section}{\numberline {3.1}Test case specifications}{6}{section.3.1}
+\contentsline {subsubsection}{Integration test case I1}{6}{section*.4}
+\contentsline {subsubsection}{Integration test case I2}{8}{section*.5}
+\contentsline {subsubsection}{Integration test case I3}{9}{section*.6}
+\contentsline {section}{\numberline {3.2}Test procedures}{9}{section.3.2}
+\contentsline {chapter}{\numberline {4}Tools \& Test Equipment Required}{10}{chapter.4}
+\contentsline {chapter}{\numberline {5}Program Stubs \& Test Data Required}{11}{chapter.5}
