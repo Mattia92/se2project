@@ -2,7 +2,9 @@
 
 \section{Test case specifications}
 
+
 \subsubsection{Integration test case I1}
+
 \begin{table}[!htbp]
 \begin{center}
 \begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
@@ -10,91 +12,11 @@
 \hline
 \textbf{Test Case Identifier} & I1T1 \\
 \hline
-\textbf{Test Item} & Visitor Manager $\rightarrow$ Java Persistence \\
+\textbf{Test Item} & Visitor managedBeans $\rightarrow$ Visitor Manager \\
 \hline
-\textbf{Input Specification} & Create typical Visitor Manager input  \\
+\textbf{Input Specification} & Create typical Visitor managedBeans input  \\
 \hline
-\textbf{Output Specification} & Check if the correct methods are called in the Persistence Module \\
-\hline
-\textbf{Environmental Needs} & Client driver \\
-\hline
-
-\end{tabular}
-\end{center}
-\end{table}
-
-\begin{table}[!htbp]
-\begin{center}
-\begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
-
-\hline
-\textbf{Test Case Identifier} & I1T2 \\
-\hline
-\textbf{Test Item} & Passenger Manager $\rightarrow$ Java Persistence \\
-\hline
-\textbf{Input Specification} & Create typical Passenger Manager input \\
-\hline
-\textbf{Output Specification} & Check if the correct methods are called in the Persistence Module \\
-\hline
-\textbf{Environmental Needs} & Client driver \\
-\hline
-
-\end{tabular}
-\end{center}
-\end{table}
-
-\begin{table}[!htbp]
-\begin{center}
-\begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
-
-\hline
-\textbf{Test Case Identifier} & I1T3 \\
-\hline
-\textbf{Test Item} & TaxiDriver Manager $\rightarrow$ Java Persistence \\
-\hline
-\textbf{Input Specification} & Create typical TaxiDriver Manager input \\
-\hline
-\textbf{Output Specification} & Check if the correct methods are called in the Persistence Module \\
-\hline
-\textbf{Environmental Needs} & Client driver \\
-\hline
-
-\end{tabular}
-\end{center}
-\end{table}
-
-\begin{table}[!htbp]
-\begin{center}
-\begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
-
-\hline
-\textbf{Test Case Identifier} & I1T4 \\
-\hline
-\textbf{Test Item} & Developer Manager $\rightarrow$ Java Persistence \\
-\hline
-\textbf{Input Specification} & Create typical Developer Manager input \\
-\hline
-\textbf{Output Specification} & Check if the correct methods are called in the Persistence Module \\
-\hline
-\textbf{Environmental Needs} & Client driver \\
-\hline
-
-\end{tabular}
-\end{center}
-\end{table}
-
-\begin{table}[!htbp]
-\begin{center}
-\begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
-
-\hline
-\textbf{Test Case Identifier} & I1T5 \\
-\hline
-\textbf{Test Item} & Calls Manager $\rightarrow$ Java Persistence \\
-\hline
-\textbf{Input Specification} & Create typical Calls Manager input \\
-\hline
-\textbf{Output Specification} & Check if the correct methods are called in the Persistence Module \\
+\textbf{Output Specification} & Check if the correct methods are called in the Visitor Manager \\
 \hline
 \textbf{Environmental Needs} & Client driver \\
 \hline
@@ -103,6 +25,7 @@
 \end{center}
 \end{table}
 \clearpage
+
 
 \subsubsection{Integration test case I2}
 
@@ -113,31 +36,11 @@
 \hline
 \textbf{Test Case Identifier} & I2T1 \\
 \hline
-\textbf{Test Item} & Passenger Manager $\rightarrow$ Ride Manager \\
+\textbf{Test Item} & Passenger managedBeans $\rightarrow$ Passenger Manager \\
 \hline
-\textbf{Input Specification} & Create typical Passenger Manager input \\
+\textbf{Input Specification} & Create typical Passenger managedBeans input  \\
 \hline
-\textbf{Output Specification} & Check if the correct methods are called in the Ride Manager \\
-\hline
-\textbf{Environmental Needs} & Client driver \\
-\hline
-
-\end{tabular}
-\end{center}
-\end{table}
-
-\begin{table}[!htbp]
-\begin{center}
-\begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
-
-\hline
-\textbf{Test Case Identifier} & I2T2 \\
-\hline
-\textbf{Test Item} & TaxiDriver Manager $\rightarrow$ Ride Manager \\
-\hline
-\textbf{Input Specification} & Create typical TaxiDriver Manager input \\
-\hline
-\textbf{Output Specification} & Check if the correct methods are called in the Ride Manager \\
+\textbf{Output Specification} & Check if the correct methods are called in the Passenger Manager \\
 \hline
 \textbf{Environmental Needs} & Client driver \\
 \hline
@@ -145,8 +48,8 @@
 \end{tabular}
 \end{center}
 \end{table}
-
 \clearpage
+
 
 \subsubsection{Integration test case I3}
 
@@ -157,13 +60,61 @@
 \hline
 \textbf{Test Case Identifier} & I3T1 \\
 \hline
+\textbf{Test Item} & TaxiDriver managedBeans $\rightarrow$ TaxiDriver Manager \\
+\hline
+\textbf{Input Specification} & Create typical TaxiDriver managedBeans input  \\
+\hline
+\textbf{Output Specification} & Check if the correct methods are called in the TaxiDriver Manager \\
+\hline
+\textbf{Environmental Needs} & Client driver \\
+\hline
+
+\end{tabular}
+\end{center}
+\end{table}
+\clearpage
+
+
+\subsubsection{Integration test case I4}
+
+\begin{table}[!htbp]
+\begin{center}
+\begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
+
+\hline
+\textbf{Test Case Identifier} & I4T1 \\
+\hline
+\textbf{Test Item} & Developer managedBeans $\rightarrow$ Developer Manager \\
+\hline
+\textbf{Input Specification} & Create typical Developer managedBeans input  \\
+\hline
+\textbf{Output Specification} & Check if the correct methods are called in the Developer Manager \\
+\hline
+\textbf{Environmental Needs} & Client driver \\
+\hline
+
+\end{tabular}
+\end{center}
+\end{table}
+\clearpage
+
+
+\subsubsection{Integration test case I5}
+
+\begin{table}[!htbp]
+\begin{center}
+\begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
+
+\hline
+\textbf{Test Case Identifier} & I5T1 \\
+\hline
 \textbf{Test Item} & Passenger Manager $\rightarrow$ Calls Manager \\
 \hline
 \textbf{Input Specification} & Create typical Passenger Manager input \\
 \hline
 \textbf{Output Specification} & Check if the correct methods are called in the Calls Manager \\
 \hline
-\textbf{Environmental Needs} & Client driver \\
+\textbf{Environmental Needs} & I2 succeded \\
 \hline
 
 \end{tabular}
@@ -175,7 +126,7 @@
 \begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
 
 \hline
-\textbf{Test Case Identifier} & I3T2 \\
+\textbf{Test Case Identifier} & I5T2 \\
 \hline
 \textbf{Test Item} & TaxiDriver Manager $\rightarrow$ Calls Manager \\
 \hline
@@ -183,12 +134,250 @@
 \hline
 \textbf{Output Specification} & Check if the correct methods are called in the Calls Manager \\
 \hline
-\textbf{Environmental Needs} & Client driver \\
+\textbf{Environmental Needs} & I3 succeded \\
+\hline
+
+\end{tabular}
+\end{center}
+\end{table}
+\clearpage
+
+
+\subsubsection{Integration test case I6}
+
+\begin{table}[!htbp]
+\begin{center}
+\begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
+
+\hline
+\textbf{Test Case Identifier} & I6T1 \\
+\hline
+\textbf{Test Item} & Passenger Manager $\rightarrow$ Ride Manager \\
+\hline
+\textbf{Input Specification} & Create typical Passenger Manager input \\
+\hline
+\textbf{Output Specification} & Check if the correct methods are called in the Ride Manager \\
+\hline
+\textbf{Environmental Needs} & I2 succeded \\
 \hline
 
 \end{tabular}
 \end{center}
 \end{table}
 
+\begin{table}[!htbp]
+\begin{center}
+\begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
+
+\hline
+\textbf{Test Case Identifier} & I6T2 \\
+\hline
+\textbf{Test Item} & TaxiDriver Manager $\rightarrow$ Ride Manager \\
+\hline
+\textbf{Input Specification} & Create typical TaxiDriver Manager input \\
+\hline
+\textbf{Output Specification} & Check if the correct methods are called in the Ride Manager \\
+\hline
+\textbf{Environmental Needs} & I3 succeded \\
+\hline
+
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}[!htbp]
+\begin{center}
+\begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
+
+\hline
+\textbf{Test Case Identifier} & I6T3 \\
+\hline
+\textbf{Test Item} & Calls Manager $\rightarrow$ Ride Manager \\
+\hline
+\textbf{Input Specification} & Create typical Calls Manager input \\
+\hline
+\textbf{Output Specification} & Check if the correct methods are called in the Ride Manager \\
+\hline
+\textbf{Environmental Needs} & I2, I3, I5 succeded \\
+\hline
+
+\end{tabular}
+\end{center}
+\end{table}
+\clearpage
+
+
+\subsubsection{Integration test case I7}
+
+\begin{table}[!htbp]
+\begin{center}
+\begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
+
+\hline
+\textbf{Test Case Identifier} & I7T1 \\
+\hline
+\textbf{Test Item} & Visitor Manager $\rightarrow$ Java Persistence \\
+\hline
+\textbf{Input Specification} & Create typical Visitor Manager input  \\
+\hline
+\textbf{Output Specification} & Check if the correct methods are called in the Persistence Module \\
+\hline
+\textbf{Environmental Needs} & I1 succeded \\
+\hline
+
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}[!htbp]
+\begin{center}
+\begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
+
+\hline
+\textbf{Test Case Identifier} & I7T2 \\
+\hline
+\textbf{Test Item} & Passenger Manager $\rightarrow$ Java Persistence \\
+\hline
+\textbf{Input Specification} & Create typical Passenger Manager input \\
+\hline
+\textbf{Output Specification} & Check if the correct methods are called in the Persistence Module \\
+\hline
+\textbf{Environmental Needs} & I2 succeded \\
+\hline
+
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}[!htbp]
+\begin{center}
+\begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
+
+\hline
+\textbf{Test Case Identifier} & I7T3 \\
+\hline
+\textbf{Test Item} & TaxiDriver Manager $\rightarrow$ Java Persistence \\
+\hline
+\textbf{Input Specification} & Create typical TaxiDriver Manager input \\
+\hline
+\textbf{Output Specification} & Check if the correct methods are called in the Persistence Module \\
+\hline
+\textbf{Environmental Needs} & I3 succeded \\
+\hline
+
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}[!htbp]
+\begin{center}
+\begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
+
+\hline
+\textbf{Test Case Identifier} & I7T4 \\
+\hline
+\textbf{Test Item} & Developer Manager $\rightarrow$ Java Persistence \\
+\hline
+\textbf{Input Specification} & Create typical Developer Manager input \\
+\hline
+\textbf{Output Specification} & Check if the correct methods are called in the Persistence Module \\
+\hline
+\textbf{Environmental Needs} & I4 succeded \\
+\hline
+
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}[!htbp]
+\begin{center}
+\begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
+
+\hline
+\textbf{Test Case Identifier} & I7T5 \\
+\hline
+\textbf{Test Item} & Calls Manager $\rightarrow$ Java Persistence \\
+\hline
+\textbf{Input Specification} & Create typical Calls Manager input \\
+\hline
+\textbf{Output Specification} & Check if the correct methods are called in the Persistence Module \\
+\hline
+\textbf{Environmental Needs} & I2, I3 and I5 succeded \\
+\hline
+
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}[!htbp]
+\begin{center}
+\begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
+
+\hline
+\textbf{Test Case Identifier} & I7T6 \\
+\hline
+\textbf{Test Item} & Ride Manager $\rightarrow$ Java Persistence \\
+\hline
+\textbf{Input Specification} & Create typical Ride Manager input \\
+\hline
+\textbf{Output Specification} & Check if the correct methods are called in the Persistence Module \\
+\hline
+\textbf{Environmental Needs} & I2, I3, I5 and I6 succeded \\
+\hline
+
+\end{tabular}
+\end{center}
+\end{table}
+\clearpage
+
+
+
 \section{Test procedures}
 
+\subsection{Test procedure T1}
+
+\begin{table}[!htbp]
+\begin{center}
+\begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
+
+\hline
+\textbf{Test Procedure Identifier} & TP1 \\
+\hline
+\textbf{Purpose} & This test procedure verifies wether all the Managers of the Business Layer can successfully:
+\begin{itemize}
+	\item receive requests from the corresponding managedBeans
+	\item elaborate those requests
+	\item send back the right content to the managedBean
+\end{itemize} \\
+\hline
+\textbf{Procedure Steps} & Execute I1, I2, I3, I4 \\
+\hline
+
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\subsection{Test procedure T2}
+
+\begin{table}[!htbp]
+\begin{center}
+\begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
+
+\hline
+\textbf{Test Procedure Identifier} & TP2 \\
+\hline
+\textbf{Purpose} & This test procedure verifies wether the Passenger Manager and the TaxiDriver manager can successfully:
+\begin{itemize}
+	\item receive requests from the corresponding managedBeans
+	\item elaborate those requests
+	\item send back the right content to the managedBean
+\end{itemize} \\
+\hline
+\textbf{Procedure Steps} & Execute I1, I2, I3, I4 \\
+\hline
+
+\end{tabular}
+\end{center}
+\end{table}
+\clearpage
