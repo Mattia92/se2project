@@ -15,5 +15,7 @@
 \BOOKMARK [0][-]{chapter.3}{Individual Steps \046 Test Description}{}% 15
 \BOOKMARK [1][-]{section.3.1}{Test case specifications}{chapter.3}% 16
 \BOOKMARK [1][-]{section.3.2}{Test procedures}{chapter.3}% 17
-\BOOKMARK [0][-]{chapter.4}{Tools \046 Test Equipment Required}{}% 18
-\BOOKMARK [0][-]{chapter.5}{Program Stubs \046 Test Data Required}{}% 19
+\BOOKMARK [2][-]{subsection.3.2.1}{Test procedure T1}{section.3.2}% 18
+\BOOKMARK [2][-]{subsection.3.2.2}{Test procedure T2}{section.3.2}% 19
+\BOOKMARK [0][-]{chapter.4}{Tools \046 Test Equipment Required}{}% 20
+\BOOKMARK [0][-]{chapter.5}{Program Stubs \046 Test Data Required}{}% 21
