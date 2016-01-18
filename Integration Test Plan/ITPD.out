@@ -8,14 +8,26 @@
 \BOOKMARK [0][-]{chapter.2}{Integration Strategy}{}% 8
 \BOOKMARK [1][-]{section.2.1}{Entry Criteria}{chapter.2}% 9
 \BOOKMARK [1][-]{section.2.2}{Elements to be Integrated}{chapter.2}% 10
-\BOOKMARK [1][-]{section.2.3}{Integration Testing Startegy}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.3}{Integration Testing Strategy}{chapter.2}% 11
 \BOOKMARK [1][-]{section.2.4}{Sequence of Component / Function Integration}{chapter.2}% 12
-\BOOKMARK [2][-]{subsection.2.4.1}{Software Integration Sequence}{section.2.4}% 13
-\BOOKMARK [2][-]{subsection.2.4.2}{Subsystem Integration Sequence}{section.2.4}% 14
-\BOOKMARK [0][-]{chapter.3}{Individual Steps \046 Test Description}{}% 15
-\BOOKMARK [1][-]{section.3.1}{Test case specifications}{chapter.3}% 16
-\BOOKMARK [1][-]{section.3.2}{Test procedures}{chapter.3}% 17
-\BOOKMARK [2][-]{subsection.3.2.1}{Test procedure TP1}{section.3.2}% 18
-\BOOKMARK [2][-]{subsection.3.2.2}{Test procedure TP2}{section.3.2}% 19
-\BOOKMARK [0][-]{chapter.4}{Tools \046 Test Equipment Required}{}% 20
-\BOOKMARK [0][-]{chapter.5}{Program Stubs \046 Test Data Required}{}% 21
+\BOOKMARK [0][-]{chapter.3}{Individual Steps \046 Test Description}{}% 13
+\BOOKMARK [1][-]{section.3.1}{Test case specifications}{chapter.3}% 14
+\BOOKMARK [2][-]{subsection.3.1.1}{Integration test case I1}{section.3.1}% 15
+\BOOKMARK [2][-]{subsection.3.1.2}{Integration test case I2}{section.3.1}% 16
+\BOOKMARK [2][-]{subsection.3.1.3}{Integration test case I3}{section.3.1}% 17
+\BOOKMARK [2][-]{subsection.3.1.4}{Integration test case I4}{section.3.1}% 18
+\BOOKMARK [2][-]{subsection.3.1.5}{Integration test case I5}{section.3.1}% 19
+\BOOKMARK [2][-]{subsection.3.1.6}{Integration test case I6}{section.3.1}% 20
+\BOOKMARK [2][-]{subsection.3.1.7}{Integration test case I7}{section.3.1}% 21
+\BOOKMARK [2][-]{subsection.3.1.8}{Integration test case I8}{section.3.1}% 22
+\BOOKMARK [2][-]{subsection.3.1.9}{Integration test case I9}{section.3.1}% 23
+\BOOKMARK [2][-]{subsection.3.1.10}{Integration test case I10}{section.3.1}% 24
+\BOOKMARK [2][-]{subsection.3.1.11}{Integration test case I11}{section.3.1}% 25
+\BOOKMARK [2][-]{subsection.3.1.12}{Integration test case I12}{section.3.1}% 26
+\BOOKMARK [2][-]{subsection.3.1.13}{Integration test case I13}{section.3.1}% 27
+\BOOKMARK [2][-]{subsection.3.1.14}{Integration test case I14}{section.3.1}% 28
+\BOOKMARK [1][-]{section.3.2}{Test procedures}{chapter.3}% 29
+\BOOKMARK [2][-]{subsection.3.2.1}{Test procedure TP1}{section.3.2}% 30
+\BOOKMARK [2][-]{subsection.3.2.2}{Test procedure TP2}{section.3.2}% 31
+\BOOKMARK [0][-]{chapter.4}{Tools \046 Test Equipment Required}{}% 32
+\BOOKMARK [0][-]{chapter.5}{Program Stubs \046 Test Data Required}{}% 33
