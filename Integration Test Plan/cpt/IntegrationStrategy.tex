@@ -1,10 +1,21 @@
 \chapter{Integration Strategy} \label{chap2}
 
 \section{Entry Criteria}
+The Integration Testing can be carried out after the successful completion of the Unit Testing of the entire software. In addition the following points should be valid:
+
+\begin{itemize}
+	\item The project should be code-complete and all its major features should be already present
+	\item The project should satisfy the memory requirements specified in the RASD
+	\item The correct version of the software is moved into the integration testing environment
+	\item Sanity testing is done and build is stable for further testing
+	\item The Database should be ready and its tables are populated with initial data
+\end{itemize}
 
 \section{Elements to be Integrated}
+Due to the early stage of development of the software and the resulting low level of complexity of the entire system, we decided to focus our integration testing only on the main components of the Business Logic, keeping in mind that the future evolution of the project will lead to the creation of a number of subcomponent inside these component, needed to make the system fully working. Following this decision, we are going to integrate the Web Component and the Business Logic Component, testing the direct connections between the managed Beans and their corresponding Managers and we are also going to integrate the 7 subcomponents of the Business Logic Component.
 
 \section{Integration Testing Strategy}
+Due to the particular stage of development explained in the previous point, at the moment there is not a complete hierarchy of (sub)components and (sub)systems, so it?s not possible to fully define the integration test strategy followed in this document, because all the components involved are on the same level. Anyway the selected approach is the top-down approach, because (as stated in the previous point) in the future other lower level subcomponents will be implemented and then the testing will follow this downward development.
 
 \section{Sequence of Component / Function Integration}
 
