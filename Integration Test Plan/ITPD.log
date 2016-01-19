@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.23)  19 JAN 2016 16:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.23)  19 JAN 2016 16:54
 entering extended mode
 **ITPD.tex
 ("C:\Users\Marco\Documents\GitHub\se2project\Integration Test Plan\ITPD.tex"
@@ -368,7 +368,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.27 ...tion test case I12}{17}{subsection.3.1.12}
+l.27 ...tion test case I12}{19}{subsection.3.1.12}
                                                    [1
 
 
@@ -390,14 +390,21 @@ l.27 ...tion test case I12}{17}{subsection.3.1.12}
 ("C:\Users\Marco\Documents\GitHub\se2project\Integration Test Plan\cpt/Introduc
 tion.tex"
 Chapter 1.
-) [5
+[5
 
 
 ]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 25.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
+) [6]
 ("C:\Users\Marco\Documents\GitHub\se2project\Integration Test Plan\cpt/Integrat
 ionStrategy.tex"
 Chapter 2.
-[6
+[7
 
 
 ])
@@ -409,7 +416,7 @@ Overfull \hbox (23.99998pt too wide) in paragraph at lines 10--25
  [] 
  []
 
-[7
+[8
 
 
 
@@ -433,7 +440,7 @@ Overfull \hbox (23.99998pt too wide) in paragraph at lines 77--92
  [] 
  []
 
-[8
+[9
 
 ]
 Overfull \hbox (23.99998pt too wide) in paragraph at lines 101--116
@@ -460,9 +467,9 @@ Overfull \hbox (23.99998pt too wide) in paragraph at lines 183--198
  [] 
  []
 
-[9
+[10
 
-] [10]
+] [11]
 Overfull \hbox (23.99998pt too wide) in paragraph at lines 206--221
  [] 
  []
@@ -492,9 +499,9 @@ Overfull \hbox (23.99998pt too wide) in paragraph at lines 306--321
  [] 
  []
 
-[11
+[12
 
-] [12]
+] [13]
 Overfull \hbox (23.99998pt too wide) in paragraph at lines 329--344
  [] 
  []
@@ -529,9 +536,9 @@ Overfull \hbox (23.99998pt too wide) in paragraph at lines 429--444
  [] 
  []
 
-[13
+[14
 
-] [14]
+] [15]
 Overfull \hbox (23.99998pt too wide) in paragraph at lines 453--468
  [] 
  []
@@ -551,7 +558,7 @@ Overfull \hbox (23.99998pt too wide) in paragraph at lines 493--508
  [] 
  []
 
-[15
+[16
 
 ]
 Overfull \hbox (23.99998pt too wide) in paragraph at lines 517--532
@@ -573,7 +580,7 @@ Overfull \hbox (23.99998pt too wide) in paragraph at lines 559--574
  [] 
  []
 
-[16
+[17
 
 ]
 Overfull \hbox (23.99998pt too wide) in paragraph at lines 583--598
@@ -595,17 +602,9 @@ Overfull \hbox (23.99998pt too wide) in paragraph at lines 627--642
  [] 
  []
 
-[17
+[18
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 659.
-
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 659.
-
 Overfull \hbox (23.99998pt too wide) in paragraph at lines 652--667
  [] 
  []
@@ -620,7 +619,7 @@ Overfull \hbox (23.99998pt too wide) in paragraph at lines 701--720
  [] 
  []
 
-[18
+[19
 
 ]
 Overfull \hbox (23.99998pt too wide) in paragraph at lines 728--743
@@ -632,11 +631,11 @@ Overfull \hbox (23.99998pt too wide) in paragraph at lines 751--765
  [] 
  []
 
-[19] [20])
+[20] [21])
 ("C:\Users\Marco\Documents\GitHub\se2project\Integration Test Plan\cpt/ToolsTes
 tEquipmentRequired.tex"
 Chapter 4.
-) [21
+) [22
 
 
 
@@ -644,7 +643,7 @@ Chapter 4.
 ("C:\Users\Marco\Documents\GitHub\se2project\Integration Test Plan\cpt/ProgramS
 tubsTestDataRequired.tex"
 Chapter 5.
-) [22
+) [23
 
 
 ]
@@ -656,28 +655,34 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
 Package rerunfilecheck Info: File `ITPD.out' has not changed.
 (rerunfilecheck)             Checksum: 8BE603E6A308FD5690C4E390D9ED02E5;2633.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 120.
  ) 
 Here is how much of TeX's memory you used:
- 6228 strings out of 493921
- 92248 string characters out of 3144875
+ 6231 strings out of 493921
+ 92277 string characters out of 3144875
  181107 words of memory out of 3000000
- 9366 multiletter control sequences out of 15000+200000
- 15014 words of font info for 36 fonts, out of 3000000 for 9000
+ 9367 multiletter control sequences out of 15000+200000
+ 15698 words of font info for 37 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 29i,10n,28p,246b,408s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,10n,28p,341b,408s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Marco\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
 ecbx1440.pk> <C:\Users\Marco\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
-ec\dpi600\ecrm1200.pk> <C:\Users\Marco\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
-\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Marco\AppData\Local\MiKTeX\2.9\fonts
-\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\Marco\AppData\Local\MiKTeX
-\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Marco\AppData\Lo
-cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk> <C:\Users\Marco\
-AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on ITPD.pdf (23 pages, 184326 bytes).
+ec\dpi600\ecti1200.pk> <C:\Users\Marco\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
+\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Marco\AppData\Local\MiKTeX\2.9\fonts
+\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Marco\AppData\Local\MiKTeX
+\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\Marco\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Marco\
+AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk> <C:\Us
+ers\Marco\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.
+pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+>
+Output written on ITPD.pdf (24 pages, 194304 bytes).
 PDF statistics:
- 617 PDF objects out of 1000 (max. 8388607)
- 62 named destinations out of 1000 (max. 500000)
+ 647 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
  294 words of extra memory for PDF output out of 10000 (max. 10000000)
 
