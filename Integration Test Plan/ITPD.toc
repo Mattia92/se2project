@@ -30,5 +30,8 @@
 \contentsline {section}{\numberline {3.2}Test procedures}{18}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Test procedure TP1}{18}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Test procedure TP2}{18}{subsection.3.2.2}
-\contentsline {chapter}{\numberline {4}Tools \& Test Equipment Required}{19}{chapter.4}
-\contentsline {chapter}{\numberline {5}Program Stubs \& Test Data Required}{20}{chapter.5}
+\contentsline {subsection}{\numberline {3.2.3}Test procedure TP3}{19}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Test procedure TP4}{19}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Test procedure TP5}{20}{subsection.3.2.5}
+\contentsline {chapter}{\numberline {4}Tools \& Test Equipment Required}{21}{chapter.4}
+\contentsline {chapter}{\numberline {5}Program Stubs \& Test Data Required}{22}{chapter.5}

@@ -649,16 +649,16 @@
 
 \begin{table}[!htbp]
 \begin{center}
-\begin{tabular}[t]{p{0.40\textwidth}p{0.60\textwidth}}
+\begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
 
 \hline
 \textbf{Test Procedure Identifier} & TP1 \\
 \hline
-\textbf{Purpose} & This test procedure verifies wether all the Managers of the Business Layer can successfully:
-\begin{itemize}
+\textbf{Purpose} & This test procedure verifies whether all the Managers of the Business Layer can successfully:
+\begin{itemize*}
 	\item receive requests from the corresponding managedBeans
 	\item correctly elaborate those requests
-\end{itemize} \\
+\end{itemize*} \\
 \hline
 \textbf{Procedure Steps} & Execute I1, I2, I3, I4 \\
 \hline
@@ -667,23 +667,98 @@
 \end{center}
 \end{table}
 
+
 \subsection{Test procedure TP2}
 
 \begin{table}[!htbp]
 \begin{center}
-\begin{tabular}[t]{p{0.40\textwidth}p{0.60\textwidth}}
+\begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
 
 \hline
 \textbf{Test Procedure Identifier} & TP2 \\
 \hline
-\textbf{Purpose} & This test procedure verifies wether the Passenger Manager and the TaxiDriver manager can successfully:
-\begin{itemize}
-	\item receive requests from the corresponding managedBeans
-	\item elaborate those requests
-	\item send back the right content to the managedBean
-\end{itemize} \\
+\textbf{Purpose} & This test procedure verifies whether the Calls Manager and the Ride Manager can successfully receive and handle requests from:
+\begin{itemize*}
+	\item Visitor Manager
+	\item Passenger Manager
+	\item TaxiDriver Manager
+	\item Developer Manager
+\end{itemize*} \\
+ & Also, this procedure verifies whether the Ride Manager can successfully receive and handle requests from the Calls Manager \\
 \hline
-\textbf{Procedure Steps} & Execute I1, I2, I3, I4 \\
+\textbf{Procedure Steps} & Execute I5 and I6 \\
+\hline
+
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\subsection{Test procedure TP3}
+
+\begin{table}[!htbp]
+\begin{center}
+\begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
+
+\hline
+\textbf{Test Procedure Identifier} & TP3 \\
+\hline
+\textbf{Purpose} & This test procedure verifies whether the Java Persistence Module can successfully receive, handle and reply to requests from:
+\begin{itemize*}
+	\item Visitor Manager
+	\item Passenger Manager
+	\item TaxiDriver Manager
+	\item Developer Manager
+	\item Calls Manager
+	\item Ride Manager
+\end{itemize*} \\
+\hline
+\textbf{Procedure Steps} & Execute I8 after I7\\
+\hline
+
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\subsection{Test procedure TP4}
+
+\begin{table}[!htbp]
+\begin{center}
+\begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
+
+\hline
+\textbf{Test Procedure Identifier} & TP4 \\
+\hline
+\textbf{Purpose} & This test procedure verifies whether the Passenger Manager and the TaxiDriver Manager can successfully receive and handle inputs from:
+\begin{itemize*}
+	\item Calls Manager
+	\item Ride Manager
+\end{itemize*} \\
+ & Also, this procedure verifies whether the Calls Manager can successfully receive and handle inputs from Ride Manager \\
+\textbf{Procedure Steps} & Execute I9 and I10\\
+\hline
+
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\subsection{Test procedure TP5}
+
+\begin{table}[!htbp]
+\begin{center}
+\begin{tabular}[t]{p{0.35\textwidth}p{0.65\textwidth}}
+
+\hline
+\textbf{Test Procedure Identifier} & TP5 \\
+\hline
+\textbf{Purpose} & This test procedure verifies whether all the managedBeans can successfully:
+\begin{itemize*}
+	\item receive inputs from the corresponding Managers 
+	\item correctly elaborate those inputs
+\end{itemize*} \\
+\textbf{Procedure Steps} & Execute I11 \\
 \hline
 
 \end{tabular}
