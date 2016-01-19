@@ -21,13 +21,37 @@ Due to the particular stage of development explained in the previous point, at t
 
 \begin{table}[!htbp]
 \begin{center}
-\begin{tabular}[t]{cp{0.7\textwidth}c}
+\begin{tabular}[t]{c|p{0.7\textwidth}|c}
 
-\hline
 \textbf{ID} & \textbf{Integration Test} & \textbf{Paragraphs} \\
-I1 & Visitor Manager $\rightarrow$ Visitor managedBean & 9.9 \\
 \hline
-I2 & comp1 $\rightarrow$ comp2 & 9.9 \\
+I1 & Visitor managedBean $\rightarrow$ Visitor Manager & 3.1.1  3.2.1 \\
+\hline
+I2 & Passenger managedBean $\rightarrow$ Passenger Manager & 3.1.2  3.2.1 \\
+\hline
+I3 & TaxiDriver managedBean $\rightarrow$ TaxiDriver Manager & 3.1.3  3.2.1 \\
+\hline
+I4 & Developer managedBean $\rightarrow$ Developer Manager & 3.1.4  3.2.1 \\
+\hline
+I5 & Passenger Manager, TaxiDriver Manager $\rightarrow$ Calls Manager & 3.1.5  3.2.2\\
+\hline
+I6 & Passenger Manager, TaxiDriver Manager, Calls Manager $\rightarrow$ Ride Manager & 3.1.6  3.2.2\\
+\hline
+I7 & Visitor Manager, Passenger Manager, TaxiDriver Manager, Developer Manager, Calls Manager, Ride Manager $\rightarrow$ Java Persistence & 3.1.7  3.2.3 \\
+\hline
+I8 & Java Persistence $\rightarrow$ Visitor Manager, Passenger Manager, TaxiDriver Manager, Developer Manager, Calls Manager, Ride Manager & 3.1.8  3.2.3 \\
+\hline
+I9 &  Ride Manager $\rightarrow$ Passenger Manager, TaxiDriver Manager, Calls Manager & 3.1.9  3.2.4\\
+\hline
+I10 & Calls Manager $\rightarrow$ Passenger Manager, TaxiDriver Manager & 3.1.10  3.2.4\\
+\hline
+I11 & Visitor Manager $\rightarrow$ Visitor managedBean & 3.1.11  3.2.5 \\
+\hline
+I12 & Passenger Manager $\rightarrow$ Passenger managedBean & 3.1.12  3.2.5 \\
+\hline
+I13 & TaxiDriver Manager $\rightarrow$ TaxiDriver managedBean & 3.1.13  3.2.5 \\
+\hline
+I14 & Developer Manager $\rightarrow$ Developer managedBean & 3.1.14  3.2.5 \\
 \hline
 
 \end{tabular}
