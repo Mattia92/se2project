@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.21)  4 DEC 2015 21:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.21)  20 JAN 2016 13:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -497,12 +497,12 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.55 \clearpage
                 <./cpt/img/WebInterfaces.png>]
-<cpt/img/ServerInterfaces.png, id=275, 605.3817pt x 225.4824pt>
+<cpt/img/ServerInterfaces.png, id=275, 596.2275pt x 206.2104pt>
 File: cpt/img/ServerInterfaces.png Graphic file (type png)
 
 <use cpt/img/ServerInterfaces.png>
 Package pdftex.def Info: cpt/img/ServerInterfaces.png used on input line 82.
-(pdftex.def)             Requested size: 398.3386pt x 148.36467pt.
+(pdftex.def)             Requested size: 398.3386pt x 137.77007pt.
  [14
 
 ] [15pdfTeX warning (ext4): destination with the same identifier (name{figure.2
@@ -890,7 +890,7 @@ ive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texliv
 e/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/
 2015/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/20
 15/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on DesignDocument.pdf (47 pages, 2324900 bytes).
+Output written on DesignDocument.pdf (47 pages, 2349211 bytes).
 PDF statistics:
  537 PDF objects out of 1000 (max. 8388607)
  432 compressed objects within 5 object streams

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.21)  20 JAN 2016 08:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.21)  20 JAN 2016 12:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -371,7 +371,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.27 ...tion test case I12}{18}{subsection.3.1.12}
+l.27 ...tion test case I12}{21}{subsection.3.1.12}
                                                    [1
 
 
@@ -398,14 +398,61 @@ Chapter 2.
 [5
 
 
-] [6] [7]) (./cpt/IndividualStepsTestDescription.tex
+] <cpt/img/ITDPComponentDiagramsTP1.png, id=224, 607.068pt x 190.311pt>
+File: cpt/img/ITDPComponentDiagramsTP1.png Graphic file (type png)
+
+<use cpt/img/ITDPComponentDiagramsTP1.png>
+Package pdftex.def Info: cpt/img/ITDPComponentDiagramsTP1.png used on input lin
+e 24.
+(pdftex.def)             Requested size: 426.79135pt x 133.79465pt.
+
+<cpt/img/ITDPComponentDiagramsTP2.png, id=226, 601.7682pt x 382.3083pt>
+File: cpt/img/ITDPComponentDiagramsTP2.png Graphic file (type png)
+
+<use cpt/img/ITDPComponentDiagramsTP2.png>
+Package pdftex.def Info: cpt/img/ITDPComponentDiagramsTP2.png used on input lin
+e 47.
+(pdftex.def)             Requested size: 426.79135pt x 271.14911pt.
+ [6 <./cpt/img/ITDPComponentDiagramsTP1.png>] [7 <./cpt/img/ITDPComponentDiagra
+msTP2.png>]
+<cpt/img/ITDPComponentDiagramsTP3.png, id=238, 601.7682pt x 416.757pt>
+File: cpt/img/ITDPComponentDiagramsTP3.png Graphic file (type png)
+
+<use cpt/img/ITDPComponentDiagramsTP3.png>
+Package pdftex.def Info: cpt/img/ITDPComponentDiagramsTP3.png used on input lin
+e 67.
+(pdftex.def)             Requested size: 426.79135pt x 295.58157pt.
+ [8
+
+ <./cpt/img/ITDPComponentDiagramsTP3.png>]
+<cpt/img/ITDPComponentDiagramsTP4.png, id=244, 594.3003pt x 381.1038pt>
+File: cpt/img/ITDPComponentDiagramsTP4.png Graphic file (type png)
+
+<use cpt/img/ITDPComponentDiagramsTP4.png>
+Package pdftex.def Info: cpt/img/ITDPComponentDiagramsTP4.png used on input lin
+e 87.
+(pdftex.def)             Requested size: 426.79135pt x 273.69089pt.
+ [9
+
+ <./cpt/img/ITDPComponentDiagramsTP4.png>]
+<cpt/img/ITDPComponentDiagramsTP5.png, id=250, 601.0455pt x 181.3977pt>
+File: cpt/img/ITDPComponentDiagramsTP5.png Graphic file (type png)
+
+<use cpt/img/ITDPComponentDiagramsTP5.png>
+Package pdftex.def Info: cpt/img/ITDPComponentDiagramsTP5.png used on input lin
+e 107.
+(pdftex.def)             Requested size: 426.79135pt x 128.80986pt.
+ [10
+
+ <./cpt/img/ITDPComponentDiagramsTP5.png>]) (./cpt/IndividualStepsTestDescripti
+on.tex
 Chapter 3.
 
 Overfull \hbox (23.99998pt too wide) in paragraph at lines 10--25
  [] 
  []
 
-[8
+[11
 
 
 
@@ -429,7 +476,7 @@ Overfull \hbox (23.99998pt too wide) in paragraph at lines 77--92
  [] 
  []
 
-[9
+[12
 
 ]
 Overfull \hbox (23.99998pt too wide) in paragraph at lines 101--116
@@ -456,9 +503,9 @@ Overfull \hbox (23.99998pt too wide) in paragraph at lines 183--198
  [] 
  []
 
-[10
+[13
 
-] [11]
+] [14]
 Overfull \hbox (23.99998pt too wide) in paragraph at lines 206--221
  [] 
  []
@@ -488,9 +535,9 @@ Overfull \hbox (23.99998pt too wide) in paragraph at lines 306--321
  [] 
  []
 
-[12
+[15
 
-] [13]
+] [16]
 Overfull \hbox (23.99998pt too wide) in paragraph at lines 329--344
  [] 
  []
@@ -525,9 +572,9 @@ Overfull \hbox (23.99998pt too wide) in paragraph at lines 429--444
  [] 
  []
 
-[14
+[17
 
-] [15]
+] [18]
 Overfull \hbox (23.99998pt too wide) in paragraph at lines 453--468
  [] 
  []
@@ -547,7 +594,7 @@ Overfull \hbox (23.99998pt too wide) in paragraph at lines 493--508
  [] 
  []
 
-[16
+[19
 
 ]
 Overfull \hbox (23.99998pt too wide) in paragraph at lines 517--532
@@ -569,7 +616,7 @@ Overfull \hbox (23.99998pt too wide) in paragraph at lines 559--574
  [] 
  []
 
-[17
+[20
 
 ]
 Overfull \hbox (23.99998pt too wide) in paragraph at lines 583--598
@@ -591,7 +638,7 @@ Overfull \hbox (23.99998pt too wide) in paragraph at lines 627--642
  [] 
  []
 
-[18
+[21
 
 ]
 Overfull \hbox (23.99998pt too wide) in paragraph at lines 652--667
@@ -608,7 +655,7 @@ Overfull \hbox (23.99998pt too wide) in paragraph at lines 701--720
  [] 
  []
 
-[19
+[22
 
 ]
 Overfull \hbox (23.99998pt too wide) in paragraph at lines 728--744
@@ -620,15 +667,15 @@ Overfull \hbox (23.99998pt too wide) in paragraph at lines 752--767
  [] 
  []
 
-[20] [21]) (./cpt/ToolsTestEquipmentRequired.tex
+[23] [24]) (./cpt/ToolsTestEquipmentRequired.tex
 Chapter 4.
-) [22
+) [25
 
 
 
 ] (./cpt/ProgramStubsTestDataRequired.tex
 Chapter 5.
-) [23
+) [26
 
 
 ]
@@ -642,10 +689,10 @@ Package rerunfilecheck Info: File `ITPD.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
  ) 
 Here is how much of TeX's memory you used:
- 6427 strings out of 493089
- 93895 string characters out of 6134841
- 193302 words of memory out of 5000000
- 9756 multiletter control sequences out of 15000+600000
+ 6455 strings out of 493089
+ 94871 string characters out of 6134841
+ 193303 words of memory out of 5000000
+ 9776 multiletter control sequences out of 15000+600000
  15698 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  29i,10n,28p,716b,416s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -659,10 +706,10 @@ al/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on ITPD.pdf (24 pages, 203383 bytes).
+Output written on ITPD.pdf (27 pages, 524369 bytes).
 PDF statistics:
- 349 PDF objects out of 1000 (max. 8388607)
- 309 compressed objects within 4 object streams
- 61 named destinations out of 1000 (max. 500000)
- 294 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 373 PDF objects out of 1000 (max. 8388607)
+ 320 compressed objects within 4 object streams
+ 64 named destinations out of 1000 (max. 500000)
+ 319 words of extra memory for PDF output out of 10000 (max. 10000000)
 
