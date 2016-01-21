@@ -59,4 +59,8 @@
 \contentsline {section}{\numberline {6.2}Worlds generated}{50}{section.6.2}
 \contentsline {chapter}{\numberline {7}Other Information}{53}{chapter.7}
 \contentsline {section}{\numberline {7.1}Used Tools}{53}{section.7.1}
-\contentsline {section}{\numberline {7.2}Working Hours}{53}{section.7.2}
+\contentsline {section}{\numberline {7.2}RASD Modifications}{53}{section.7.2}
+\contentsline {subsubsection}{New Domain Properties:}{53}{section*.29}
+\contentsline {subsubsection}{Changes in Functional Requirements:}{54}{section*.30}
+\contentsline {subsubsection}{Add new functionality "Update Account":}{54}{section*.31}
+\contentsline {section}{\numberline {7.3}Working Hours}{54}{section.7.3}

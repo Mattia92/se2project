@@ -32,8 +32,6 @@
 \contentsline {chapter}{\numberline {5}Requirements Traceability}{42}{chapter.5}
 \contentsline {chapter}{\numberline {6}References}{45}{chapter.6}
 \contentsline {section}{\numberline {6.1}External References}{45}{section.6.1}
-\contentsline {section}{\numberline {6.2}RASD Modifications}{45}{section.6.2}
-\contentsline {subsubsection}{New Domain Properties:}{45}{section*.14}
-\contentsline {subsubsection}{Changes in Functional Requirements:}{46}{section*.15}
-\contentsline {subsubsection}{Add new functionality "Update Account":}{46}{section*.16}
+\contentsline {section}{\numberline {6.2}DD Modifications}{45}{section.6.2}
+\contentsline {subsubsection}{Business Logic subcomponents:}{45}{section*.14}
 \contentsline {section}{\numberline {6.3}Working Hours}{46}{section.6.3}

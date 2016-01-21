@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.21)  20 JAN 2016 13:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.21)  21 JAN 2016 10:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -398,7 +398,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.39 ...rline {6.3}Working Hours}{46}{section.6.3}
+l.37 ...rline {6.3}Working Hours}{46}{section.6.3}
                                                    [1
 
 
@@ -858,19 +858,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--11
 [45
 
 
-]) [46]
+]) [46
+
+]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 124.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 124.
  (./DesignDocument.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 124.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
 Package rerunfilecheck Info: File `DesignDocument.out' has not changed.
-(rerunfilecheck)             Checksum: 92D9E0F4BBDD9C88F8918FDF7D456307;1592.
+(rerunfilecheck)             Checksum: 3F068A190699ACF1C56FCC0DF0328B5B;1590.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 124.
  ) 
 Here is how much of TeX's memory you used:
- 7183 strings out of 493089
- 107033 string characters out of 6134841
+ 7181 strings out of 493089
+ 107011 string characters out of 6134841
  198413 words of memory out of 5000000
  10414 multiletter control sequences out of 15000+600000
  17136 words of font info for 39 fonts, out of 8000000 for 9000
@@ -890,10 +892,10 @@ ive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texliv
 e/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/
 2015/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/20
 15/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on DesignDocument.pdf (47 pages, 2349211 bytes).
+Output written on DesignDocument.pdf (47 pages, 2348053 bytes).
 PDF statistics:
- 537 PDF objects out of 1000 (max. 8388607)
- 432 compressed objects within 5 object streams
- 116 named destinations out of 1000 (max. 500000)
+ 534 PDF objects out of 1000 (max. 8388607)
+ 429 compressed objects within 5 object streams
+ 114 named destinations out of 1000 (max. 500000)
  326 words of extra memory for PDF output out of 10000 (max. 10000000)
 

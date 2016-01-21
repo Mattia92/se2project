@@ -37,3 +37,5 @@
 \contentsline {chapter}{\numberline {5}Program Stubs \& Test Data Required}{26}{chapter.5}
 \contentsline {section}{\numberline {5.1}Program Stubs}{26}{section.5.1}
 \contentsline {section}{\numberline {5.2}Test Data}{27}{section.5.2}
+\contentsline {chapter}{\numberline {6}Other Information}{28}{chapter.6}
+\contentsline {section}{\numberline {6.1}Working Hours}{28}{section.6.1}
