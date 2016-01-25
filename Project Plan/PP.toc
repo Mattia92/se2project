@@ -1,0 +1,8 @@
+\select@language {english}
+\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}
+\contentsline {chapter}{\numberline {2}Function Points Approach}{3}{chapter.2}
+\contentsline {chapter}{\numberline {3}COCOMO II Approach}{4}{chapter.3}
+\contentsline {chapter}{\numberline {4}Project Schedule \& Resources Allocation}{5}{chapter.4}
+\contentsline {chapter}{\numberline {5}Project Risks}{6}{chapter.5}
+\contentsline {chapter}{\numberline {6}Other Information}{7}{chapter.6}
+\contentsline {section}{\numberline {6.1}Working Hours}{7}{section.6.1}
