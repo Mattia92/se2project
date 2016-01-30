@@ -32,39 +32,40 @@ External Logical Files & 5 & 7 & 10 \\
 \end{center}
 \end{table}
 
-\noindent Using the Function Points method and the table of weights above, we can calculate the FPs of the entire system as the sum of the FPs obtained by evaluating every of the 5 types of Functional Points. In particular we are going to define a number of items for every type of FP and assign them a weight representing its complexity.
+\noindent Using the Function Points method and the table of weights above, we can calculate the FPs of the entire system as the sum of the FPs obtained by evaluating each one of the 5 types of Functional Points. In particular we are going to define a number of items for every type of FP and assign them a weight representing its complexity.
 
 \begin{itemize}
-	\item \textbf{Internal Logic File (ILF)}: The application includes a number of ILFs that will be used to store the information about \textit{passenger, taxi drivers, rides, routes and reservation / request calls}. Passenger and Taxi Driver entities have a simple structure as they are composed of a small number of fields; Ride and Route entities have a medium complex structure; Call entity instead has a very complex structure. Thus, we can decide to adopt complex weight for call, medium weight for ride and route and simple weight for passenger and taxi driver entities. This means that we will come out with $2*7 + 1*10 + 1*15 = 49$ FPs concerning ILFs.
-	\item \textbf{External Interface File (ELF)}: The application features also only one EIFs to manage the interaction with maps APIs. This information results in only one entity with a complex structure. Thus, we decide to adopt a complex weight. As a result, we get $1*10 = 10$ FPs.
+	\item \textbf{Internal Logic File (ILF)}: The application includes a number of ILFs that will be used to store the information about \textit{passenger, taxi drivers, rides, routes and reservation / request calls}. Passenger and Taxi Driver entities have a simple structure as they are composed of a small number of fields; Ride and Route entities have a medium complex structure; Call entity instead has a complex structure. Thus, we can decide to adopt complex weight for Call, medium weight for Ride and Route and simple weight for Passenger and Taxi Driver entities. This means that we will come out with $2*7 + 1*10 + 1*15 = 49$ FPs concerning ILFs.
+	\item \textbf{External Interface File (ELF)}: The application features only one EIF to manage the interaction with maps APIs. This information results in only one entity with a complex structure. Thus, we decide to adopt a complex weight. As a result, we get $1*10 = 10$ FPs.
 	\item \textbf{External Input}: The application interacts with the user to allow him/her to:
 	\begin{itemize}
-		\item Login / Logout / Sign Up: these are simple operations, so we can adopt the simple weight for them $3*3 = 9$ FPs.
-		\item Reserve / Request a taxi: these are not a simple operation, so we can adopt the medium weight $2*4 = 8$ FPs.
-		\item Update Account: this is a simple operation so we can adopt a simple weight $1*3 = 3$ FPs.
-		\item Signal Availability: this is a simple operation so we can adopt a simple weight $1*3 = 3$ FPs.
-		\item Accept or Decline Call: this is a simple operation so we can adopt a simple weight $1*3 = 3$ FPs.
-		\item Insert Testing Code: this is a simple operation so we can adopt a simple weight $1*3 = 3$ FPs.
+		\item Login / Logout / Sign Up: these are simple operations, so we can adopt the simple weight for them: $3*3 = 9$ FPs.
+		\item Reserve / Request a taxi: these are not a simple operation, so we can adopt the medium weight: $2*4 = 8$ FPs.
+		\item Update Account: this is a simple operation so we can adopt a simple weight: $1*3 = 3$ FPs.
+		\item Signal Availability: this is a simple operation so we can adopt a simple weight: $1*3 = 3$ FPs.
+		\item Accept or Decline Call: this is a simple operation so we can adopt a simple weight: $1*3 = 3$ FPs.
+		\item Insert Testing Code: this is a simple operation so we can adopt a simple weight: $1*3 = 3$ FPs.
 	\end{itemize}
 	As a result, we get $7*3 + 2*4 = 29$ FPs.
 	\item \textbf{External Output}:
 	\begin{itemize}
-		\item After specific request, application will provides information about incoming taxi to passenger: this operation is not too complex so we can adopt medium cost $1*5 = 5$ FPs.
-		\item At the end of a ride, application will provides receipt: this operation is not too complex so we can adopt medium cost $1*5 = 5$ FPs.
-		\item After specific request, application will delivers incoming requests to taxi drivers: this operation is simple so we can adopt simple cost $1*4 = 4$ FPs.
-		\item After specific request, application allows taxi drivers to visualize information about optimal route to taxi drivers: this operation is quite complex so we can adopt complex cost $1*7 = 7$ FPs.
-		\item After specific request, application allows taxi drivers to visualize the dashboard: this operation is not too complex so we can adopt medium cost $1*5 = 5$ FPs.
+		\item After specific request, the application will provide information about incoming taxi to passengers: this operation is not too complex so we can adopt a medium weight: $1*5 = 5$ FPs.
+		\item At the end of a ride, application will provide a receipt: this operation is not too complex so we can adopt a medium weight: $1*5 = 5$ FPs.
+		\item The application delivers incoming requests to taxi drivers. This operation is simple so we can adopt a simple weight: $1*4 = 4$ FPs.
+		\item The application provides to taxi drivers a certain amount of information about optimal routes and the ongoing ride. This operation is quite complex so we can adopt complex weight: $1*7 = 7$ FPs.
+		\item The application allows taxi drivers to visualize the dashboard. This operation is not too complex so we can adopt medium weight: $1*5 = 5$ FPs.
 	\end{itemize}
 	As a result, we get $4 + 3*5 + 7 = 26$ FPs.
-	\item \textbf{External Inquiry}: The application allows user to request information events, in particular user can see:
+	\item \textbf{External Inquiry}: The application allows users to access some information. In particular user can see:
 	\begin{itemize}
-		\item Information about the system if he is a developer: this operation is simple so we can adopt simple cost $1*3 = 3$ FPs.
-		\item The summary of receipts if he is a passenger: this operation is simple so we can adopt simple cost $1*3 = 3$ FPs.
-		\item The summary of rides if he is a taxi driver: this operation is simple so we can adopt simple cost $1*3 = 3$ FPs.
+		\item Information about the system if he is a developer.
+		\item The summary of receipts if he is a passenger.
+		\item The summary of rides if he is a taxi driver.
 	\end{itemize}
-	As a result, we get $3*3 = 9$ FPs.
+	Considering all these 3 operations as simple, we get $3*3 = 9$ FPs.
 \end{itemize}
 
-\noindent In summary, we have computed the following value for the unadjusted FPs: 123. This value can be used directly to estimate the effort in case we have some historical data that tell us how much time we usually take for developing a FP. Otherwise, it can be used as a basis to estimate the size of the project in KLOC and then use another approach such as COCOMO to estimate the effort.
-We can use the standard conversion coefficient to compute the number of Source Lines Of Code (SLOC) starting from the FPs. Therefore:\\
-$SLOC = 46 * FPs = 5658$
+\noindent In summary, we have computed the following value for the unadjusted FPs: 123. This value can be used directly to estimate the effort in case we have some historical data that tell us how much time we usually take for developing a FP. Otherwise, it can be used as a basis to estimate the size of the project in SLOC and then use another approach such as COCOMO II to estimate the effort. \\
+We use the standard conversion coefficient to compute the number of Source Lines Of Code (SLOC) starting from the FPs. Therefore:\\
+$SLOC = 46 * FPs = 5658$ \\
+where 46 is the value of the coefficient related to the specific framework we are using, Java EE, taken from the table at this web page: \href{http://www.qsm.com/resources/function-point-languages-table}{http://www.qsm.com/resources/function-point-languages-table}
