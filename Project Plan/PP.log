@@ -1,22 +1,13 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.23)  30 JAN 2016 10:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.21)  31 JAN 2016 19:32
 entering extended mode
 **PP.tex
-("C:\Users\Marco\Documents\GitHub\se2project\Project Plan\PP.tex"
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
+(PP.tex
+LaTeX2e <2015/01/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 69 languages loaded.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\report.cls"
-Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size12.clo"
-File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -35,7 +26,7 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
@@ -64,10 +55,10 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
@@ -75,7 +66,7 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 94.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
@@ -211,18 +202,18 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
-Package: inputenc 2008/03/30 v1.1d Input encoding file
+Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latin1.def"
-File: latin1.def 2008/03/30 v1.1d Input encoding file
+File: latin1.def 2015/03/17 v1.2c Input encoding file
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2008/07/08 v3.8m The Babel package
+Package: babel 2015/08/03 3.9m The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
@@ -234,7 +225,7 @@ File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 Language: english 2012/08/20 v3.3p English support from the babel system
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2008/07/08 v3.8m Babel common definitions
+File: babel.def 2015/08/03 3.9m Babel common definitions
 \babel@savecnt=\count102
 \U@D=\dimen117
 )
@@ -252,8 +243,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mdwtools\mdwlist.sty"
 Package: mdwlist 1996/05/02 1.1 Various list-related things
-)
-("C:\Users\Marco\Documents\GitHub\se2project\Project Plan\PP.aux")
+) (PP.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
@@ -331,11 +321,9 @@ LaTeX Info: Redefining \ref on input line 38.
 LaTeX Info: Redefining \pageref on input line 38.
 LaTeX Info: Redefining \nameref on input line 38.
 
-("C:\Users\Marco\Documents\GitHub\se2project\Project Plan\PP.out")
-("C:\Users\Marco\Documents\GitHub\se2project\Project Plan\PP.out")
+(PP.out) (PP.out)
 \@outlinefile=\write3
-
-<cpt/img/polimi.jpg, id=23, 225.84375pt x 225.84375pt>
+ <cpt/img/polimi.jpg, id=23, 225.84375pt x 225.84375pt>
 File: cpt/img/polimi.jpg Graphic file (type jpg)
 
 <use cpt/img/polimi.jpg>
@@ -357,9 +345,8 @@ Overfull \hbox (105.94888pt too wide) in paragraph at lines 79--85
 
 [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Marco/Documents/
-GitHub/se2project/Project Plan/cpt/img/polimi.jpg>]
-("C:\Users\Marco\Documents\GitHub\se2project\Project Plan\PP.toc")
+{C:/Users/Mattia Crippa/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./c
+pt/img/polimi.jpg>] (PP.toc)
 \tf@toc=\write4
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
@@ -369,17 +356,16 @@ l.97 \clearpage
                 [1
 
 
-]
-("C:\Users\Marco\Documents\GitHub\se2project\Project Plan\cpt/Introduction.tex"
+] (cpt/Introduction.tex
 Chapter 1.
 ) [2
 
 
-] ("C:\Users\Marco\Documents\GitHub\se2project\Project Plan\cpt/FP.tex"
+] (cpt/FP.tex
 Chapter 2.
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 6.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
@@ -399,8 +385,7 @@ Overfull \hbox (64.49936pt too wide) in paragraph at lines 68--103
 ww.qsm.com/resources/function-
  []
 
-[5] [6] ("C:\Users\Marco\Documents\GitHub\se2project\Project Plan\cpt/COCOMO.te
-x"
+[5] [6] (cpt/COCOMO.tex
 Chapter 3.
 
 Overfull \hbox (54.01845pt too wide) in paragraph at lines 2--5
@@ -425,24 +410,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--106
 
 [8
 
-] [9 <C:/Users/Marco/Documents/GitHub/se2project/Project Plan/cpt/img/COCOMOII-
-ConstructiveCostModel.jpg>]
-("C:\Users\Marco\Documents\GitHub\se2project\Project Plan\cpt/Schedule&Alloc.te
-x"
+] [9 <./cpt/img/COCOMOII-ConstructiveCostModel.jpg>] (cpt/Schedule&Alloc.tex
 Chapter 4.
+<cpt/img/Schedule.png, id=89, 563.10374pt x 546.54187pt>
+File: cpt/img/Schedule.png Graphic file (type png)
+
+<use cpt/img/Schedule.png>
+Package pdftex.def Info: cpt/img/Schedule.png used on input line 16.
+(pdftex.def)             Requested size: 409.71951pt x 397.67128pt.
 ) [10
 
 
-]
-("C:\Users\Marco\Documents\GitHub\se2project\Project Plan\cpt/ProjectRisks.tex"
+] [11 <./cpt/img/Schedule.png>]
+(cpt/ProjectRisks.tex
 Chapter 5.
-) [11
+) [12
 
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 114.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 114.
- ("C:\Users\Marco\Documents\GitHub\se2project\Project Plan\PP.aux")
+ (PP.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 114.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 114.
 Package rerunfilecheck Info: File `PP.out' has not changed.
@@ -450,27 +438,28 @@ Package rerunfilecheck Info: File `PP.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
  ) 
 Here is how much of TeX's memory you used:
- 6152 strings out of 493921
- 90669 string characters out of 3144875
- 179081 words of memory out of 3000000
- 9339 multiletter control sequences out of 15000+200000
+ 6258 strings out of 493673
+ 90927 string characters out of 3141503
+ 187523 words of memory out of 3000000
+ 9497 multiletter control sequences out of 15000+200000
  14155 words of font info for 35 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 29i,9n,22p,697b,457s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Marco\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
-ecti1200.pk> <C:\Users\Marco\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
-ec\dpi600\ecrm1200.pk> <C:\Users\Marco\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
-\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Marco\AppData\Local\MiKTeX\2.9\fonts
-\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\Marco\AppData\Local\MiKTeX
-\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Marco\AppData\Lo
-cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk> <C:\Users\Marco\
-AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on PP.pdf (12 pages, 310528 bytes).
+ 1025 hyphenation exceptions out of 8191
+ 29i,9n,23p,697b,455s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Mattia Crippa\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
+\dpi600\ecti1200.pk> <C:\Users\Mattia Crippa\AppData\Local\MiKTeX\2.9\fonts\pk\
+ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Mattia Crippa\AppData\Local\Mi
+KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Mattia Cripp
+a\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\
+Users\Mattia Crippa\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
+\ecbx2074.pk> <C:\Users\Mattia Crippa\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\
+jknappen\ec\dpi600\ecrm1728.pk> <C:\Users\Mattia Crippa\AppData\Local\MiKTeX\2.
+9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on PP.pdf (13 pages, 365067 bytes).
 PDF statistics:
- 396 PDF objects out of 1000 (max. 8388607)
- 19 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 405 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
