@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.21)  31 JAN 2016 22:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.21)  1 FEB 2016 17:27
 entering extended mode
 **PP.tex
 (PP.tex
@@ -410,9 +410,19 @@ File: cpt/img/Schedule.png Graphic file (type png)
 <use cpt/img/Schedule.png>
 Package pdftex.def Info: cpt/img/Schedule.png used on input line 21.
 (pdftex.def)             Requested size: 409.71951pt x 369.59502pt.
-) [11 <./cpt/img/Schedule.png>] (cpt/ProjectRisks.tex
-Chapter 5.
+ [11 <./cpt/img/Schedule.png>]
+<cpt/img/StaffAlloc.png, id=103, 574.39594pt x 236.38312pt>
+File: cpt/img/StaffAlloc.png Graphic file (type png)
+
+<use cpt/img/StaffAlloc.png>
+Package pdftex.def Info: cpt/img/StaffAlloc.png used on input line 31.
+(pdftex.def)             Requested size: 409.71951pt x 168.61588pt.
 ) [12
+
+ <./cpt/img/StaffAlloc.png>]
+(cpt/ProjectRisks.tex
+Chapter 5.
+) [13
 
 
 ]
@@ -426,10 +436,10 @@ Package rerunfilecheck Info: File `PP.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
  ) 
 Here is how much of TeX's memory you used:
- 6259 strings out of 493673
- 90937 string characters out of 3141503
- 187503 words of memory out of 3000000
- 9497 multiletter control sequences out of 15000+200000
+ 6267 strings out of 493673
+ 91091 string characters out of 3141503
+ 187552 words of memory out of 3000000
+ 9502 multiletter control sequences out of 15000+200000
  14155 words of font info for 35 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  29i,9n,23p,697b,455s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -445,9 +455,9 @@ jknappen\ec\dpi600\ecrm1728.pk> <C:\Users\Mattia Crippa\AppData\Local\MiKTeX\2.
  2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files (x86)/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on PP.pdf (13 pages, 359901 bytes).
+Output written on PP.pdf (14 pages, 368089 bytes).
 PDF statistics:
- 407 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 415 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
