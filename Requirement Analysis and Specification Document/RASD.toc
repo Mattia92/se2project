@@ -10,7 +10,7 @@
 \contentsline {section}{\numberline {1.8}Definitions, acronyms and abbreviations}{8}{section.1.8}
 \contentsline {section}{\numberline {1.9}References}{9}{section.1.9}
 \contentsline {section}{\numberline {1.10}Overview}{9}{section.1.10}
-\contentsline {chapter}{\numberline {2}Actors Identifying}{11}{chapter.2}
+\contentsline {chapter}{\numberline {2}Actors Identification}{11}{chapter.2}
 \contentsline {chapter}{\numberline {3}Specific Requirements}{12}{chapter.3}
 \contentsline {section}{\numberline {3.1}Functional Requirements}{12}{section.3.1}
 \contentsline {section}{\numberline {3.2}Non Functional Requirements}{14}{section.3.2}
@@ -22,7 +22,7 @@
 \contentsline {subsubsection}{Passenger Request Page and Reservation Page}{18}{section*.7}
 \contentsline {subsubsection}{Taxi Driver Home Page}{20}{section*.8}
 \contentsline {subsubsection}{Taxi Driver Accepted Call Page}{21}{section*.9}
-\contentsline {chapter}{\numberline {4}Scenario Identifying}{22}{chapter.4}
+\contentsline {chapter}{\numberline {4}Scenario Identification}{22}{chapter.4}
 \contentsline {section}{\numberline {4.1}Scenario 1}{22}{section.4.1}
 \contentsline {section}{\numberline {4.2}Scenario 2}{22}{section.4.2}
 \contentsline {section}{\numberline {4.3}Scenario 3}{23}{section.4.3}
